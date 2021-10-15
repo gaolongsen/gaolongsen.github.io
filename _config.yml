@@ -62,8 +62,8 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID:                             #生成的clientID
   clientSecret:     #生成的clientSecret
-  repo: name.github.io    #仓库名称
-  owner:     #github用户名
+  repo: gaolongsen.github.io    #仓库名称
+  owner: gaolongsen     #github用户名
   admin: 
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
@@ -75,7 +75,7 @@ gitalk:
 ba_track_id: 
 # Google Analytics
 ga_track_id:             # Format: UA-xxxxxx-xx
-ga_domain: glsclub.club               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain:               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
