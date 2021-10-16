@@ -1,9 +1,9 @@
 # Site settings
-title: Crazy Robot Solder
+title: Crazy Robot Soldier
 SEOTitle: 我的博客 | Longsen Gao
 header-img: img/post-bg-desk.jpg
 email: longsengao@gmail.com
-description: "野蛮生长的机器人博士"
+description: "野蛮生长的机器人博士 Dr.Gao"
 keyword: "我的博客"
 url: "http://gaolongsen.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
