@@ -6,7 +6,7 @@ email: longsengao@gmail.com
 description: "野蛮生长の机器人博士-Dr.Gao"
 keyword: "My Blog"
 url: "http://gaolongsen.github.io"          # your host, for absolute URL
-baseurl: "/AgManLab"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/gaolongsen/gaolongsen.github.io.git" # you code repository
 
 # Sidebar settings
