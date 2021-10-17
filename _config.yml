@@ -19,9 +19,9 @@ sidebar-avatar: /img/Longsen.jpg      # use absolute URL, seeing it's used in bo
 # SNS settings
 RSS: false
 # weibo_username:     暂无
-zhihu_username:     暂无
-github_username:    暂无
-facebook_username:  暂无
+zhihu_username:     一只大芒果
+github_username:    gaolongsen
+facebook_username:  gaolongsen
 jianshu_username:   暂无
 #twitter_username:   暂无
 
@@ -75,7 +75,7 @@ gitalk:
 ba_track_id: 
 # Google Analytics
 ga_track_id:             # Format: UA-xxxxxx-xx
-ga_domain:               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: glsrobot.club              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
