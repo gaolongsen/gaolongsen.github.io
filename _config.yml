@@ -74,7 +74,7 @@ gitalk:
 # Baidu Analytics
 ba_track_id: 
 # Google Analytics
-ga_track_id:             # Format: UA-xxxxxx-xx
+ga_track_id: G-RHY0B03W4V           # Format: UA-xxxxxx-xx
 ga_domain: glsrobot.club              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
