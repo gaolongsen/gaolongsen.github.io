@@ -9,7 +9,9 @@ On Valentine's Day long ago, a warrior was going to save his lover, but the devi
 
 The devil put two colors of balls on the table seemingly at regular intervals and said, "You must separate them with a stick The requirment is: the position of your stick is still valid for the seperation when more balls be added in."
 
+![](https://github.com/gaolongsen/gaolongsen.github.io/blob/main/img/svm_1.png)
 Then the warrior put the stick between a bunch of balls so that the balls are divided into two categories according to different colors.
+![](https://github.com/gaolongsen/gaolongsen.github.io/blob/main/img/svm_2.png)
 ~~删除线~~ <s>删除线（开启识别HTML标签时）</s>
 *斜体字*      _斜体字_
 **粗体**  __粗体__
