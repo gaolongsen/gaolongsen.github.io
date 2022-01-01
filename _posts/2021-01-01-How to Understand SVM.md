@@ -12,7 +12,7 @@ A long time ago, a warrior's wife was captured by the devil, so the warrior trek
 
 The devil put two colors of balls on the table with seeming regularity but with random distribution and said, "Can you separate them with a stick? Requirement: Try to keep the position of your stick in such a way that you can still separate them after putting more balls."
 
-![4444444](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_1.png)
+![](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_1.png)
 
 # Linear SVM
 
