@@ -1,7 +1,3 @@
-#How to understand SVM(Support Vector Machine)?
-
-[TOCM]
-
 [TOC]
 
 # Preface
