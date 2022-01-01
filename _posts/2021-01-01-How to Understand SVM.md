@@ -14,6 +14,16 @@ The devil put two colors of balls on the table with seeming regularity but with 
 
 ![](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_1.png)
 
+Then the warrior do such as that:
+
+![](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_2.png)
+
+Then the devil put more balls on the table, and it seemed that one was on the wrong side of the table. The warrior needed to make adjustments to the stick.
+
+![](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_3.png)
+
+
+
 # Linear SVM
 
 ## Mathematical modeling
