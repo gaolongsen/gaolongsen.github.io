@@ -44,6 +44,10 @@ A curve separates two kinds of balls perfectly by looking at the balls from the 
 
 After that, people call these balls data, the sticks are called a ***classifier***, the trick to find the maximum gap is called ***optimization***, the tap on the table is called ***kernelling***, and the piece of paper is called ***hyperplane***.
 
+Here is the video we can understand the example directly. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3liCbRZPrZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Linear SVM
 
 ## Mathematical modeling
