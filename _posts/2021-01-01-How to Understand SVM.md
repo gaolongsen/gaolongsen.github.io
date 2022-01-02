@@ -22,7 +22,27 @@ Then the devil put more balls on the table, and it seemed that one was on the wr
 
 ![](https://cuijiahua.com/wp-content/uploads/2017/11/ml_8_3.png)
 
+Here, the SVM is how to use such a line to separate two clusters of the balls and make sure the there exit largest distance between the nearest ball in each group and the dividing line we set at the beginning. 
 
+![](https://www.cuijiahua.com/wp-content/uploads/2017/11/ml_8_4.png)
+
+Even though the Devils put more balls in play, the stick is still a good dividing line.
+
+![](https://www.cuijiahua.com/wp-content/uploads/2017/11/ml_8_5.png)
+
+The devil saw that the warrior had learned a trick, so the devil decided to give the warrior a new challenge.
+
+![](https://www.cuijiahua.com/wp-content/uploads/2017/11/ml_8_6.png)
+
+Now, the warrior doesn't have a stick that can help him separate the two kinds of balls, now what should he do? There is no doubt that in all martial arts movies, the warrior table a tap, all the balls flew into the air. Then, the warrior used his kungfu to grab a piece of paper and inserted it into the middle of the two kinds of balls.
+
+![](https://www.cuijiahua.com/wp-content/uploads/2017/11/ml_8_7.png)
+
+A curve separates two kinds of balls perfectly by looking at the balls from the devil's perspective in the air.
+
+![](https://www.cuijiahua.com/wp-content/uploads/2017/11/ml_8_8.png)
+
+After that, people call these balls data, the sticks are called a ***classifier***, the trick to find the maximum gap is called ***optimization***, the tap on the table is called ***kernelling***, and the piece of paper is called ***hyperplane***.
 
 # Linear SVM
 
