@@ -48,6 +48,10 @@ Here is the video we can understand the example directly.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3liCbRZPrZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Conclusion:** For classification problems, when the data is linearly divisible as when a stick can be used to separate two balls, we need to place the stick in a position that maximizes the distance of the balls from the stick, and the process of finding this maximum interval is called ***optimization***. However, the reality is often harsh; the general data is linearly indistinguishable. That is, it's so hard for us to find a stick to classify two kinds of balls perfectly. For this situation, we need to imitate the warrior to slap the table with force to make all the balls bounced from the surface of the table, and use a piece of paper instead of a stick to sort the balls. To make the data "fly," we need a kernel function, and the piece of paper used to slice the balls is the ***hyperplane***.
+
+
+
 # Linear SVM
 
 ## Mathematical modeling
