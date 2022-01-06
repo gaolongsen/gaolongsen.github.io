@@ -12,8 +12,6 @@ This holds for every point in the image. Written in matrix form, that can be as
 
 <img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
 
-$$\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}$$
-
 $$x_2=x_1+t_x\\y_2=x_2+t_y$$
 
 This holds for every point in the image. Written in matrix form, that can be as
