@@ -55,7 +55,8 @@ highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
-
+# Disqus（https://disqus.com/）
+disqus_username: Sherry_Gao123
 
 # Gitalk
 gitalk:
