@@ -56,16 +56,16 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 # Disqus（https://disqus.com/）
-disqus_username: Sherry_Gao123
+# disqus_username: Sherry_Gao123
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID:                             #生成的clientID
-  clientSecret:     #生成的clientSecret
+  clientID: f2c84e7629bb1446c1a4  #生成的clientID
+  clientSecret:  ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: gaolongsen.github.io    #仓库名称
   owner: gaolongsen     #github用户名
-  admin: 
+  admin: gaolongsen
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
