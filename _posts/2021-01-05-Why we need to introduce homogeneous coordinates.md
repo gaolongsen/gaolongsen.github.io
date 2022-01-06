@@ -6,7 +6,7 @@ The translation transformation represents the concept of change of position. The
 
 So we can get obviously that,
 $$
-x_2 = x_1 + t_x \\ y_2 = x_2 + t_y
+x_2=x_1+t_x\\y_2=x_2+t_y
 $$
 
 This holds for every point in the image. Written in matrix form, that can be as
