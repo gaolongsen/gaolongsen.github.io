@@ -5,6 +5,7 @@ The translation transformation represents the concept of change of position. The
 ![](https://img-blog.csdn.net/20180324175922438?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhbHRyaXZlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 So we can get obviously that,
+<<<<<<< HEAD
 $$
 x_2=x_1+t_x\\y_2=x_2+t_y
 $$
@@ -15,6 +16,11 @@ This holds for every point in the image. Written in matrix form, that can be as
 $$
 \begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}
 $$
+=======
+$$x_2 = x_1 + t_x \\ y_2 = x_2 + t_y$$
+This holds for every point in the image. Written in matrix form, that can be as
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
+>>>>>>> ee740ed09f42871301c53f092d5c64422a2da272
 Here we write out the matrix form of the scaling and rotation transformations as following:
 
 **Scaling Transformation:**
