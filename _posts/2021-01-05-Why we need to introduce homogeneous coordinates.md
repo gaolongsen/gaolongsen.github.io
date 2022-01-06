@@ -5,10 +5,10 @@ The translation transformation represents the concept of change of position. The
 ![](https://img-blog.csdn.net/20180324175922438?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhbHRyaXZlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 So we can get obviously that,
-$$ x_2 = x_1 + t_x \\ y_2 = x_2 + t_y $$
+$$x_2 = x_1 + t_x \\ y_2 = x_2 + t_y$$
 This holds for every point in the image. Written in matrix form, that can be as
-$$
-\begin{bmatrix}
+
+$$\begin{bmatrix}
 x_2\\
 y_2
 \end{bmatrix}
@@ -21,8 +21,10 @@ y_1
 \begin{bmatrix}
 t_x\\
 t_y
-\end{bmatrix}
-$$
+\end{bmatrix}$$
+
+
+
 Here we write out the matrix form of the scaling and rotation transformations as following:
 
 **Scaling Transformation:**
