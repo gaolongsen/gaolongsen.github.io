@@ -5,157 +5,45 @@ The translation transformation represents the concept of change of position. The
 ![](https://img-blog.csdn.net/20180324175922438?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhbHRyaXZlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 So we can get obviously that,
-<<<<<<< HEAD
-$$
-x_2=x_1+t_x\\y_2=x_2+t_y
-$$
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{align*}&space;&space;x_2&space;&=&space;x_1&space;&plus;&space;t_x&space;\\&space;&space;y_2&space;&=&space;x_2&space;&plus;&space;t_y&space;\end{align*}" title="\begin{align*} x_2 &= x_1 + t_x \\ y_2 &= x_2 + t_y \end{align*}" />
 
 This holds for every point in the image. Written in matrix form, that can be as
 
 <img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
-$$
-\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}
-$$
-=======
-$$x_2 = x_1 + t_x \\ y_2 = x_2 + t_y$$
-This holds for every point in the image. Written in matrix form, that can be as
-<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
->>>>>>> ee740ed09f42871301c53f092d5c64422a2da272
+
+
 Here we write out the matrix form of the scaling and rotation transformations as following:
 
 **Scaling Transformation:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-k_x & 0\\
-y_2 & k_y
-\end{bmatrix}
 
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-$$
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}k_x&space;&&space;0\\y_2&space;&&space;k_y\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}k_x & 0\\y_2 & k_y\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" />
+
 **Rotation Transformations:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-cos\theta & -sin\theta\\
-sin\theta & cos\theta
-\end{bmatrix}
 
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-$$
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}cos\theta&space;&&space;-sin\theta\\sin\theta&space;&&space;cos\theta\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}cos\theta & -sin\theta\\sin\theta & cos\theta\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" />
+
 We note that both the scaling and rotation transformations can be expressed in matrix multiplication. The geometric change is usually not monolithic, which means that regularly scaling, rotating and translating are transformed together. For example, first, zoom in 2 times, then turn 45 degrees, then zoom out 0.5 times. Then it can be expressed in the form of matrix multiplication in series.
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-0.5 & 0\\
-0 & 0.5
-\end{bmatrix}
-\begin{bmatrix}
-cos45 & -sin45\\
-sin45 & cos45
-\end{bmatrix}
-\begin{bmatrix}
-2 & 0\\
-0 & 2
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}0.5&space;&&space;0\\0&space;&&space;0.5\end{bmatrix}\begin{bmatrix}cos45&space;&&space;-sin45\\sin45&space;&&space;cos45\end{bmatrix}\begin{bmatrix}2&space;&&space;0\\0&space;&&space;2\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}0.5 & 0\\0 & 0.5\end{bmatrix}\begin{bmatrix}cos45 & -sin45\\sin45 & cos45\end{bmatrix}\begin{bmatrix}2 & 0\\0 & 2\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}" />
+
 Then, can we unify the scaling, rotation and translation transformations into the form of matrix multiplication so that no matter how many times of transformations are performed, they can be expressed as matrix multiplication which will significantly facilitate the calculation and reduce the number of operations.
 
 This method introduces homogeneous coordinates to improve the dimensions that transform the image from flat 2D coordinates to 3D coordinates. Let's look at the matrix form of the translational transformation:
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-+
-\begin{bmatrix}
-t_x\\
-t_y
-\end{bmatrix}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
+
 Improve its dimensions to 3 dimensions as:
-$$
-\begin{bmatrix}
-x_2\\
-y_2 \\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 0 & t_x\\
-0 & 1 & t_y \\
-0 & 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\
-y_1\\
-1
-\end{bmatrix}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}&space;x_2\\&space;y_2\\&space;1\end{bmatrix}=\begin{bmatrix}1&space;&&space;0&space;&&space;t_x&space;\\0&space;&&space;1&space;&&space;t_y&space;\\0&space;&&space;0&space;&&space;1&space;\\\end{bmatrix}\begin{bmatrix}x_1&space;\\y_1&space;\\1&space;\end{bmatrix}" title="\begin{bmatrix} x_2\\ y_2\\ 1\end{bmatrix}=\begin{bmatrix}1 & 0 & t_x \\0 & 1 & t_y \\0 & 0 & 1 \\\end{bmatrix}\begin{bmatrix}x_1 \\y_1 \\1 \end{bmatrix}" />
+
 The translation transformations are also transformed into matrix multiplication form by improving the dimensions of homogenous coordinates. Of course, the matrix form of the scaling and rotation transformations also has to be changed to a uniform 3-dimensional form.
 
 **Scaling Transformation:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2 \\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
-k_x & 0 & 0\\
-0 & k_y & 0 \\
-0 & 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\
-y_1\\
-1
-\end{bmatrix}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2&space;\\1\end{bmatrix}=\begin{bmatrix}1&space;&&space;0&space;&&space;t_x\\0&space;&&space;1&space;&&space;t_y&space;\\0&space;&&space;0&space;&&space;1\end{bmatrix}\begin{bmatrix}x_1\\y_1\\1\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2 \\1\end{bmatrix}=\begin{bmatrix}1 & 0 & t_x\\0 & 1 & t_y \\0 & 0 & 1\end{bmatrix}\begin{bmatrix}x_1\\y_1\\1\end{bmatrix}" />
+
 **Rotation Transformations:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2 \\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
-cos\theta & -sin\theta & 0\\
-sin\theta & cos\theta & 0 \\
-0 & 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\
-y_1\\
-1
-\end{bmatrix}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2&space;\\1\end{bmatrix}=\begin{bmatrix}cos\theta&space;&&space;-sin\theta&space;&&space;0\\sin\theta&space;&&space;cos\theta&space;&&space;0&space;\\0&space;&&space;0&space;&&space;1\end{bmatrix}\begin{bmatrix}x_1\\y_1\\1\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2 \\1\end{bmatrix}=\begin{bmatrix}cos\theta & -sin\theta & 0\\sin\theta & cos\theta & 0 \\0 & 0 & 1\end{bmatrix}\begin{bmatrix}x_1\\y_1\\1\end{bmatrix}" />
