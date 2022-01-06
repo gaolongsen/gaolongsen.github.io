@@ -5,56 +5,27 @@ The translation transformation represents the concept of change of position. The
 ![](https://img-blog.csdn.net/20180324175922438?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhbHRyaXZlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 So we can get obviously that,
-<<<<<<< HEAD
+
 $$x_2=x_1+t_x\\y_2=x_2+t_y$$
 
 This holds for every point in the image. Written in matrix form, that can be as
 
 <img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
-$$
-\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}
-$$
-=======
-$$x_2 = x_1 + t_x \\ y_2 = x_2 + t_y$$
+$$\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}$$
+
+$$x_2=x_1+t_x\\y_2=x_2+t_y$$
+
 This holds for every point in the image. Written in matrix form, that can be as
 <img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}&plus;\begin{bmatrix}t_x\\t_y\end{bmatrix}" title="\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}x_1\\y_1\end{bmatrix}+\begin{bmatrix}t_x\\t_y\end{bmatrix}" />
 >>>>>>> ee740ed09f42871301c53f092d5c64422a2da272
 Here we write out the matrix form of the scaling and rotation transformations as following:
 
 **Scaling Transformation:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-k_x & 0\\
-y_2 & k_y
-\end{bmatrix}
+$$\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}k_x & 0\\y_2 & k_y\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}$$
 
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-$$
 **Rotation Transformations:**
-$$
-\begin{bmatrix}
-x_2\\
-y_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-cos\theta & -sin\theta\\
-sin\theta & cos\theta
-\end{bmatrix}
+$$\begin{bmatrix}x_2\\y_2\end{bmatrix}=\begin{bmatrix}cos\theta & -sin\theta\\sin\theta & cos\theta\end{bmatrix}\begin{bmatrix}x_1\\y_1\end{bmatrix}$$
 
-\begin{bmatrix}
-x_1\\
-y_1
-\end{bmatrix}
-$$
 We note that both the scaling and rotation transformations can be expressed in matrix multiplication. The geometric change is usually not monolithic, which means that regularly scaling, rotating and translating are transformed together. For example, first, zoom in 2 times, then turn 45 degrees, then zoom out 0.5 times. Then it can be expressed in the form of matrix multiplication in series.
 $$
 \begin{bmatrix}
