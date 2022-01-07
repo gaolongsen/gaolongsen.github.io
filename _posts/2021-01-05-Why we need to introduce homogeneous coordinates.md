@@ -2,7 +2,7 @@
 
 The translation transformation represents the concept of change of position. The figure below shows that a rectangle is translated from the center point [x1,y1] to the center point [x2,y2] with no change in overall size and angle. The size of tx and ty are translated in the x-direction and y-direction, respectively.
 
-![](https://img-blog.csdn.net/20180324175922438?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhbHRyaXZlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](http://gaolongsen.github.io/img/why_1png.png)
 
 So we can get obviously that,
 
