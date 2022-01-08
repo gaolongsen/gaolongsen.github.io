@@ -12,5 +12,21 @@ Coordinate system representation means that the homogenous transformation matrix
 
 <img src="https://latex.codecogs.com/svg.image?_{}^{A}\textrm{T}_B&space;=&space;\begin{bmatrix}_{}^{A}\textrm{R}_B&space;&&space;p_{B_{org}}^{A}&space;\\0&space;&&space;&space;1\\\end{bmatrix}" title="_{}^{A}\textrm{T}_B = \begin{bmatrix}_{}^{A}\textrm{R}_B & p_{B_{org}}^{A} \\0 & 1\\\end{bmatrix}" />
 
-In the article "Robot Positive Kinematics - Understanding Transformation Matrices", we introduced the rotation matrix $ ^AT_B $ (pose relationship between {A} and {B}) representing the projection of the unit vectors of the three axes of the coordinate system {B} in the coordinate system {A} ( i.e. unit vectors in the three axes of coordinates {B} in the coordinate {A}), and in the article "Robot positive kinematics - Homogenous Transformation Matrices", we also saw that $ p_{B_{org}}^{A} $ (position relationship between {A} and {B}) represents the coordinates of the origin of the coordinate system {B} in the coordinate system {A}.
+In the article "Robot Positive Kinematics - Understanding Transformation Matrices", we introduced the rotation matrix $ ^AR_B $ (pose relationship between {A} and {B}) representing the projection of the unit vectors of the three axes of the coordinate system {B} in the coordinate system {A} ( i.e. unit vectors in the three axes of coordinates {B} in the coordinate {A}), and in the article "Robot positive kinematics - Homogenous Transformation Matrices", we also saw that $ p_{B_{org}}^{A} $ (position relationship between {A} and {B}) represents the coordinates of the origin of the coordinate system {B} in the coordinate system {A}.
 
+We all know that if we want to determine a coordinate system uniquely, we must understand the origin point and the axis vector. These two elements are all contained in the above homogenous transformation matrix, so we say that the homogenous  transformation matrix can be used to represent a coordinate system, and $ ^AT_B $ is the representation of the coordinate system {B} in the coordinate system {A}.
+
+## 2. Coordinate system transformation
+
+Coordinate system transformation means that the homogenous transformation matrix can describe how one coordinate system can be transformed to another system by translations and rotations. As an example, the homogenous transformation matrix between two coordinate systems {A} and {B} can be expressed as
+
+<img src="https://latex.codecogs.com/svg.image?^AT_B&space;=&space;\begin{bmatrix}rot_y(\pi/3)&space;&&space;trans(3,3,2)&space;\\0&space;&&space;1&space;\\\end{bmatrix}&space;" title="^AT_B = \begin{bmatrix}rot_y(\pi/3) & trans(3,3,2) \\0 & 1 \\\end{bmatrix} " />
+
+We divide this operation process into two steps:
+
+- [x] Translating the coordinate system {A} along the black vector until it coincides with the coordinate system {C}, we easily know that this translation is $ trans(3,3,2) $;
+- [x] Rotating the coordinate system {C} around its y-axis to coincide with the coordinate system {B}, it is easy to know that the amount of this rotation is $ rot_{x}(\pi /4) $
+
+Thus we say that the homogenous transformation matrix can be used to describe the transformation relations of the coordinate system, and $ ^AT_B $ is the coordinate system {A} can be obtained by translation and rotation of the coordinate system {B}. We can describe such transformation as
+
+<img src="https://latex.codecogs.com/svg.image?\{B\}&space;=&space;\{A\}&space;\cdot&space;^AT_B&space;" title="\{B\} = \{A\} \cdot ^AT_B " />
