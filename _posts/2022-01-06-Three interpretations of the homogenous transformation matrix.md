@@ -51,3 +51,6 @@ If you find this a bit difficult to understand, you can rewind to the first unde
 
 We can see that this point is the point $ P_{1} $in the coordinate system {A} mentioned earlier.
 
+To help us understand this concept clearly, let's further explain with diagrams next. First, we assume that the coordinate of a point $ P_{0} $ in the coordinate system {A} is $ P_{0}(y_{0},z_{0}) $, and to make it easier to see the diagram, we draw only the y and z axes, and the x coordinates of all points are 0. The coordinate system with the point $ P_{0} $ is called {B}. The coordinate system {B} overlaps with the coordinate system {A} at the beginning, as shown in the figure below, is the initial state of the problem.
+
+![1](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/1.x1r8pv6oasg.webp)
