@@ -72,3 +72,15 @@ Here, $ P_{1}^{A} $ represents the coordinates of the point $ P_{1} $ in the coo
 <img src="https://latex.codecogs.com/svg.image?P_{1}^{A}&space;=&space;R_{A}^{B}\cdot&space;P_{0}^{A}" title="P_{1}^{A} = R_{A}^{B}\cdot P_{0}^{A}" />
 
 So far, we see that $ R_{B}^{A} $ implements the rotation of the point $ P_{0} $ to the point $ P_{1} $. You can also clearly see that the superscripts of the last formula points are all A. As we said before, there is still a difference between the expression of the same spatial point in different coordinate systems.
+
+## 3. Problem Solving
+
+In the previous article, “Robot Positive Kinematics - The Inverse of the Homogenous Transformation Matrix,” we left a problem: the inverse of the homogenous transformation matrix. In general, it is difficult to find the inverse of an arbitrary matrix. However, due to the properties of the homogenous transformation matrix, it is easy to write its inverse directly.
+
+The following homogenous transformation matrix is known.
+
+<img src="https://latex.codecogs.com/svg.image?_{}^{A}\textrm{T}_B&space;=&space;\begin{bmatrix}_{}^{A}\textrm{R}_B&space;&&space;p_{B_{org}}^{A}&space;\\0&space;&&space;&space;1\\\end{bmatrix}" title="_{}^{A}\textrm{T}_B = \begin{bmatrix}_{}^{A}\textrm{R}_B & p_{B_{org}}^{A} \\0 & 1\\\end{bmatrix}" />
+
+Looking at the rotation part first, the columns of $ ^{A}{R}_{B} $ represent the projection of the triaxial vector of the coordinate system {B} in the coordinate system {A}. The rows represent the projection of the triaxial vector of the coordinate system {A} in the coordinate system {B}, so the transpose of $ ^{A}{R}_{B} $ is its inverse.
+
+Next, let's look at the translation part, $ P^A_{B_{org}} $ represents the coordinates of the origin of the coordinate system {B} in the coordinate system {A}. However, what we need is the coordinate of the origin of the coordinate system {A} in the coordinate system {B}: $ P^B_{A_{org}} $. From a geometric point of view, these two vectors happen to be opposite, so we first invert the vector $ P^A_{B_{org}} $ to get $ -P^A_{B_{org}} $. It is not finished at this step because this vector is described in the coordinate system {A}, so we have to transform it to the description in the coordinate system {B} as $ -^AR^T_B \cdot P^A_{B_{org}} $, the transpose represented in it.
