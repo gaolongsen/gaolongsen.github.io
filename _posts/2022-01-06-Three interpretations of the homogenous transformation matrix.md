@@ -41,13 +41,13 @@ The point operator means that the homogenous transformation matrix can be used t
 
 For example, there is a point $ P_{0} $ in the coordinate {A}, and we want to rotate $ \frac{\pi}{4} $ around the x-axis of the coordinate system {A} to get a new point $ P_{1} $. What should we do at this time? It is simple. We just write the following transformation matrix.
 
-<img src="https://latex.codecogs.com/svg.image?R&space;=&space;rot_x(\frac{\pi}{4})&space;=&space;\begin{bmatrix}1&space;&&space;0&space;&&space;0&space;\\0&space;&&space;cos(\frac{\pi}{4})&space;&&space;-sin(\frac{\pi}{4})&space;\\0&space;&&space;sin(\frac{\pi}{4})&space;&&space;cos(\frac{\pi}{4})&space;\\\end{bmatrix}" title="R = rot_x(\frac{\pi}{4}) = \begin{bmatrix}1 & 0 & 0 \\0 & cos(\frac{\pi}{4}) & -sin(\frac{\pi}{4}) \\0 & sin(\frac{\pi}{4}) & cos(\frac{\pi}{4}) \\\end{bmatrix}" />
+<img src="https://latex.codecogs.com/svg.image?R&space;=&space;rot_x(\frac{\pi}{6})&space;=&space;\begin{bmatrix}1&space;&&space;0&space;&&space;0&space;\\0&space;&&space;cos(\frac{\pi}{6})&space;&&space;-sin(\frac{\pi}{6})&space;\\0&space;&&space;sin(\frac{\pi}{6})&space;&&space;cos(\frac{\pi}{6})&space;\\\end{bmatrix}" title="R = rot_x(\frac{\pi}{6}) = \begin{bmatrix}1 & 0 & 0 \\0 & cos(\frac{\pi}{6}) & -sin(\frac{\pi}{6}) \\0 & sin(\frac{\pi}{6}) & cos(\frac{\pi}{6}) \\\end{bmatrix}" />
 
 Then we can use this matrix to multiply the point $ P_{0} $ to get the point $ P_{1} $
 
-If you find this a bit difficult to understand, you can rewind to the first understanding to explain the manipulation of points. At this point, we assume that coordinate system {B} was coincident with the coordinate system {A} at the beginning. The point $ P_{0} $ was fixed in the coordinate system {B}. Then we rotate point $ P_{0} $ around x-axis of the coordinate system{A} to $ \frac{\pi}{4} $, the coordinate system{B} also revolves around the x-axis of the coordinate system {A} to $ \frac{\pi}{4} $. At this point, the transformation matrix between the two coordinate systems is $ rot_x{\frac{\pi}{4}} $. Since the point is fixed in the coordinate system {B}, its coordinates in the coordinate system {B} remain unchanged, so  after the rotation, the coordinates of the point $ P_{0} $ in the coordinate system {A} is
+If you find this a bit difficult to understand, you can rewind to the first understanding to explain the manipulation of points. At this point, we assume that coordinate system {B} was coincident with the coordinate system {A} at the beginning. The point $ P_{0} $ was fixed in the coordinate system {B}. Then we rotate point $ P_{0} $ around x-axis of the coordinate system{A} to $ \frac{\pi}{6} $, the coordinate system{B} also revolves around the x-axis of the coordinate system {A} to $ \frac{\pi}{6} $. At this point, the transformation matrix between the two coordinate systems is $ rot_x{\frac{\pi}{6}} $. Since the point is fixed in the coordinate system {B}, its coordinates in the coordinate system {B} remain unchanged, so  after the rotation, the coordinates of the point $ P_{0} $ in the coordinate system {A} is
 
-<img src="https://latex.codecogs.com/svg.image?rot_x{\frac{\pi}{4}}&space;\cdot&space;P_{0}" title="rot_x{\frac{\pi}{4}} \cdot P_{0}" />
+<img src="https://latex.codecogs.com/svg.image?rot_x{\frac{\pi}{6}}&space;\cdot&space;P_{0}" title="rot_x{\frac{\pi}{6}} \cdot P_{0}" />
 
 We can see that this point is the point $ P_{1} $in the coordinate system {A} mentioned earlier.
 
@@ -55,3 +55,20 @@ To help us understand this concept clearly, let's further explain with diagrams 
 
 <img src="http://1.15.231.3/pdf/1.svg" style="zoom:150%;" />
 
+Next, we start the rotation operation. We want the point to rotate along the axis of the coordinate system {A}. Note that since the coordinate system {B} and the point are solidly connected, the coordinate system {B} will also rotate around the axis of the coordinate system {A}. The point is the corresponding point after the rotation of the point. Note in particular that since the coordinate system {B} is fixed to the point, the value of the point in the coordinate system {B} does not change after the rotation (the value of the point in the coordinate system {A} is the same as it was at the beginning)
+
+<img src="http://1.15.231.3/pdf/2.svg" style="zoom:150%;" />
+
+ Here we combine the two states before and after the transformation to obtain the following diagram.
+
+<img src="http://1.15.231.3/pdf/3.svg" style="zoom:150%;" />
+
+So far, we can conclude that the coordinates of the point $ P_{0} $ in the coordinate system {A} are the same as the coordinates of the point $ P_{1} $ in {B}. Then how to solve for the value of the coordinates of the point $ P_{1} $ in the coordinate system {A}? Think carefully if it is an expression like this:
+
+<img src="https://latex.codecogs.com/svg.image?P_{1}^{A}&space;=&space;R_{A}^{B}\cdot&space;P_{1}^{B}" title="P_{1}^{A} = R_{A}^{B}\cdot P_{1}^{B}" />
+
+Here, $ P_{1}^{A} $ represents the coordinates of the point $ P_{1} $ in the coordinate system {A}. $ p_{1}^{B} $ represents the coordinates of $ P_{1} $ in the coordinate system {B}. As we mentioned before, $ P_{1} $ is numerically the same in the coordinate system {B} as $ P_{0} $ is in the coordinate system {A}. So the above equation can be rewritten as
+
+<img src="https://latex.codecogs.com/svg.image?P_{1}^{A}&space;=&space;R_{A}^{B}\cdot&space;P_{0}^{A}" title="P_{1}^{A} = R_{A}^{B}\cdot P_{0}^{A}" />
+
+So far, we see that $ R_{B}^{A} $ implements the rotation of the point $ P_{0} $ to the point $ P_{1} $. You can also clearly see that the superscripts of the last formula points are all A. As we said before, there is still a difference between the expression of the same spatial point in different coordinate systems.
