@@ -22,6 +22,10 @@ Coordinate system transformation means that the homogenous transformation matrix
 
 <img src="https://latex.codecogs.com/svg.image?^AT_B&space;=&space;\begin{bmatrix}rot_y(\pi/3)&space;&&space;trans(3,3,2)&space;\\0&space;&&space;1&space;\\\end{bmatrix}&space;" title="^AT_B = \begin{bmatrix}rot_y(\pi/3) & trans(3,3,2) \\0 & 1 \\\end{bmatrix} " />
 
+Here, The $ rot_{y}(\pi /4) $ represents the rotation matrix corresponding to the rotation $ \pi/4 $ around the x-axis, and $ trans(3,3,2) $, represents the translation 3,3,2 in the x, y, and z directions. At this point, we can perform some translations and rotations of the coordinate system {A} to coincide with the coordinate system {B} finally. This procedure corresponds to the following diagram.
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/1.moa6ge63wrk.webp)
+
 We divide this operation process into two steps:
 
 - [x] Translating the coordinate system {A} along the black vector until it coincides with the coordinate system {C}, we easily know that this translation is $ trans(3,3,2) $;
