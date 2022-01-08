@@ -4,7 +4,7 @@
 
 In one of the open Classes at Stanford University  - Robotics, a class summarizes these three interpretations adequately: **<mark>Coordinate Representation</mark>** ,**<mark>Coordinate Transformation</mark>**, and **<mark>Point Operator</mark>**. We will explain each of them in the following chapters. 
 
-## 1. Coordinate system representation
+## 1. Coordinate representation
 
 Coordinate system representation means that the homogenous transformation matrix can be used to represent a coordinate system. Let's look at the two coordinate systems {A} and {B} as shown below. From the previous article on robot positive kinematics - the homogenous transformation matrix, we know that the relationship between the coordinate system {A} and the coordinate system {B} is
 
@@ -16,7 +16,7 @@ In the article "Robot Positive Kinematics - Understanding Transformation Matrice
 
 We all know that if we want to determine a coordinate system uniquely, we must understand the origin point and the axis vector. These two elements are all contained in the above homogenous transformation matrix, so we say that the homogenous  transformation matrix can be used to represent a coordinate system, and $ ^AT_B $ is the representation of the coordinate system {B} in the coordinate system {A}.
 
-## 2. Coordinate system transformation
+## 2. Coordinate transformation
 
 Coordinate system transformation means that the homogenous transformation matrix can describe how one coordinate system can be transformed to another system by translations and rotations. As an example, the homogenous transformation matrix between two coordinate systems {A} and {B} can be expressed as
 
@@ -34,3 +34,16 @@ We divide this operation process into two steps:
 Thus we say that the homogenous transformation matrix can be used to describe the transformation relations of the coordinate system, and $ ^AT_B $ is the coordinate system {A} can be obtained by translation and rotation of the coordinate system {B}. We can describe such transformation as
 
 <img src="https://latex.codecogs.com/svg.image?\{B\}&space;=&space;\{A\}&space;\cdot&space;^AT_B&space;" title="\{B\} = \{A\} \cdot ^AT_B " />
+
+## Point Operator
+
+The point operator means that the homogenous transformation matrix can be used to translate and rotate any point in the same coordinate. Note that this understanding is quite different from the two previous ones. The first two describe the relationship between two coordinate systems. When discussing the operations of the homogenous transformation matrix on points, our discussion is limited to one coordinate system.
+
+For example, there is a point $ P_{0} $ in the coordinate {A}, and we want to rotate $ \pi/4 $ around the x-axis of the coordinate system {A} to get a new point $ P_{1} $. What should we do at this time? It is simple. We just write the following transformation matrix.
+
+<img src="https://latex.codecogs.com/svg.image?R&space;=&space;rot_x(\frac{\pi}{4})&space;=&space;\begin{bmatrix}1&space;&&space;0&space;&&space;0&space;\\0&space;&&space;cos(\frac{\pi}{4})&space;&&space;-sin(\frac{\pi}{4})&space;\\0&space;&&space;sin(\frac{\pi}{4})&space;&&space;cos(\frac{\pi}{4})&space;\\\end{bmatrix}" title="R = rot_x(\frac{\pi}{4}) = \begin{bmatrix}1 & 0 & 0 \\0 & cos(\frac{\pi}{4}) & -sin(\frac{\pi}{4}) \\0 & sin(\frac{\pi}{4}) & cos(\frac{\pi}{4}) \\\end{bmatrix}" />
+
+Then we can use this matrix to multiply the point $ P_{0} $ to get the point $ P_{1} $
+
+If you find this a bit difficult to understand, you can rewind to the first understanding to explain the manipulation of points. At this point, we assume that coordinate system {B} was coincident with the coordinate system {A} at the beginning. The point $ P_{0} $ was fixed in the coordinate system {B}. Then we rotate point $ P_{0} $ around x-axis of the coordinate system{A} to $ \frac{\pi}{4} $, the coordinate system{B} also revolves around the x-axis of the coordinate system {A} to $ \frac{\pi}{4} $. At this point, the transformation matrix between the two coordinate systems is $ rot_x{\frac{\pi}{4}} $. Since the point is fixed in the coordinate system {B}, its coordinates in the coordinate system {B} remain unchanged, so  after the rotation, the coordinates of the point $ P_{0} $ in the coordinate system {A} is $ rot_x{\frac{\pi}{4}} \doc P_{0} $. We can see that this point is the point $ P_{1} $in the coordinate system {A} mentioned earlier.
+
