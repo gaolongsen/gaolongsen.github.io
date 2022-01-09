@@ -39,3 +39,12 @@ Let's take an example of a two-dimensional square matrix to understand this equa
 
 <img src="https://latex.codecogs.com/svg.image?A&space;=&space;\begin{pmatrix}a_{11}&space;&&space;a_{12}&space;\\a_{21}&space;&&space;a_{22}&space;\\\end{pmatrix},B&space;=&space;\begin{pmatrix}b_{11}&space;&&space;b_{12}&space;\\b_{21}&space;&&space;b_{22}&space;\\\end{pmatrix}&space;&space;" title="A = \begin{pmatrix}a_{11} & a_{12} \\a_{21} & a_{22} \\\end{pmatrix},B = \begin{pmatrix}b_{11} & b_{12} \\b_{21} & b_{22} \\\end{pmatrix} " />
 
+Based on the primordial definition of the inner product,  the inner product of these two matrices should be
+
+<img src="https://latex.codecogs.com/svg.image?\left<A,B\right>&space;=&space;a_{11}b_{11}&space;&plus;&space;a_{12}b_{12}&space;&plus;&space;a_{21}b_{21}&space;&plus;&space;a_{22}b_{22}&space;&space;" title="\left<A,B\right> = a_{11}b_{11} + a_{12}b_{12} + a_{21}b_{21} + a_{22}b_{22} " />
+
+Let's analyze this equation with trace operations
+
+<img src="https://latex.codecogs.com/svg.image?A^TB=&space;\begin{pmatrix}a_{11}b_{11}&space;&plus;&space;a_{21}b_{21}&space;&&space;a_{11}b_{12}&space;&plus;&space;a_{21}b_{22}&space;\\a_{12}b_{11}&space;&plus;&space;a_{22}b_{21}&space;&&space;a_{12}b_{12}&space;&plus;&space;a_{22}b_{22}&space;\\\end{pmatrix}&space;&space;" title="A^TB= \begin{pmatrix}a_{11}b_{11} + a_{21}b_{21} & a_{11}b_{12} + a_{21}b_{22} \\a_{12}b_{11} + a_{22}b_{21} & a_{12}b_{12} + a_{22}b_{22} \\\end{pmatrix} " />
+
+With the trace of $ A^TB $ above, you will find that the result exactly matches the original definition of the inner product of matrices.
