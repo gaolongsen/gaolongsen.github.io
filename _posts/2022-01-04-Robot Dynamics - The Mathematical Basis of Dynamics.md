@@ -19,11 +19,10 @@ After these two facts are shown here, the concept suddenly becomes complicated. 
 
 ## 2. The inner product of a matrix
 
- You may have heard of the inner product of vectors, and here we have two vectors $ a=\begin{pmatrix} a_1 & a_2 & \dots & a_n \end{pmatrix}^T $ and $ b=\begin{pmatrix} b_1 & b_2 & \dots & b_n \end{pmatrix}^T $. So formally, the inner product of two vectors is the multiplication and addition of the corresponding elements (algebraic definition). You may have also seen such a definition $$ \left < a,b\right >=\left |a\right |\left | b \right |cos(\theta) $$
+ You may have heard of the inner product of vectors, and here we have two vectors $ a=\begin{pmatrix} a_1 & a_2 & \dots & a_n \end{pmatrix}^T $ and $ b=\begin{pmatrix} b_1 & b_2 & \dots & b_n \end{pmatrix}^T $. So formally, the inner product of two vectors is the multiplication and addition of the corresponding elements (algebraic definition). You may have also seen such a definition 
 
-The inner product of two vectors is equal to the product of the norm of the vectors multiplied by the cosine of the angle (geometric definition). These two definitions are equivalent. So what is the inner product of the matrix? The inner product of the matrix can be thought of as an extension of the inner product of vectors, which expresses the sum of the products of the corresponding elements of two matrices of the same size, with two matrices A and B, both with m rows and n columns, defined as follows $A = \begin{pmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} \\
-\end{pmatrix}  $
+<img src = "https://latex.codecogs.com/svg.image?\left<a,b\right>=\left|a\right|\left|b\right|cos(\theta)&space;" title="\left<a,b\right>=\left|a\right|\left|b\right|cos(\theta)"/>
+
+The inner product of two vectors is equal to the product of the norm of the vectors multiplied by the cosine of the angle (geometric definition). These two definitions are equivalent. So what is the inner product of the matrix? The inner product of the matrix can be thought of as an extension of the inner product of vectors, which expresses the sum of the products of the corresponding elements of two matrices of the same size, with two matrices A and B, both with m rows and n columns, defined as follows 
+
+<img src="https://latex.codecogs.com/svg.image?A&space;=&space;\begin{pmatrix}a_{11}&space;&&space;a_{12}&space;&&space;\cdots&space;&&space;a_{1n}&space;\\a_{21}&space;&&space;a_{22}&space;&&space;\cdots&space;&&space;a_{2n}&space;\\\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\a_{m1}&space;&&space;a_{m2}&space;&&space;\cdots&space;&&space;a_{mn}&space;\\\end{pmatrix},&space;B&space;=&space;\begin{pmatrix}b_{11}&space;&&space;b_{12}&space;&&space;\cdots&space;&&space;b_{1n}&space;\\b_{21}&space;&&space;b_{22}&space;&&space;\cdots&space;&&space;b_{2n}&space;\\\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\b_{m1}&space;&&space;b_{m2}&space;&&space;\cdots&space;&&space;b_{mn}&space;\\\end{pmatrix}" title="A = \begin{pmatrix}a_{11} & a_{12} & \cdots & a_{1n} \\a_{21} & a_{22} & \cdots & a_{2n} \\\vdots & \vdots & \ddots & \vdots \\a_{m1} & a_{m2} & \cdots & a_{mn} \\\end{pmatrix}, B = \begin{pmatrix}b_{11} & b_{12} & \cdots & b_{1n} \\b_{21} & b_{22} & \cdots & b_{2n} \\\vdots & \vdots & \ddots & \vdots \\b_{m1} & b_{m2} & \cdots & b_{mn} \\\end{pmatrix}" />
