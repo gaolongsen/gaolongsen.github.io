@@ -48,3 +48,7 @@ Let's analyze this equation with trace operations
 <img src="https://latex.codecogs.com/svg.image?A^TB=&space;\begin{pmatrix}a_{11}b_{11}&space;&plus;&space;a_{21}b_{21}&space;&&space;a_{11}b_{12}&space;&plus;&space;a_{21}b_{22}&space;\\a_{12}b_{11}&space;&plus;&space;a_{22}b_{21}&space;&&space;a_{12}b_{12}&space;&plus;&space;a_{22}b_{22}&space;\\\end{pmatrix}&space;&space;" title="A^TB= \begin{pmatrix}a_{11}b_{11} + a_{21}b_{21} & a_{11}b_{12} + a_{21}b_{22} \\a_{12}b_{11} + a_{22}b_{21} & a_{12}b_{12} + a_{22}b_{22} \\\end{pmatrix} " />
 
 With the trace of $ A^TB $ above, you will find that the result exactly matches the original definition of the inner product of matrices.
+
+## 3. Derivatives and Differentials
+
+For this part, I recommend for the reader to look through the discuss for **[What is the difference between the differential and derivative of a function?](https://www.quora.com/What-is-the-difference-between-the-differential-and-derivative-of-a-function)**
