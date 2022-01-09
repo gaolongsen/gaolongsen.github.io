@@ -6,13 +6,13 @@ In one of the open Classes at Stanford University  - Robotics, a class summarize
 
 ## 1. Coordinate representation
 
-Coordinate system representation means that the homogenous transformation matrix can be used to represent a coordinate system. Let's look at the two coordinate systems {A} and {B} as shown below. From the previous article on robot positive kinematics - the homogenous transformation matrix, we know that the relationship between the coordinate system {A} and the coordinate system {B} is
+Coordinate system representation means that the homogenous transformation matrix can be used to represent a coordinate system. Let's look at the two coordinate systems {A} and {B} as shown below. From the previous article **"Robot Forward Kinematics - The Homogenous Transformation Matrix**", we know that the relationship between the coordinate system {A} and the coordinate system {B} is
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/0.57v0l453c7k0.webp)
 
 <img src="https://latex.codecogs.com/svg.image?_{}^{A}\textrm{T}_B&space;=&space;\begin{bmatrix}_{}^{A}\textrm{R}_B&space;&&space;p_{B_{org}}^{A}&space;\\0&space;&&space;&space;1\\\end{bmatrix}" title="_{}^{A}\textrm{T}_B = \begin{bmatrix}_{}^{A}\textrm{R}_B & p_{B_{org}}^{A} \\0 & 1\\\end{bmatrix}" />
 
-In the article "Robot Positive Kinematics - Understanding Transformation Matrices", we introduced the rotation matrix $ ^AR_B $ (pose relationship between {A} and {B}) representing the projection of the unit vectors of the three axes of the coordinate system {B} in the coordinate system {A} ( i.e. unit vectors in the three axes of coordinates {B} in the coordinate {A}), and in the article "Robot positive kinematics - Homogenous Transformation Matrices", we also saw that $ p_{B_{org}}^{A} $ (position relationship between {A} and {B}) represents the coordinates of the origin of the coordinate system {B} in the coordinate system {A}.
+In the article "**Robot Forward Kinematics - The Homogenous Transformation Matrix**", we introduced the rotation matrix $ ^AR_B $ (pose relationship between {A} and {B}) representing the projection of the unit vectors of the three axes of the coordinate system {B} in the coordinate system {A} ( i.e. unit vectors in the three axes of coordinates {B} in the coordinate {A}), and in the article "**Robot Forward Kinematics - Homogenous Transformation Matrices**", we also saw that $ p_{B_{org}}^{A} $ (position relationship between {A} and {B}) represents the coordinates of the origin of the coordinate system {B} in the coordinate system {A}.
 
 We all know that if we want to determine a coordinate system uniquely, we must understand the origin point and the axis vector. These two elements are all contained in the above homogenous transformation matrix, so we say that the homogenous  transformation matrix can be used to represent a coordinate system, and $ ^AT_B $ is the representation of the coordinate system {B} in the coordinate system {A}.
 
@@ -75,7 +75,7 @@ So far, we see that $ R_{B}^{A} $ implements the rotation of the point $ P_{0} $
 
 ## 3. Problem Solving
 
-In the previous article, “Robot Positive Kinematics - The Inverse of the Homogenous Transformation Matrix,” we left a problem: the inverse of the homogenous transformation matrix. In general, it is difficult to find the inverse of an arbitrary matrix. However, due to the properties of the homogenous transformation matrix, it is easy to write its inverse directly.
+In the previous article, “**Robot Forward Kinematics - The Inverse of the Homogenous Transformation Matrix**,” we left a problem: the inverse of the homogenous transformation matrix. In general, it is difficult to find the inverse of an arbitrary matrix. However, due to the properties of the homogenous transformation matrix, it is easy to write its inverse directly.
 
 The following homogenous transformation matrix is known.
 
