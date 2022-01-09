@@ -19,5 +19,5 @@ After these two facts are shown here, the concept suddenly becomes complicated. 
 
 ## 2. The inner product of a matrix
 
- You may have heard of the inner product of vectors, and here we have two vectors <img src="https://latex.codecogs.com/svg.image?a=\begin{pmatrix}&space;a_1&space;&&space;a_2&space;&&space;\dots&space;&&space;a_n&space;\end{pmatrix}^T&space;" title="a=\begin{pmatrix} a_1 & a_2 & \dots & a_n \end{pmatrix}^T " /> and <img src="https://latex.codecogs.com/svg.image?b=\begin{pmatrix}&space;b_1&space;&&space;b_2&space;&&space;\dots&space;&&space;b_n&space;\end{pmatrix}^T&space;" title="b=\begin{pmatrix} b_1 & b_2 & \dots & b_n \end{pmatrix}^T " />,
+ You may have heard of the inner product of vectors, and here we have two vectors $ a=\begin{pmatrix} a_1 & a_2 & \dots & a_n \end{pmatrix}^T $ and $ b=\begin{pmatrix} b_1 & b_2 & \dots & b_n \end{pmatrix}^T $ ,
 
