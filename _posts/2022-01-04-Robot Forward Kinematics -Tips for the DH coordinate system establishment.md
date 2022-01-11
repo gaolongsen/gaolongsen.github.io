@@ -15,5 +15,12 @@ The first step is to figure out the locations of joint 1 , link 1 , the origin o
 
 Let's take the WAM robot arm to establish the DH coordinate system as an example. To make it easy to see each link, I have painted each link with a different color, as shown in the figure below.
 
-![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/wam.2cm3jsal9zk0.webp)
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/11.7jhbxeyz650.webp)
 
+Imagine whether you can see all the links at once without coloring them? Would you know where the coordinate system for link 1 should be established?
+
+## 2. Plot z-axis
+
+In the second step， we need to determine the z-axis of each link. This step is pretty easy because the z-axis should be in the same direction as the joint axes in a rule. So the only thing you need to figure out is which links these z-axes should be fixed. Since the DH parameters should be built on the drive link, those z-axes must be built on the side of the links away from the base.
+
+We paint the coordinate system fixed to the link with the same color.
