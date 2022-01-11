@@ -15,7 +15,7 @@ The first step is to figure out the locations of joint 1 , link 1 , the origin o
 
 Let's take the WAM robot arm to establish the DH coordinate system as an example. To make it easy to see each link, I have painted each link with a different color, as shown in the figure below.
 
-<iframe src="https://giphy.com/embed/wanSKXy2Hvf44sLjIP" width="480" height="379" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/wanSKXy2Hvf44sLjIP" width="700" height="379" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 Imagine whether you can see all the links at once without coloring them? Would you know where the coordinate system for link 1 should be established?
 
