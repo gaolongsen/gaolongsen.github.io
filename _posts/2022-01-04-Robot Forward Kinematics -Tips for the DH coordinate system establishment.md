@@ -27,3 +27,23 @@ We paint the coordinate system fixed to the link with the same color.
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_z.3c2vq7yu1uq0.webp)
 
+## 3. Determine the x-axis
+
+In the third step, we need to determine the x-axis as the most challenging part of the whole process. Here you need to determine two things. First, you need to select the direction of the x-axis, and second, you need to figure out where the origin of the coordinate system is. That is, you need to determine the starting point of the x-axis.
+
+### 3.1 x-axis direction
+
+Let's address the first point. The X-axis of the DH coordinate system is the common vertical line between the drive and transmission draft of the connecting rod. So the direction of the x-axis is relatively easy to obtain. We know that the cross product (outer product) of two non-parallel vectors is the common normal of the two vectors. So we define.
+
+<img src="https://latex.codecogs.com/svg.image?x_i&space;=&space;z_{i&space;-&space;1}&space;\times&space;z_i" title="x_i = z_{i - 1} \times z_i" />
+
+In this way, you can determine the x-axis of each link coordinate system. Eventually, you can make all x-axes point uniformly at their transmission axes. When the drive and transmission axes are parallel, you can draw a vector that is perpendicular to and intersects both axes and that points to the transmission axis.
+
+### 3.2 The start point of the x-axis (origin of the coordinate system)
+
+Next, we need to figure out the second issue. How do we determine the origin for the x-axis? In advance, this problem does not exist when the drive axis and transmission axis are non-coplanar
+because there is only one common vertical line for the non-coplanar lines. The origin has been determined with the x-axis (the intersection of the x-axis and z-axis).
+
+In addition to non-coplanar straight lines, there are two other relationships between the drive and transmission axis, one is parallel and the other is intersecting. There are countless common perpendiculars between the drive and transmission axes in these two relationships. How to determine the origin of the coordinate system at this time?
+
+According to D-H's rules, the common perpendicular line between the two z-axes represents the abstract link length. The length of the common vertical line between the two x-axes represents the offset of the adjacent links. It would help if you considered the physical meaning of these parameters when determining the origin of the coordinate system. Now we know z-axes and the directions of x-axes, as results, the lengths of the link($ \alpha $ in the DH parameters) can also be determined. Then we must make sure the coordinate system of link $i-1$ rotates around the $z_{i-1}$ axis and translates along the  $z_{i-1}$ axis to make $x_{i-1}$ and  $x_i$ coincide before we choose the origin of the x-axis. When you find that $x_{i-1}$ and $x_i$ cannot coincide by such transformation, there is a problem with choosing the origin of the link i. 
