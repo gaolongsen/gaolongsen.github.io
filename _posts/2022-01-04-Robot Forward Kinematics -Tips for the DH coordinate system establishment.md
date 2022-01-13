@@ -65,3 +65,19 @@ Similarly, we can find the axis x2,x3, x4, x5 and x6 in the same way as shown be
 For link 6, we find countless common vertical lines of z6 and z7. How can we determine the x-axis for this link? It is straightforward because the coordinate system of link5 has been determined. We need to make a paneled line with axis z7 through the origin of the link5 coordinate system. Finally, we translate this axis to the origin of the coordinate system of link6 to get axis x7
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_x7.36pzni9cvdo0.webp)
+
+The final DH coordinate system of the WAM robot is shown below.
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_total.7bqeoh2okps0.webp)
+
+The DH parameter table of the WAM robot arm is shown below
+
+|  i   |    $a_i$    |  $d_i$  | $\alpha_i$ | $\theta_i$ |
+| :--: | :---------: | :-----: | :--------: | :--------: |
+|  1   |      0      |    0    |  $-\pi/2$  | $\theta_1$ |
+|  2   |      0      |    0    |  $\pi/2$   | $\theta_2$ |
+|  3   | a3 = 0.045  | d3=0.55 |  $-\pi/2$  | $\theta_3$ |
+|  4   | a4 = -0.045 |    0    |  $\pi/2$   | $\theta_4$ |
+|  5   |      0      | d5=0.3  |  $-\pi/2$  | $\theta_5$ |
+|  6   |      0      |    0    |  $\pi/2$   | $\theta_6$ |
+|  7   |      0      | d6=0.06 |     0      | $\theta_7$ |
