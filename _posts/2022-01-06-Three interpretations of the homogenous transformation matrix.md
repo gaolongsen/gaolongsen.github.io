@@ -1,6 +1,17 @@
+---
+layout:     post
+title:      Three interpretations of the homogenous transformation matrix
+subtitle:   
+date:       2022-01-06
+author:     Longsen Gao
+header-img: img/background2.jpg
+catalog: 	true
+tags:
+    - Robot Forward Kinematics
+    - DH Parameter
+    - Math
 
-
-# Three interpretations of the homogenous transformation matrix
+---
 
 In one of the open Classes at Stanford University  - Robotics, a class summarizes these three interpretations adequately: **<mark>Coordinate Representation</mark>** ,**<mark>Coordinate Transformation</mark>**, and **<mark>Point Operator</mark>**. We will explain each of them in the following chapters. 
 

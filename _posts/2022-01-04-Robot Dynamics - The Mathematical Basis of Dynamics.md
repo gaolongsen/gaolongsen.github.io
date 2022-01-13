@@ -1,4 +1,16 @@
-# Robot Dynamics - The Mathematical Basis of Dynamics
+---
+layout:     post
+title:      Robot Dynamics - The Mathematical Basis of Dynamics
+subtitle:   
+date:       2022-01-04
+author:     Longsen Gao
+header-img: img/background5.jpg
+catalog: 	true
+tags:
+    - Robot Forward Kinematics
+    - DH Parameter
+
+---
 
 ## 1. Trace
 

@@ -1,4 +1,16 @@
-# Robot Forward Kinematics -Tips for the D-H coordinate system establishment
+---
+layout:     post
+title:      Robot Forward Kinematics - Tips for the D-H coordinate system establishment
+subtitle:   
+date:       2022-01-04
+author:     Longsen Gao
+header-img: img/background3.jpg
+catalog: 	true
+tags:
+    - Robot Forward Kinematics
+    - DH Parameter
+
+---
 
 The D-H parameters themselves are not complicated, but initially, I felt very confused when I applied them to the robot to establish the coordinate system. There are many reasons for the feeling of confusion, summarized as follows:
 

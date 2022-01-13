@@ -1,4 +1,16 @@
-[TOC]
+---
+layout:     post
+title:      How to Understand SVM?
+subtitle:   
+date:       2022-01-01
+author:     Longsen Gao
+header-img: img/background2.jpg
+catalog: 	true
+tags:
+    - Machine Learning
+    - SVM
+
+---
 
 # Preface
 

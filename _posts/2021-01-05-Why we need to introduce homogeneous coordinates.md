@@ -1,4 +1,17 @@
-# Why we need to introduce homogeneous coordinates?
+---
+layout:     post
+title:      Why we need to introduce homogeneous coordinates?
+subtitle:   
+date:       2022-01-05
+author:     Longsen Gao
+header-img: img/background4.jpg
+catalog: 	true
+tags:
+    - Robot Forward Kinematics
+    - DH Parameter
+    - Math
+
+---
 
 The translation transformation represents the concept of change of position. The figure below shows that a rectangle is translated from the center point [x1,y1] to the center point [x2,y2] with no change in overall size and angle. The size of tx and ty are translated in the x-direction and y-direction, respectively.
 
