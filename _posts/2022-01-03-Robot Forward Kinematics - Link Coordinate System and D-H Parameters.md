@@ -17,7 +17,7 @@ tags:
 
 # Robot Forward Kinematics - Link Coordinate System and D-H Parameters
 
-## 1. Link Coordinate System
+## 1. Link Coordinate System 
 
 From the series of articles we introduced before on coordinate systems, we learned that the homogenous transformation matrix could be used to calculate the coordinates of a spatial point in each coordinate system. At the beginning of the article "**Robot Forward Kinematics - Coordinate Systems and their Transformations**," we posed the problem of how to solve the coordinates of the endpoint P of a multilink robot in the world coordinate system. Here, we can try to solve this problem.
 
