@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Robot Forward Kinematics - Link Coordinate System and D-H Parameters
-subtitle:   123
+subtitle:   
 date:       2022-01-03
 author:     Longsen Gao
 header-img: img/sucai.jpg
