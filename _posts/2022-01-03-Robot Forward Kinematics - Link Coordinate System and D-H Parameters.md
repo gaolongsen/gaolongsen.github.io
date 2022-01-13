@@ -1,3 +1,20 @@
+
+
+```
+---
+layout:     post
+title:      Robot Forward Kinematics - Link Coordinate System and D-H Parameters
+subtitle:   
+date:       2022-01-03
+author:     Longsen Gao
+header-img: img/background.jpg
+catalog: 	 true
+tags:
+    - Robot Forward Kinematics
+    - DH Parameter
+---
+```
+
 # Robot Forward Kinematics - Link Coordinate System and D-H Parameters
 
 ## 1. Link Coordinate System
@@ -27,4 +44,6 @@ First, let's define two concepts, drive joints and transmission joints, which ar
 $Axis_{i-1}$ corresponds to the drive axis of $Link_{i-1}$; Axis_{i} corresponds to the transmission axis of $Link_{i-1}$ and the drive axis of $Link_{i}$; $Axis_{i+1}$ corresponds to the transmission axis of $Link_{i}$.
 
 The two pairs of straight circles 1 and 2 marked with a right slash are parallel straight lines, respectively. The $\theta_{i}$ , $d_{i}$ , $\alpha_{i}$ , and $a_{i}$ in the figure are the DH parameters of $Link_{i}$ that we are going to introduce.
+
+### 2.2 Definition of DH Parameters
 
