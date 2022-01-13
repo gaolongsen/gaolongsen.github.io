@@ -1,6 +1,3 @@
-
-
-```
 ---
 layout:     post
 title:      Robot Forward Kinematics - Link Coordinate System and D-H Parameters
@@ -13,9 +10,6 @@ tags:
     - Robot Forward Kinematics
     - DH Parameter
 ---
-```
-
-## Robot Forward Kinematics - Link Coordinate System and D-H Parameters
 
 ## 1. Link Coordinate System 
 
