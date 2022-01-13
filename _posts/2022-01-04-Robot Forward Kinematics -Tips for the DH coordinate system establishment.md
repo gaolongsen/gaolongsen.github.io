@@ -25,7 +25,7 @@ In the second step， we need to determine the z-axis of each link. This step is
 
 We paint the coordinate system fixed to the link with the same color.
 
-![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_z.3c2vq7yu1uq0.webp)
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_z.6lvj1omtv040.webp)
 
 ## 3. Determine the x-axis
 
@@ -47,3 +47,21 @@ because there is only one common vertical line for the non-coplanar lines. The o
 In addition to non-coplanar straight lines, there are two other relationships between the drive and transmission axis, one is parallel and the other is intersecting. There are countless common perpendiculars between the drive and transmission axes in these two relationships. How to determine the origin of the coordinate system at this time?
 
 According to D-H's rules, the common perpendicular line between the two z-axes represents the abstract link length. The length of the common vertical line between the two x-axes represents the offset of the adjacent links. It would help if you considered the physical meaning of these parameters when determining the origin of the coordinate system. Now we know z-axes and the directions of x-axes, as results, the lengths of the link($ \alpha $ in the DH parameters) can also be determined. Then we must make sure the coordinate system of link $i-1$ rotates around the $z_{i-1}$ axis and translates along the  $z_{i-1}$ axis to make $x_{i-1}$ and  $x_i$ coincide before we choose the origin of the x-axis. When you find that $x_{i-1}$ and $x_i$ cannot coincide by such transformation, there is a problem with choosing the origin of the link i. 
+
+The above elaboration is still too obscure, let's use the WAM robot arm as an example to illustrate the process of determining the origin of the coordinate system.
+
+Before we do that, let's determine the base coordinate system and the link1 coordinate system, usually the x-axis of the base points directly in front of the robot. Therefore, we can quickly determine the base frame. The drive and transmission axes of link 1 are non-coplanar straight lines, so the x-axis of the link1 coordinate system can also be easily determined from the cross multiplication equation mentioned earlier. Thus base frame and link1 can be specified as shown in the figure below.
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_z_zb_x0.5krgyf6w7q40.webp)
+
+Next, we start to determine the x-axis of llink2. We find that z0 and z1 are also non-coplanar lines, so by making a common vertical line of these two axes in the direction directly in front of the robot arm, we can quickly determine x1 as shown below.
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_x1.1hgea2v7usgw.webp)
+
+Similarly, we can find the axis x2,x3, x4, x5 and x6 in the same way as shown below
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_x6.44ekon8pbh40.webp)
+
+For link 6, we find countless common vertical lines of z6 and z7. How can we determine the x-axis for this link? It is straightforward because the coordinate system of link5 has been determined. We need to make a paneled line with axis z7 through the origin of the link5 coordinate system. Finally, we translate this axis to the origin of the coordinate system of link6 to get axis x7
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_x7.36pzni9cvdo0.webp)
