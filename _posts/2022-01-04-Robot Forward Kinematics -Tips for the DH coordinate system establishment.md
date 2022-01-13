@@ -81,3 +81,7 @@ The DH parameter table of the WAM robot arm is shown below
 |  5   |      0      | d5=0.3  |  $-\pi/2$  | $\theta_5$ |
 |  6   |      0      |    0    |  $\pi/2$   | $\theta_6$ |
 |  7   |      0      | d6=0.06 |     0      | $\theta_7$ |
+
+## 4. Conclusion
+
+When the drive and transmission axis of the connecting rod are non-coplanar, the common vertical line for these two axes is the x-axis. When the drive and transmission axis are parallel, we need to find the origin of the coordinate system of the previous connecting rod first, then make a vertical line to the z-axis of the current connecting rod. The foot perpendicular is the origin of the connecting rod, and the vertical line is the x-axis. When the drive and transmission axis is intersected, the intersection point is the origin of the coordinate system, and the cross product of the drive and transmission axis is the direction of the x-axis.
