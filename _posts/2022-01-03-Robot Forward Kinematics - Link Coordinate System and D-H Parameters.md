@@ -68,9 +68,9 @@ Next, let's look at the definition of the connecting rod angle $\theta _{i}$ and
 
 Returning to Figure 1, $\{O_{i-1}\}$ and $\{O_{i}\}$ are the coordinate systems solidly connected to $Link_{i-1}$ and $Link_{i}$, respectively. By our definition, the x-axis of $\{O_{i-1}\}$ is built on the common vertical line of $Axis_{i-1}$ and $Axis_{i}$, and the x-axis of $\{O_{i}\}$ is built on the common vertical line of $Axis_{i}$ and $Axis_{i+1}$. It shows that the x-axis of $\{O_{i-1}\}$ and the x-axis of $\{O_{i}\}$ are both perpendicular to $Axis_{i}$, which means that $Axis_{i}$ is the common vertical line of the non-coplanar lines $x_{i-1}$ and $x_{i}$.
 
-The two lines corresponding to the single right slash in Figure 1 are parallel, then $\theta _{i}$ corresponds to the angle between the lines $x_{i-1}$ and $x_{i}$. Therefore, we define the angle between the x-axis of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the connecting rod turning angle $\theta _{i}$.
+The two lines corresponding to the single right slash in Figure 1 are parallel, then $\theta_{i}$ corresponds to the angle between the lines $x_{i-1}$ and $x_{i}$. Therefore, we define the angle between the x-axis of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the connecting rod turning angle $\theta_{i}$.
 
-```html
-<font color= #871F78>We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\} rotate $\theta _{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.</font>
-```
+We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\} rotate $\theta _{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.
+
+
 
