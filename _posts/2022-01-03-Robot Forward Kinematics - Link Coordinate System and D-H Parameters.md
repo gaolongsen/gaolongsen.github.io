@@ -70,17 +70,17 @@ Returning to Figure 1, $\{O_{i-1}\}$ and $\{O_{i}\}$ are the coordinate systems 
 
 The two lines corresponding to the single right slash in Figure 1 are parallel, then $\theta_{i}$ corresponds to the angle between the lines $x_{i-1}$ and $x_{i}$. Therefore, we define the angle between the x-axis of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the connecting rod turning angle $\theta_{i}$.
 
-We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\} rotate $\theta_{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.
+We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\}$ rotate $\theta_{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.
 
 We find that when we rotate $\{O_{i-1}\}$ along $Axis_{i}$ by $\theta_{i}$ degrees, then translates $d_{i}$ along the z-axis of the new coordinate system. We will find that the new coordinate system and the x-axis of $\{O_{i}\}$ have coincided exactly.
 
-Further, rotating the new coordinate system along its x-axis by $\alpha_{i}$ degrees, we find that the new coordinate system and $\{O_{i}\}$ not only coincide on the x-axis, but the z-axes of those are parallel with each other! So what if we then translate $\A_{i}$ along the x-axis? The two coordinate systems coincide precisely in this case.
+Further, rotating the new coordinate system along its x-axis by $\alpha_{i}$ degrees, we find that the new coordinate system and $\{O_{i}\}$ not only coincide on the x-axis, but the z-axes of those are parallel with each other! So what if we then translate $a_{i}$ along the x-axis? The two coordinate systems coincide precisely in this case.
 
 The process described above can be expressed as the equations in the following
 
 <img src="https://latex.codecogs.com/svg.image?^{i-1}T_i&space;=&space;rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)" title="^{i-1}T_i = rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)" />
 
-This transformation matrix maps the points in \{O_{i}\} to \{O_{i-1}\}. Note that successive translations and rotations along the same axis can be exchanged. It's easy to see if you think about it from a geometric point of view, so translations and rotations along z can be exchanged, and translations and rotations along the x-axis can also be exchanged.
+This transformation matrix maps the points in $\{O_{i}\}$ to $\{O_{i-1}\}$. Note that successive translations and rotations along the same axis can be exchanged. It's easy to see if you think about it from a geometric point of view, so translations and rotations along z can be exchanged, and translations and rotations along the x-axis can also be exchanged.
 
 ## 3. Real problem analysis
 
