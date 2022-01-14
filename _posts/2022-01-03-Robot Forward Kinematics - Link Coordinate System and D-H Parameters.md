@@ -64,13 +64,48 @@ We define the angle between the two non-coplanar straight lines $Axis_{i}$ and $
 
 ### 2.2.2 Connecting rod angle and connecting rod offset
 
-Next, let's look at the definition of the connecting rod angle $\theta _{i}$ and the connecting rod offset $d_{i}$. These two parameters describe a positional relationship. Again, they describe a position relationship between two adjacent connecting rods and no longer the rod's inherent properties. In this case $\theta _{i}$ and $d_{i}$ describe the position relationship of $Link_{i}$ with respect to $Link_{i-1}$.
+Next, let's look at the definition of the connecting rod angle $\theta_{i}$ and the connecting rod offset $d_{i}$. These two parameters describe a positional relationship. Again, they describe a position relationship between two adjacent connecting rods and no longer the rod's inherent properties. In this case $\theta_{i}$ and $d_{i}$ describe the position relationship of $Link_{i}$ with respect to $Link_{i-1}$.
 
 Returning to Figure 1, $\{O_{i-1}\}$ and $\{O_{i}\}$ are the coordinate systems solidly connected to $Link_{i-1}$ and $Link_{i}$, respectively. By our definition, the x-axis of $\{O_{i-1}\}$ is built on the common vertical line of $Axis_{i-1}$ and $Axis_{i}$, and the x-axis of $\{O_{i}\}$ is built on the common vertical line of $Axis_{i}$ and $Axis_{i+1}$. It shows that the x-axis of $\{O_{i-1}\}$ and the x-axis of $\{O_{i}\}$ are both perpendicular to $Axis_{i}$, which means that $Axis_{i}$ is the common vertical line of the non-coplanar lines $x_{i-1}$ and $x_{i}$.
 
 The two lines corresponding to the single right slash in Figure 1 are parallel, then $\theta_{i}$ corresponds to the angle between the lines $x_{i-1}$ and $x_{i}$. Therefore, we define the angle between the x-axis of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the connecting rod turning angle $\theta_{i}$.
 
-We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\} rotate $\theta _{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.
+We find that the x-axis of $\{O_{i-1}\}$ is parallel to the x-axis of $\{O_{i}\}$ after $\{O_{i-1}\} rotate $\theta_{i}$ degrees along $Axis_{i}$ (i.e. the z-axis of $\{O_{i-1}\}$)! We define the length of the common vertical line between the x-axes of $\{O_{i-1}\}$ and $\{O_{i}\}$ as the rod offset $d_{i}$.
+
+We find that when we rotate $\{O_{i-1}\}$ along $Axis_{i}$ by $\theta_{i}$ degrees, then translates $d_{i}$ along the z-axis of the new coordinate system. We will find that the new coordinate system and the x-axis of $\{O_{i}\}$ have coincided exactly.
+
+Further, rotating the new coordinate system along its x-axis by $\alpha_{i}$ degrees, we find that the new coordinate system and $\{O_{i}\}$ not only coincide on the x-axis, but the z-axes of those are parallel with each other! So what if we then translate $\A_{i}$ along the x-axis? The two coordinate systems coincide precisely in this case.
+
+The process described above can be expressed as the equations in the following
+
+<img src="https://latex.codecogs.com/svg.image?^{i-1}T_i&space;=&space;rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)" title="^{i-1}T_i = rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)" />
+
+This transformation matrix maps the points in \{O_{i}\} to \{O_{i-1}\}. Note that successive translations and rotations along the same axis can be exchanged. It's easy to see if you think about it from a geometric point of view, so translations and rotations along z can be exchanged, and translations and rotations along the x-axis can also be exchanged.
+
+## 3. Real problem analysis
+
+Here we can finally solve the problem mentioned earlier about the coordinates of the robot endpoint in the base coordinate system. The method is straightforward, that is, to establish a coordinate system on each rod and then use the transformation relationship mentioned above to find the transformation relationship between adjacent rods so that the problem can be solved. The following figure shows the coordinate system established on each rod of the SCARA robot, with some auxiliary lines added for easy observation.
+
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/SCARA.67tf9moq0no0.webp)
+
+Let's list the parameters of the robot in the following table. (Please keep in mind that the DH parameters $\theta$ represent the angle between the two x-axes, $d$ represents the length of the common vertical line of the two x-axes, $\alpha$ represents the angle between the two z-axes, and $a$ represents the length of the common vertical line of the two z-axes)
+
+| Rod number |  $\theta$  |  $d$  | $\alpha$ |  $a$  |
+| :--------: | :--------: | :---: | :------: | :---: |
+|     1      | $\theta_1$ | $d_1$ |    0     | $l_1$ |
+|     2      | $\theta_2$ |   0   |    0     | $l_2$ |
+|     3      | $\theta_3$ | $d_3$ |    0     |   0   |
+|     4      | $\theta_4$ |   0   |    0     |   0   |
+
+Here the DH parameter table is finished. The third axis of the SCARA robot is a translation joint, and the variables in the DH parameter table are $\theta_{1}$, $\theta_{2}$, $d_{3}$, $\theta_{4}$, and the rest of the parameters are fixed values. Remember the transformation relation we introduced in 2.2.2? This transformation can describe the relationship between every two adjacent connecting rods. Thus we can find.
+
+<img src="https://latex.codecogs.com/svg.image?\begin{aligned}^0T_1&space;&=&space;rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)\\^1T_2&space;&=&space;rot_z(\theta_2)trans_x(l_2)\\^2T_3&space;&=&space;trans_z(d_3)\\^3T_4&space;&=&space;rot_z(\theta_4)\end{aligned}" title="\begin{aligned}^0T_1 &= rot_z(\theta_i)trans_z(d_i)rot_x(\alpha_i)trans_x(a_i)\\^1T_2 &= rot_z(\theta_2)trans_x(l_2)\\^2T_3 &= trans_z(d_3)\\^3T_4 &= rot_z(\theta_4)\end{aligned}" />
+
+Is point P the origin of the coordinate system {4}? How is it represented in the base coordinate system? It is simple to iterate all the transformations.
+
+<img src="https://latex.codecogs.com/svg.image?P^0&space;=&space;^0T_1&space;\cdot&space;^1T_2&space;\cdot&space;^2T_3&space;\cdot&space;^3T_4&space;\cdot&space;\begin{bmatrix}0&space;\\0&space;\\0&space;\\1\end{bmatrix}" title="P^0 = ^0T_1 \cdot ^1T_2 \cdot ^2T_3 \cdot ^3T_4 \cdot \begin{bmatrix}0 \\0 \\0 \\1\end{bmatrix}" />
+
+Therefore, when we measure the values of each variable in the DH parameters and the known structural parameters of the robot, we can solve for the coordinates of the endpoint P in the base coordinate system by simply substituting them into the above equation.
 
 
 
