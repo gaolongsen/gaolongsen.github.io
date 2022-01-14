@@ -43,24 +43,24 @@ The two pairs of straight circles 1 and 2 marked with a right slash are parallel
 
 I think there are two main reasons why DH parameters are so popular. The first is that DH parameters describe a connecting rod coordinate system with only four parameters; the second is that these four parameters have obvious physical significance.
 
-- $\theta _{i}$ represents the angle of the x-axis between the coordinate system $\{O_{i-1}\}$ and the coordinate system $\{O_{i}\}$, which is the angle of rotation of $Axis_{i}$ (this is also the angle of rotation of the joint i motor).
+- $\theta_{i}$ represents the angle of the x-axis between the coordinate system $\{O_{i-1}\}$ and the coordinate system $\{O_{i}\}$, which is the angle of rotation of $Axis_{i}$ (this is also the angle of rotation of the joint i motor).
 - $d_{i}$ represents the offset of the coordinate system $\{O_{i}\}$ with respect to the coordinate system $\{O_{i-1}\}$ in the direction of the $z_{i-1}$ axis.
-- $\alpha _{i}$ represents the angle between the actuating shaft and the transmission shaft of $Link_{i}$.
+- $\alpha_{i}$ represents the angle between the actuating shaft and the transmission shaft of $Link_{i}$.
 - $a_{i}$ represents the length of $Link_{i}$ in the mathematical sense
 
 From the above description, we can see that 1 and 2 describe the relationship between $Link_{i-1}$ and $Link_{i}$, and 3 and 4 illustrate the intrinsic properties of $Link_{i}$ (because they are only related to $Link_{i}$). So to be clear about DH parameters, it is better to look at these two sets of parameters with different meanings separately..
 
 ### 2.2.1 Twist angle and length of connecting rod
 
-We start with the definition of $\alpha _{i}$ and $a_{i}$, since these two parameters are more intuitive. The diagram below is a schematic representation of the parameters $\alpha _{i}$ and $a_{i}$ inherent to the connecting rod. Again, the linkage length and twist angle are intrinsic properties of the links themselves and have nothing to do with other links.
+We start with the definition of $\alpha_{i}$ and $a_{i}$, since these two parameters are more intuitive. The diagram below is a schematic representation of the parameters $\alpha_{i}$ and $a_{i}$ inherent to the connecting rod. Again, the linkage length and twist angle are intrinsic properties of the links themselves and have nothing to do with other links.
 
-We start with the definition of $\alpha _{i}$ and $a_{i}$, since these two parameters are more intuitive. The diagram below is a schematic representation of the parameters $\alpha _{i}$ and $a_{i}$ inherent to the connecting rod. Again, the linkage length and twist angle are intrinsic properties of the links themselves and have nothing to do with other links.
+We start with the definition of $\alpha_{i}$ and $a_{i}$, since these two parameters are more intuitive. The diagram below is a schematic representation of the parameters $\alpha_{i}$ and $a_{i}$ inherent to the connecting rod. Again, the linkage length and twist angle are intrinsic properties of the links themselves and have nothing to do with other links.
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/liangan2.7h3sh8jojik0.webp)
 
 No matter how complex this link is, we can give a unified description of it: the two joint axes ($Axis_{i}$ and $Axis_{i+1}$) and their common vertical line (circle 1) are the most straightforward abstractions of a link. Here, non-coplanar straight lines have only one common vertical line.
 
-We define the angle between the two non-coplanar straight lines $Axis_{i}$ and $Axis_{i+1}$ as the joint twist angle $\alpha _{i}$ of the connecting rod. The two lines corresponding to the double right slash in the figure are parallel. $\alpha$ is the second parameter in the DH parameter.
+We define the angle between the two non-coplanar straight lines $Axis_{i}$ and $Axis_{i+1}$ as the joint twist angle $\alpha_{i}$ of the connecting rod. The two lines corresponding to the double right slash in the figure are parallel. $\alpha$ is the second parameter in the DH parameter.
 
 ### 2.2.2 Connecting rod angle and connecting rod offset
 
