@@ -278,7 +278,7 @@ web(url,'-browser');
 
 GUI real effect:
 
-![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/Rough_Panel.3kxt0wvnhom0.webp)
+![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/Rough.71yzmpq126k0.gif)
 
 
 
