@@ -19,7 +19,7 @@ In this blog, I try to use MATLAB to implement Routh–Hurwitz stability criteri
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/liucheng.7269xt03vnc0.webp)
 
-## Code Information
+## 2. Code Information
 
 **JustifyRough.m**
 
