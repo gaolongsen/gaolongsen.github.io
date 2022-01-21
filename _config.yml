@@ -97,8 +97,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Purdue University",
-        href: "https://www.purdue.edu/"
+        title: "Mathwork",
+        href: "https://www.mathworks.com/products/matlab.html"
     },
     {
         title: "ROS",
@@ -109,6 +109,22 @@ friends: [
         title: "Ubuntu",
         href: "https://ubuntu.com/"
     
-    }
+    },
+    {
+        title: "Google Barin Team",
+        href: "https://research.google/teams/brain/"
+    },
+    {
+        title: "OpenAI",
+        href: "https://openai.com/"
+    },
+    {
+        title: "University of Michigan,Ann Arbor",
+        href: "https://umich.edu/"
+    },
+    {
+        title: "Carnegie Mellon University",
+        href: "https://www.cmu.edu/"
+    }    
 ]
 
