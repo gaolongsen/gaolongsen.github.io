@@ -1,4 +1,4 @@
-# Robot Forward Kinematics - Coordinate System and Its Transformation
+# Robot Direct Kinematics - Coordinate System and Its Transformation
 
 I think robot kinematics is the core of the whole robotics. Take the SCARA robot as an example. As shown in the figure below, suppose the Cartesian coordinate system {A} is a fixed coordinate system. The red point **P** represents the end-effector of the robot link.
 
@@ -6,7 +6,7 @@ I think robot kinematics is the core of the whole robotics. Take the SCARA robot
 
 Imagine how to determine the coordinates of the point P in the coordinate system {A} if we know the current rotation angle of each joint of the robot? Such a problem has bothered me for a long time.
 
-The first problem we encountered in robot kinematics is the forward kinematics problem. That is, determine the position of the robot's end-effector after knowing the status of each of its joints.
+The first problem we encountered in robot kinematics is the direct kinematics problem. That is, determine the position of the robot's end-effector after knowing the status of each of its joints.
 
 ## 1. Description of position and posture
 

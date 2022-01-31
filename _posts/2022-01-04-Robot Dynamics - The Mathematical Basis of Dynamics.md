@@ -7,7 +7,7 @@ author:     Longsen Gao
 header-img: img/background5.jpg
 catalog: 	true
 tags:
-    - Robot Forward Kinematics
+    - Robot Direct Kinematics
     - DH Parameter
 
 ---

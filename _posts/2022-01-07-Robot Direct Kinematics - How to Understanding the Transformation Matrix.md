@@ -7,7 +7,7 @@ author:     Longsen Gao
 header-img: img/sucai.jpg
 catalog: 	true
 tags:
-    - Robot Forward Kinematics
+    - Robot Direct Kinematics
     - DH Parameter
 
 ---

@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Robot Forward Kinematics - Tips for the D-H coordinate system establishment
+title:      Robot Direct Kinematics - Tips for the D-H coordinate system establishment
 subtitle:   
 date:       2022-01-04
 author:     Longsen Gao
 header-img: img/background3.jpg
 catalog: 	true
 tags:
-    - Robot Forward Kinematics
+    - Robot Direct Kinematics
     - DH Parameter
 
 ---
