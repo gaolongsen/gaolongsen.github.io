@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Robot Forward Kinematics - How to Understanding the Transformation Matrix
+title:      Robot Direct Kinematics - How to Understanding the Transformation Matrix
 subtitle:   
 date:       2022-01-07
 author:     Longsen Gao
