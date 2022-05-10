@@ -253,7 +253,7 @@ Assuming the position and orientation of the manipulator are known as
 
 The inverse kinematics can be solved by the following steps:
 
-1. $\theta_{1}$:
+1. **$\theta_{1}$**:
 
    Since the axes of the joints 2, 3, 4 are parallel to each other, the position of the self-motion plane *P* is only determined by joint 1. Therefore, the expression of $\theta_{1}$ is
 
@@ -277,7 +277,7 @@ The inverse kinematics can be solved by the following steps:
 
 
 
-2. $\theta_{2}$
+2. **$\theta_{2}$**
 
    $\theta_{2}$ can represent the angle of rotation from ***x\***1 to ***x\***2 around $z_2$, and $x_2$ is collinear with the link *SA*. If the redundancy angle *φ* is known, $\theta_{2}$ can be expressed as
 
@@ -295,7 +295,7 @@ The inverse kinematics can be solved by the following steps:
 
    
 
-3. $\theta_{3}$
+3. **$\theta_{3}$**
 
    The position of point *A* can be solved when the angles $\theta_{1}$ and $\theta_{2}$ are known. At this time, *AW*, *AE*, and *EW* form a fixed triangle with a fixed edge length in the figure below . In this way, the position of point *E* can be obtained.
 
@@ -315,7 +315,7 @@ The inverse kinematics can be solved by the following steps:
 
    $\theta_{3}$ is the angle of rotation from *SA* to *AE* around ***z\***3, so *θ*3 can be expressed as follows:
 
-4. $\theta_{4}$
+4. **$\theta_{4}$**
 
    According to the D–H method, $\theta_{4}$ is the angle of rotation from $x_3$ to $x_4$ around $z_4$.
 
@@ -329,7 +329,7 @@ The inverse kinematics can be solved by the following steps:
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\boldsymbol{x}_{4}=\boldsymbol{z}_{4}&space;\times&space;\boldsymbol{z}_{5}=\boldsymbol{z}_{3}&space;\times&space;\frac{\boldsymbol{E}&space;W}{|\underline{\boldsymbol{E}&space;W}|}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\boldsymbol{x}_{4}=\boldsymbol{z}_{4} \times \boldsymbol{z}_{5}=\boldsymbol{z}_{3} \times \frac{\boldsymbol{E} W}{|\underline{\boldsymbol{E} W}|}\end{equation}" />
 
-5. $\theta_{5}$, $\theta_{6}$, and $\theta_{7}$
+5. **$\theta_{5}$, $\theta_{6}$, and $\theta_{7}$**
 
    According to the above analysis, the values of the first four joints have been obtained, and the transformation matrix from the initial orientation to the target orientation can be described as
 
