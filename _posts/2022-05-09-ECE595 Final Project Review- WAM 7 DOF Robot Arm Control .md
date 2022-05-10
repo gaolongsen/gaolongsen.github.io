@@ -367,13 +367,23 @@ The inverse kinematics can be solved by the following steps:
    
    
    
+   
+   
    [![IK Motion Planning Algorithem for WAM 7 DOF Arm(Demo 1)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652158014/video_to_markdown/images/youtube--w6rX2Pm43xM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=w6rX2Pm43xM "IK Motion Planning Algorithem for WAM 7 DOF Arm(Demo 1)")
    
    
    
    
    
+   [![IK Motion Planning for WAM- Vicon Record](https://res.cloudinary.com/marcomontalbano/image/upload/v1652158117/video_to_markdown/images/youtube--XVf6nv1YF6A-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=XVf6nv1YF6A "IK Motion Planning for WAM- Vicon Record")
    
+   
+   
+   [![WAM Robot Arm Simulation on Gazebo(Demo 2)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652158204/video_to_markdown/images/youtube--yK8fk01Sb20-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=yK8fk01Sb20 "WAM Robot Arm Simulation on Gazebo(Demo 2)")
+   
+   
+   
+   [![WAM Robot Arm Simulation on Gazebo(Demo 3)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652158246/video_to_markdown/images/youtube--cd6XbX9tYN8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=cd6XbX9tYN8 "WAM Robot Arm Simulation on Gazebo(Demo 3)")
    
    
    
