@@ -343,10 +343,45 @@ The inverse kinematics can be solved by the following steps:
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\theta_{6}=G&space;K_{3}&space;\cdot&space;\arccos&space;\left(-a_{y}^{\prime}\right)&space;\\&\theta_{5}=\operatorname{atan}&space;2\left(\frac{a_{z}^{\prime}}{s_{6}},&space;\frac{a_{x}^{\prime}}{s_{6}}\right)&space;\\&\theta_{7}=\operatorname{atan}&space;2\left(\frac{-o_{y}^{\prime}}{s_{6}},&space;\frac{n_{y}^{\prime}}{s_{6}}\right)\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\theta_{6}=G K_{3} \cdot \arccos \left(-a_{y}^{\prime}\right) \\&\theta_{5}=\operatorname{atan} 2\left(\frac{a_{z}^{\prime}}{s_{6}}, \frac{a_{x}^{\prime}}{s_{6}}\right) \\&\theta_{7}=\operatorname{atan} 2\left(\frac{-o_{y}^{\prime}}{s_{6}}, \frac{n_{y}^{\prime}}{s_{6}}\right)\end{aligned}\end{equation}" />
 
+   ## 4. Simulation
+
+   ### 4.1 Model building on Solidworks
+
+   In this project, we choose Solidworks 2021-2022 version to build up URDF model for the whole simulation work for both Matlab and Gazebo. 
+
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/9.5jwngtok8m40.webp)
+   
+   
+   
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/11.63n9lhza23w0.webp)
+   
+   ### 4.2 Simulation on Gazebo
+   
+   After we finished building the model in Solidworks, we can import URDF model files to Gazebo through XML file. Here is the simulation effect shown below. 
+   
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/12.ajsicdl6ek0.webp)
+   
+   
+   
+   [![WAM Robot Arm Simulation on Gazebo(Demo 1)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652157565/video_to_markdown/images/youtube--dR__jj4YP4I-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=dR__jj4YP4I "WAM Robot Arm Simulation on Gazebo(Demo 1)")](https://www.youtube.com/watch?v=dR__jj4YP4I "")
+   
+   
+   
+   [![IK Motion Planning Algorithem for WAM 7 DOF Arm(Demo 1)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652158014/video_to_markdown/images/youtube--w6rX2Pm43xM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=w6rX2Pm43xM "IK Motion Planning Algorithem for WAM 7 DOF Arm(Demo 1)")
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
 
-   
 
-   
 
-   
+
+
