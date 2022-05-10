@@ -175,7 +175,7 @@ The final DH coordinate system of the WAM robot is shown below.
 
 ![](https://raw.githubusercontent.com/gaolongsen123/Pichost/master/123/111_total.7bqeoh2okps0.webp)
 
-The DH parameter table of the WAM robot arm is shown below
+The DH parameter table of the WAM robot arm is shown below.
 
 |  i   |    $a_i$    |  $d_i$  | $\alpha_i$ | $\theta_i$ |
 | :--: | :---------: | :-----: | :--------: | :--------: |
@@ -209,9 +209,79 @@ Side view of WAM's Workspace (X-Z) as shown below.
 
 ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/5.61ktstx45900.webp)
 
+### 3.4 Forward Kinematics of WAM Arm
+
+The robot that is researched is composed of seven revolute joints with three consecutive parallel axes. To realize kinematic control and describe the kinematic relationship between the pose of the robot’s end-effector and joint angle, let's review the mechanical structure and joint coordinate system of this manipulator again. 
+
+![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/1.244yijk23y0w.webp)
 
 
 
+|  i   |    $a_i$    |  $d_i$  | $\alpha_i$ | $\theta_i$ |
+| :--: | :---------: | :-----: | :--------: | :--------: |
+|  1   |      0      |    0    |  $-\pi/2$  | $\theta_1$ |
+|  2   |      0      |    0    |  $\pi/2$   | $\theta_2$ |
+|  3   | a3 = 0.045  | d3=0.55 |  $-\pi/2$  | $\theta_3$ |
+|  4   | a4 = -0.045 |    0    |  $\pi/2$   | $\theta_4$ |
+|  5   |      0      | d5=0.3  |  $-\pi/2$  | $\theta_5$ |
+|  6   |      0      |    0    |  $\pi/2$   | $\theta_6$ |
+|  7   |      0      | d6=0.06 |     0      | $\theta_7$ |
+
+According to the D–H rules and parameters of this manipulator listed aboved, the coordinate transform matrix of adjacent joints can be obtained by using a homogeneous transformation matrix.
+
+<img src="https://latex.codecogs.com/svg.image?\begin{equation}{&space;}_{i}^{i-1}&space;\boldsymbol{T}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}{ }_{i}^{i-1} \boldsymbol{T}\end{equation}" />
+
+<img src="https://latex.codecogs.com/svg.image?\begin{equation}{&space;}_{i}^{i-1}&space;\boldsymbol{T}=\left[\begin{array}{cccc}c&space;\theta_{i}&space;&&space;-s&space;\theta_{i}&space;&&space;0&space;&&space;a_{i-1}&space;\\s&space;\theta_{i}&space;c&space;\alpha_{i-1}&space;&&space;c&space;\theta_{i}&space;c&space;\alpha_{i-1}&space;&&space;-s&space;\alpha_{i-1}&space;&&space;-d_{i}&space;s&space;\alpha_{i-1}&space;\\s&space;\theta_{i}&space;s&space;\alpha_{i-1}&space;&&space;c&space;\theta_{i}&space;s&space;\alpha_{i-1}&space;&&space;c&space;\alpha_{i-1}&space;&&space;d_{i}&space;c&space;\alpha_{i-1}&space;\\0&space;&&space;0&space;&&space;0&space;&&space;1\end{array}\right]\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}{ }_{i}^{i-1} \boldsymbol{T}=\left[\begin{array}{cccc}c \theta_{i} & -s \theta_{i} & 0 & a_{i-1} \\s \theta_{i} c \alpha_{i-1} & c \theta_{i} c \alpha_{i-1} & -s \alpha_{i-1} & -d_{i} s \alpha_{i-1} \\s \theta_{i} s \alpha_{i-1} & c \theta_{i} s \alpha_{i-1} & c \alpha_{i-1} & d_{i} c \alpha_{i-1} \\0 & 0 & 0 & 1\end{array}\right]\end{equation}" />
+
+where
+
+<img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}c&space;\theta_{i}&space;&=\cos&space;\left(\theta_{i}\right)&space;\\s&space;\theta_{i}&space;&=\sin&space;\left(\theta_{i}\right)&space;\\c&space;\alpha_{i-1}&space;&=\cos&space;\left(\alpha_{i-1}\right)&space;\\s&space;\alpha_{i-1}&space;&=\sin&space;\left(\alpha_{i-1}\right)\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}c \theta_{i} &=\cos \left(\theta_{i}\right) \\s \theta_{i} &=\sin \left(\theta_{i}\right) \\c \alpha_{i-1} &=\cos \left(\alpha_{i-1}\right) \\s \alpha_{i-1} &=\sin \left(\alpha_{i-1}\right)\end{aligned}\end{equation}" />
+
+When the values of all joint angles are known, the homogeneous transformation matrix of the end-effector relative to the base can be obtained by multiplying seven homogeneous transformation matrices.
+
+<img src="https://latex.codecogs.com/svg.image?\begin{equation}{&space;}_{7}^{0}&space;\boldsymbol{T}={&space;}_{1}^{0}&space;\boldsymbol{T}_{2}^{1}&space;\boldsymbol{T}_{3}^{2}&space;\boldsymbol{T}_{4}^{3}&space;\boldsymbol{T}_{5}^{4}&space;\boldsymbol{T}_{6}^{5}&space;\boldsymbol{T}_{7}^{6}&space;\boldsymbol{T}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}{ }_{7}^{0} \boldsymbol{T}={ }_{1}^{0} \boldsymbol{T}_{2}^{1} \boldsymbol{T}_{3}^{2} \boldsymbol{T}_{4}^{3} \boldsymbol{T}_{5}^{4} \boldsymbol{T}_{6}^{5} \boldsymbol{T}_{7}^{6} \boldsymbol{T}\end{equation}" />
+
+According to Equation (2) the forward kinematic solution can be obtained, which indicates the position and orientation of the end-effector.
+
+### 3.4 Inverse Kinematics of WAM Arm
+
+According to the configuration characteristics of this manipulator, the last three joints of the manipulator are equivalent to a spherical joint, which can reach any orientation. Therefore, for the inverse kinematics, the separation of position and orientation can be achieved. In this way, the first four joints of the manipulator determine the position of the end-effector; the last three joints determine the orientation of the end-effector.
+
+Assuming the position and orientation of the manipulator are known as
+
+<img src="https://latex.codecogs.com/svg.image?\begin{equation}{&space;}_{7}^{0}&space;\boldsymbol{T}=\left[\begin{array}{cc}{&space;}_{7}^{0}&space;\boldsymbol{R}&space;&&space;{&space;}_{7}^{0}&space;\boldsymbol{P}&space;\\0&space;&&space;1\end{array}\right]=\left[\begin{array}{cccc}n_{x}&space;&&space;o_{x}&space;&&space;a_{x}&space;&&space;p_{x}&space;\\n_{y}&space;&&space;o_{y}&space;&&space;a_{y}&space;&&space;p_{y}&space;\\n_{z}&space;&&space;o_{z}&space;&&space;a_{z}&space;&&space;p_{z}&space;\\0&space;&&space;0&space;&&space;0&space;&&space;1\end{array}\right]\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}{ }_{7}^{0} \boldsymbol{T}=\left[\begin{array}{cc}{ }_{7}^{0} \boldsymbol{R} & { }_{7}^{0} \boldsymbol{P} \\0 & 1\end{array}\right]=\left[\begin{array}{cccc}n_{x} & o_{x} & a_{x} & p_{x} \\n_{y} & o_{y} & a_{y} & p_{y} \\n_{z} & o_{z} & a_{z} & p_{z} \\0 & 0 & 0 & 1\end{array}\right]\end{equation}" />
+
+The inverse kinematics can be solved by the following steps:
+
+1. $\theta_{1}$:
+
+   Since the axes of the joints 2, 3, 4 are parallel to each other, the position of the self-motion plane *P* is only determined by joint 1. Therefore, the expression of $\theta_{1}$ is
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{1}=\operatorname{atan}&space;2\left(\boldsymbol{n}_{0}&space;\times&space;\boldsymbol{n}_{1}&space;\cdot&space;\boldsymbol{z}_{1},&space;\boldsymbol{n}_{0}&space;\cdot&space;\boldsymbol{n}_{1}\right)&plus;\frac{\left(1-G&space;K_{1}\right)&space;\pi}{2}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{1}=\operatorname{atan} 2\left(\boldsymbol{n}_{0} \times \boldsymbol{n}_{1} \cdot \boldsymbol{z}_{1}, \boldsymbol{n}_{0} \cdot \boldsymbol{n}_{1}\right)+\frac{\left(1-G K_{1}\right) \pi}{2}\end{equation}" />
+
+   where *GK*1= ±1 corresponding to the two solutions of *θ*1, ***n\***0 and ***z\***1 is the axis direction of the joint 1 in the base coordinate system, ***n\***0 and ***n\***1 are the normal vectors of the initial principal plane *P*’ and the corresponding principal plane *P* of the current point *W*.
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\boldsymbol{n}_{0}=\left[\begin{array}{lll}0&space;&&space;1&space;&&space;0\end{array}\right]^{\mathrm{T}}&space;\\\boldsymbol{n}_{1}=\boldsymbol{O}&space;\boldsymbol{S}&space;\times&space;\boldsymbol{S}&space;\boldsymbol{W}=\left[\begin{array}{lll}-d_{1}&space;p_{y}&space;&&space;d_{1}&space;p_{x}&space;&&space;0\end{array}\right]^{\mathrm{T}}\end{gathered}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\boldsymbol{n}_{0}=\left[\begin{array}{lll}0 & 1 & 0\end{array}\right]^{\mathrm{T}} \\\boldsymbol{n}_{1}=\boldsymbol{O} \boldsymbol{S} \times \boldsymbol{S} \boldsymbol{W}=\left[\begin{array}{lll}-d_{1} p_{y} & d_{1} p_{x} & 0\end{array}\right]^{\mathrm{T}}\end{gathered}\end{equation}" />
+
+   where
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\boldsymbol{O}&space;\boldsymbol{S}=\left[\begin{array}{lll}0&space;&&space;0&space;&&space;d_{1}\end{array}\right]^{\mathrm{T}}&space;\\&\boldsymbol{S&space;W}=\boldsymbol{O&space;W}-\boldsymbol{O}&space;\boldsymbol{S}=\left[\begin{array}{lll}p_{x}&space;&&space;p_{y}&space;\quad&space;p_{z}-d_{1}\end{array}\right]^{\mathrm{T}}\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\boldsymbol{O} \boldsymbol{S}=\left[\begin{array}{lll}0 & 0 & d_{1}\end{array}\right]^{\mathrm{T}} \\&\boldsymbol{S W}=\boldsymbol{O W}-\boldsymbol{O} \boldsymbol{S}=\left[\begin{array}{lll}p_{x} & p_{y} \quad p_{z}-d_{1}\end{array}\right]^{\mathrm{T}}\end{aligned}\end{equation}" />
+
+
+
+2. $\theta_{2}$
+
+   *θ*2 can represent the angle of rotation from ***x\***1 to ***x\***2 around ***z\***2, and ***x\***2 is collinear with the link *SA*. If the redundancy angle *φ* is known, *θ*2 can be expressed as
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{2}=G&space;K_{1}&space;\cdot&space;\varphi&plus;\varphi_{S&space;M}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{2}=G K_{1} \cdot \varphi+\varphi_{S M}\end{equation}" />
+
+   where *φ* is the redundant angle,
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\varphi&space;S&space;M\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\varphi S M\end{equation}" />
+
+   can represent the angle of rotation from ***x\***1 to *SW* around ***z\***2.
+
+   
 
 
 
