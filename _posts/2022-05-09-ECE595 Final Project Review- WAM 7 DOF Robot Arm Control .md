@@ -16,21 +16,19 @@ tags:
 
 ### 1.1 Background
 
- The WAM Arm is a 7-degree-of-freedom (7-DOF)  manipulator with human- like kinematics. With its aluminum  frame and advanced cable-drive systems, including a patented  cabled differential, the WAM is lightweight with no backlash,  extremely low friction, and stiff transmissions. All of these characteristics contribute to its highbandwidth performance.  The WAM Arm is the ideal platform for implementing Whole  Arm Manipulation (WAM), advanced force control techniques,  and high precision trajectory control. WAM is shown in figure 1.
+ The WAM Arm is a 7-degree-of-freedom (7-DOF)  manipulator with human- like kinematics. With its aluminum  frame and advanced cable-drive systems, including a patented  cabled differential, the WAM is lightweight with no backlash,  extremely low friction, and stiff transmissions. All of these characteristics contribute to its highbandwidth performance.  The WAM Arm is the ideal platform for implementing Whole  Arm Manipulation (WAM), advanced force control techniques,  and high precision trajectory control. WAM is shown in below.
 
-![](https://robots.ieee.org/robots/wam/Photos/SD/wam-photo1-full.jpg)
+![](https://robots.ieee.org/robots/wam/Photos/SD/wam-photo1-full.jpg)   
 
-​                                                                       Figure 1 : WAM Arm
-
-The WAM Arm is a highly dexterous back drivable  manipulator. It is the only commercially available robotic arm  with direct-drive capability supported by Transparent Dynamic  between the motors and joints, so its joint-torque control is  unmatched and guaranteed stable. 
+The WAM Arm is a highly dexterous back-drivable manipulator. It is the only commercially available robotic arm with direct-drive capability supported by Transparent Dynamic between the motors and joints, so its joint-torque control is unmatched and guaranteed stable. 
 
 ### 2.2 Information of  Joints and Dimensions
 
-WAM Arm robot has 7 DoFs. It has 7 links and 7 joints. The joints and  dimensions are shown in Figure 2. 
+WAM Arm robot has 7 DoFs. It has 7 links and 7 joints. The joints and dimensions are shown below. 
 
 ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/1.244yijk23y0w.webp)
 
-​                                               Figure 2. D-H coordinates and dimensions 
+
 
 | Joint | Min Angle Limit(Rad) | Max. Angle limit(Rad) |
 | ----- | -------------------- | --------------------- |
