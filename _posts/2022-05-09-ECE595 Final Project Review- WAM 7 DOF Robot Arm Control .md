@@ -355,7 +355,7 @@ The inverse kinematics can be solved by the following steps:
    
    ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/11.63n9lhza23w0.webp)
    
-   ### 4.2 Simulation on Gazebo
+   ### 4.2 Videos for Simulation on Gazebo and real robots
    
    After we finished building the model in Solidworks, we can import URDF model files to Gazebo through XML file. Here is the simulation effect shown below. 
    
@@ -363,7 +363,7 @@ The inverse kinematics can be solved by the following steps:
    
    
    
-   [![WAM Robot Arm Simulation on Gazebo(Demo 1)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652157565/video_to_markdown/images/youtube--dR__jj4YP4I-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=dR__jj4YP4I "WAM Robot Arm Simulation on Gazebo(Demo 1)")](https://www.youtube.com/watch?v=dR__jj4YP4I "")
+   [![WAM Robot Arm Simulation on Gazebo(Demo 1)](https://res.cloudinary.com/marcomontalbano/image/upload/v1652157565/video_to_markdown/images/youtube--dR__jj4YP4I-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=dR__jj4YP4I "WAM Robot Arm Simulation on Gazebo(Demo 1)")
    
    
    
