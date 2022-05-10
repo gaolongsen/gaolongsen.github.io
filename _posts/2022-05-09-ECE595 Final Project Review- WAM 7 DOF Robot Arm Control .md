@@ -3,8 +3,8 @@ layout:     post
 title:      Final Project Review- WAM 7 DOF Robot Arm Control
 subtitle:   
 date:       2022-05-06
-06thor:     Longsen Gao
-header-img: img/background1.jpg
+author:     Longsen Gao
+header-img: img/background3.jpg
 catalog: 	true
 tags:
     - Control Theory
