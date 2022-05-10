@@ -259,33 +259,94 @@ The inverse kinematics can be solved by the following steps:
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{1}=\operatorname{atan}&space;2\left(\boldsymbol{n}_{0}&space;\times&space;\boldsymbol{n}_{1}&space;\cdot&space;\boldsymbol{z}_{1},&space;\boldsymbol{n}_{0}&space;\cdot&space;\boldsymbol{n}_{1}\right)&plus;\frac{\left(1-G&space;K_{1}\right)&space;\pi}{2}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{1}=\operatorname{atan} 2\left(\boldsymbol{n}_{0} \times \boldsymbol{n}_{1} \cdot \boldsymbol{z}_{1}, \boldsymbol{n}_{0} \cdot \boldsymbol{n}_{1}\right)+\frac{\left(1-G K_{1}\right) \pi}{2}\end{equation}" />
 
-   where *GK*1= ±1 corresponding to the two solutions of *θ*1, ***n\***0 and ***z\***1 is the axis direction of the joint 1 in the base coordinate system, ***n\***0 and ***n\***1 are the normal vectors of the initial principal plane *P*’ and the corresponding principal plane *P* of the current point *W*.
+   where $GK_1= ±1$ corresponding to the two solutions of $\theta_{1}$, $n_0$ and $z_1$ is the axis direction of the joint 1 in the base coordinate system, $n_0$ and $n_1$ are the normal vectors of the initial principal plane $P$ and the corresponding principal plane $P$ of the current point *W*.
+
+   
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\boldsymbol{n}_{0}=\left[\begin{array}{lll}0&space;&&space;1&space;&&space;0\end{array}\right]^{\mathrm{T}}&space;\\\boldsymbol{n}_{1}=\boldsymbol{O}&space;\boldsymbol{S}&space;\times&space;\boldsymbol{S}&space;\boldsymbol{W}=\left[\begin{array}{lll}-d_{1}&space;p_{y}&space;&&space;d_{1}&space;p_{x}&space;&&space;0\end{array}\right]^{\mathrm{T}}\end{gathered}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\boldsymbol{n}_{0}=\left[\begin{array}{lll}0 & 1 & 0\end{array}\right]^{\mathrm{T}} \\\boldsymbol{n}_{1}=\boldsymbol{O} \boldsymbol{S} \times \boldsymbol{S} \boldsymbol{W}=\left[\begin{array}{lll}-d_{1} p_{y} & d_{1} p_{x} & 0\end{array}\right]^{\mathrm{T}}\end{gathered}\end{equation}" />
+
+   
 
    where
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\boldsymbol{O}&space;\boldsymbol{S}=\left[\begin{array}{lll}0&space;&&space;0&space;&&space;d_{1}\end{array}\right]^{\mathrm{T}}&space;\\&\boldsymbol{S&space;W}=\boldsymbol{O&space;W}-\boldsymbol{O}&space;\boldsymbol{S}=\left[\begin{array}{lll}p_{x}&space;&&space;p_{y}&space;\quad&space;p_{z}-d_{1}\end{array}\right]^{\mathrm{T}}\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\boldsymbol{O} \boldsymbol{S}=\left[\begin{array}{lll}0 & 0 & d_{1}\end{array}\right]^{\mathrm{T}} \\&\boldsymbol{S W}=\boldsymbol{O W}-\boldsymbol{O} \boldsymbol{S}=\left[\begin{array}{lll}p_{x} & p_{y} \quad p_{z}-d_{1}\end{array}\right]^{\mathrm{T}}\end{aligned}\end{equation}" />
 
+   
+
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/6.7k4oxb0cxbk0.webp)
+
 
 
 2. $\theta_{2}$
 
-   *θ*2 can represent the angle of rotation from ***x\***1 to ***x\***2 around ***z\***2, and ***x\***2 is collinear with the link *SA*. If the redundancy angle *φ* is known, *θ*2 can be expressed as
+   $\theta_{2}$ can represent the angle of rotation from ***x\***1 to ***x\***2 around $z_2$, and $x_2$ is collinear with the link *SA*. If the redundancy angle *φ* is known, $\theta_{2}$ can be expressed as
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{2}=G&space;K_{1}&space;\cdot&space;\varphi&plus;\varphi_{S&space;M}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{2}=G K_{1} \cdot \varphi+\varphi_{S M}\end{equation}" />
 
-   where *φ* is the redundant angle,
+   where $\phi$ is the redundant angle,
 
    <img src="https://latex.codecogs.com/svg.image?\begin{equation}\varphi&space;S&space;M\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\varphi S M\end{equation}" />
 
-   can represent the angle of rotation from ***x\***1 to *SW* around ***z\***2.
+   can represent the angle of rotation from $x_1$ to *SW* around $z_2$.
 
    
 
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/7.2bsk541s0vy8.webp)
 
+   
 
+3. $\theta_{3}$
 
+   The position of point *A* can be solved when the angles $\theta_{1}$ and $\theta_{2}$ are known. At this time, *AW*, *AE*, and *EW* form a fixed triangle with a fixed edge length in the figure below . In this way, the position of point *E* can be obtained.
 
+   
 
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\psi=G&space;K_{2}&space;\cdot&space;\arccos&space;\left(\frac{d_{3}^{2}&plus;|\boldsymbol{A}&space;\boldsymbol{W}|^{2}-d_{4}^{2}}{2&space;d_{3}|\boldsymbol{A}&space;\boldsymbol{W}|}\right)&space;\\\boldsymbol{A}&space;\boldsymbol{E}=d_{3}&space;\cdot&space;\operatorname{Rot}\left(\boldsymbol{z}_{2},&space;\psi\right)&space;\frac{\boldsymbol{A}&space;\boldsymbol{W}}{|\boldsymbol{A}&space;\boldsymbol{W}|}\end{gathered}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{gathered}\psi=G K_{2} \cdot \arccos \left(\frac{d_{3}^{2}+|\boldsymbol{A} \boldsymbol{W}|^{2}-d_{4}^{2}}{2 d_{3}|\boldsymbol{A} \boldsymbol{W}|}\right) \\\boldsymbol{A} \boldsymbol{E}=d_{3} \cdot \operatorname{Rot}\left(\boldsymbol{z}_{2}, \psi\right) \frac{\boldsymbol{A} \boldsymbol{W}}{|\boldsymbol{A} \boldsymbol{W}|}\end{gathered}\end{equation}" />
 
+   
+
+   where $GK_2= ±1$ corresponds to the two possible positions of the point *E*, corresponding to point *E* above and point *E*’ below, respectively. |***AW\***| represents the distance from point *A* to *W*.
+
+   
+
+   ![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/8.4m03bbu0fvc0.webp)
+
+   
+
+   $\theta_{3}$ is the angle of rotation from *SA* to *AE* around ***z\***3, so *θ*3 can be expressed as follows:
+
+4. $\theta_{4}$
+
+   According to the D–H method, $\theta_{4}$ is the angle of rotation from $x_3$ to $x_4$ around $z_4$.
+
+   
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{4}=\operatorname{atan}&space;2\left(\boldsymbol{x}_{3}&space;\times&space;\boldsymbol{x}_{4}&space;\cdot&space;\boldsymbol{z}_{4},&space;\boldsymbol{x}_{3}&space;\cdot&space;\boldsymbol{x}_{4}\right)\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\theta_{4}=\operatorname{atan} 2\left(\boldsymbol{x}_{3} \times \boldsymbol{x}_{4} \cdot \boldsymbol{z}_{4}, \boldsymbol{x}_{3} \cdot \boldsymbol{x}_{4}\right)\end{equation}" />
+
+   where $z_2$ is parallel to $z_4$. $X_3$ can be obtained by coordinate transformation according to $\theta_{1}$, $\theta_{2}$, and $\theta_{3}$. Because *EW* and $z_5$ are collinear with each other, $x_4$ can be expressed as
+
+   
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\boldsymbol{x}_{4}=\boldsymbol{z}_{4}&space;\times&space;\boldsymbol{z}_{5}=\boldsymbol{z}_{3}&space;\times&space;\frac{\boldsymbol{E}&space;W}{|\underline{\boldsymbol{E}&space;W}|}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\boldsymbol{x}_{4}=\boldsymbol{z}_{4} \times \boldsymbol{z}_{5}=\boldsymbol{z}_{3} \times \frac{\boldsymbol{E} W}{|\underline{\boldsymbol{E} W}|}\end{equation}" />
+
+5. $\theta_{5}$, $\theta_{6}$, and $\theta_{7}$
+
+   According to the above analysis, the values of the first four joints have been obtained, and the transformation matrix from the initial orientation to the target orientation can be described as
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}{&space;}_{7}^{4}&space;\boldsymbol{R}={&space;}_{4}^{0}&space;\boldsymbol{R}^{-1}&space;\cdot{&space;}_{7}^{0}&space;\boldsymbol{R}=\left[\begin{array}{ccc}n_{x}^{\prime}&space;&&space;o_{x}^{\prime}&space;&&space;a_{x}^{\prime}&space;\\n_{y}^{\prime}&space;&&space;o_{y}^{\prime}&space;&&space;a_{y}^{\prime}&space;\\n_{z}^{\prime}&space;&&space;o_{z}^{\prime}&space;&&space;a_{z}^{\prime}\end{array}\right]\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}{ }_{7}^{4} \boldsymbol{R}={ }_{4}^{0} \boldsymbol{R}^{-1} \cdot{ }_{7}^{0} \boldsymbol{R}=\left[\begin{array}{ccc}n_{x}^{\prime} & o_{x}^{\prime} & a_{x}^{\prime} \\n_{y}^{\prime} & o_{y}^{\prime} & a_{y}^{\prime} \\n_{z}^{\prime} & o_{z}^{\prime} & a_{z}^{\prime}\end{array}\right]\end{equation}" />
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}{&space;}_{7}^{4}&space;\boldsymbol{R}&space;&={&space;}_{5}^{4}&space;\boldsymbol{R}_{6}^{5}&space;\boldsymbol{R}_{7}^{6}&space;\boldsymbol{R}&space;\\&=\left[\begin{array}{ccc}c_{5}&space;c_{6}&space;c_{7}-s_{5}&space;s_{7}&space;&&space;-c_{5}&space;s_{7}-c_{6}&space;c_{7}&space;s_{5}&space;&&space;c_{5}&space;s_{6}&space;\\c_{7}&space;s_{6}&space;&&space;-s_{7}&space;s_{6}&space;&&space;-c_{6}&space;\\c_{5}&space;s_{7}&plus;c_{6}&space;c_{7}&space;s_{5}&space;&&space;c_{5}&space;c_{7}-s_{5}&space;c_{6}&space;s_{7}&space;&&space;s_{5}&space;s_{6}\end{array}\right]\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}{ }_{7}^{4} \boldsymbol{R} &={ }_{5}^{4} \boldsymbol{R}_{6}^{5} \boldsymbol{R}_{7}^{6} \boldsymbol{R} \\&=\left[\begin{array}{ccc}c_{5} c_{6} c_{7}-s_{5} s_{7} & -c_{5} s_{7}-c_{6} c_{7} s_{5} & c_{5} s_{6} \\c_{7} s_{6} & -s_{7} s_{6} & -c_{6} \\c_{5} s_{7}+c_{6} c_{7} s_{5} & c_{5} c_{7}-s_{5} c_{6} s_{7} & s_{5} s_{6}\end{array}\right]\end{aligned}\end{equation}" />
+
+   Due to the existence of the cosine function, there are two solutions. Introducing variables $GK_3= ±1$ reflect this position
+
+   
+
+   <img src="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\theta_{6}=G&space;K_{3}&space;\cdot&space;\arccos&space;\left(-a_{y}^{\prime}\right)&space;\\&\theta_{5}=\operatorname{atan}&space;2\left(\frac{a_{z}^{\prime}}{s_{6}},&space;\frac{a_{x}^{\prime}}{s_{6}}\right)&space;\\&\theta_{7}=\operatorname{atan}&space;2\left(\frac{-o_{y}^{\prime}}{s_{6}},&space;\frac{n_{y}^{\prime}}{s_{6}}\right)\end{aligned}\end{equation}" title="https://latex.codecogs.com/svg.image?\begin{equation}\begin{aligned}&\theta_{6}=G K_{3} \cdot \arccos \left(-a_{y}^{\prime}\right) \\&\theta_{5}=\operatorname{atan} 2\left(\frac{a_{z}^{\prime}}{s_{6}}, \frac{a_{x}^{\prime}}{s_{6}}\right) \\&\theta_{7}=\operatorname{atan} 2\left(\frac{-o_{y}^{\prime}}{s_{6}}, \frac{n_{y}^{\prime}}{s_{6}}\right)\end{aligned}\end{equation}" />
+
+   
+
+   
+
+   
+
+   
