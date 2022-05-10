@@ -197,7 +197,7 @@ Isometric view of WAM’s Workspace as shown below.
 
 Top view of WAM’s Workspace as shown below.
 
-![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/3.rk8khwd6syo.webp)
+![](https://raw.githubusercontent.com/JackTony123/Pichost/master/123/3.2d8jqul7miqs.webp)
 
  Side view of WAM's Workspace (Y-Z) as shown below.
 
