@@ -1,19 +1,19 @@
 ---
 layout:     post
-title:      Robot Direct Kinematics - Link Coordinate System and D-H Parameters
+title:      Robot Forward Kinematics - Link Coordinate System and D-H Parameters
 subtitle:   
 date:       2022-01-03
 author:     Longsen Gao
 header-img: img/sucai.jpg
 catalog: 	true
 tags:
-    - Robot Direct Kinematics
+    - Robot Forward Kinematics
     - DH Parameter
 ---
 
 ## 1. Link Coordinate System 
 
-From the series of articles we introduced before on coordinate systems, we learned that the homogenous transformation matrix could be used to calculate the coordinates of a spatial point in each coordinate system. At the beginning of the article "**Robot Direct Kinematics - Coordinate Systems and their Transformations**," we posed the problem of how to solve the coordinates of the endpoint P of a multilink robot in the world coordinate system. Here, we can try to solve this problem.
+From the series of articles we introduced before on coordinate systems, we learned that the homogenous transformation matrix could be used to calculate the coordinates of a spatial point in each coordinate system. At the beginning of the article "**Robot Forward Kinematics - Coordinate Systems and their Transformations**," we posed the problem of how to solve the coordinates of the endpoint P of a multilink robot in the world coordinate system. Here, we can try to solve this problem.
 
 Since relative motion can occur between the various connecting rods of the robot, it is tough to see where the endpoints are in the world coordinate system. So what can we do? We can decompose the problem to make each subproblem less challenging to solve.
 
