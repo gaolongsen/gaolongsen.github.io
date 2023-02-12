@@ -40,3 +40,7 @@ function chatGPT($q)
         return '我不大理解你说的，能精炼点提问吗？';
     }
 }
+
+if (isset($_GET['q'])) {
+    die(chatGPT($_GET['q']));
+}
