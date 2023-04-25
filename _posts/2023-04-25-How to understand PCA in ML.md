@@ -34,6 +34,16 @@ The initial step in PCA is to standardize the continuous variables to ensure tha
 
 Standardization involves mathematically transforming the data by subtracting the mean and dividing by the standard deviation for each value of each variable. This process ensures that each variable has a mean of zero and a standard deviation of one, resulting in a dataset with a common scale for all variables. By applying standardization, the PCA can be performed on a dataset where each variable has an equal contribution to the analysis, regardless of the scale of their initial values.
 
-In summary, standardization is a crucial first step in PCA that ensures unbiased results by reducing the impact of variable scale differences. By transforming the data into comparable scales, PCA can be performed on a dataset where each variable contributes equally to the analysis, resulting in more accurate and meaningful results.
+In summary, standardization is a crucial first step in PCA that ensures unbiased results by reducing the impact of variable scale differences. 
 
-![](/home/wam/Dropbox/ML595/OneDrive_2023-04-23/517 Machine Learning/GMM/fig/GMM21.png)
+
+
+![](https://latex.codecogs.com/svg.image?\huge&space;z&space;=&space;\dfrac{x&space;-&space;\mu}{\sigma})
+
+
+
+Where $x$ is the value of the data, $\miu$ is the mean of the set, $\sigma$ is the standard deviation value. By transforming the data into comparable scales, PCA can be performed on a dataset where each variable contributes equally to the analysis, resulting in more accurate and meaningful results.
+
+#### Second: Compute Covariance Matrix $\varSigma$
+
+ 
