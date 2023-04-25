@@ -42,8 +42,14 @@ In summary, standardization is a crucial first step in PCA that ensures unbiased
 
 
 
-Where $x$ is the value of the data, $\miu$ is the mean of the set, $\sigma$ is the standard deviation value. By transforming the data into comparable scales, PCA can be performed on a dataset where each variable contributes equally to the analysis, resulting in more accurate and meaningful results.
+Where $x$ is the value of the data, $\mu$ is the mean of the set, $\sigma$ is the standard deviation value. By transforming the data into comparable scales, PCA can be performed on a dataset where each variable contributes equally to the analysis, resulting in more accurate and meaningful results.
 
 #### Second: Compute Covariance Matrix $\varSigma$
 
- 
+The second step of PCA aims to identify any correlations between the variables of the input data set by analyzing how they vary from their mean values with respect to each other. In some cases, variables may be highly correlated, containing redundant information. Identifying these correlations is crucial in reducing the dimensionality of the dataset without losing significant information. To accomplish this, we compute the covariance matrix.
+
+The covariance matrix is a symmetric matrix of dimension p × p, where p represents the number of variables in the dataset. The entries of the covariance matrix represent the covariances between all possible pairs of variables. For instance, in a 3-dimensional data set with variables x, y, and z, the covariance matrix is a 3 × 3 matrix with entries representing the covariances between x and x, x and y, x and z, y and y, y and z, and z and z.
+
+Calculating the covariance matrix allows us to determine the degree to which variables are correlated and how they relate to each other. A positive covariance indicates that two variables increase or decrease together, while a negative covariance indicates that they vary in opposite directions. A covariance of zero implies that the variables are uncorrelated.
+
+In summary, the second step of PCA involves computing the covariance matrix to identify correlations between the variables in the dataset. This is a critical step in reducing the dimensionality of the data while preserving the most significant information. By analyzing the covariance matrix, we can gain insights into the relationships between variables and identify those that contain redundant information.
