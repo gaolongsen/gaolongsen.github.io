@@ -115,6 +115,43 @@ Orignal link</a>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">  
   <div style="flex: 1; padding-right: 20px;">    
+    <img src="https://longsengao.com/assets/img/publication_preview/MPC.gif" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p>       
+      This work proposes a novel robust adaptive model
+predictive controller for on-orbit dislodging. We consider the
+scenario where a servicer, equipped with a robot arm, must
+dislodge a client, a time-varying system composed of an under-
+powered jammed solar panel with a hybrid hinge system on a
+space station. Our approach leverages online set-membership
+identification to reduce the uncertainty to provide robust safety
+guarantees during dislodging despite bounded disturbances
+while balancing exploration and exploitation effectively in
+the parameter space. The feasibility of our developed robust
+adaptive MPC method is also examined through dislodging
+simulations and hardware experiments in zero-gravity and
+gravity environments, respectively. In addition, the advantages
+of our method are shown through comparison experiments with
+several state-of-the-art control schemes for both accuracy of
+parameter estimation and control performance.     
+    </p>  
+  </div>
+</div>
+
+```
+@article{gao2025robustadaptivempc,
+  title={Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC},
+  author={Gao, Longsen and Danielson, Claus and Kwas, Andrew and Fierro, Rafael},
+  journal={Under review},
+  year={2025}
+}
+```
+
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 20px;">    
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp1.7w6lrjlcu0.gif" alt="Animated GIF" style="max-width: 100%;">  
   </div>  
   <div style="flex: 1; padding-left: 20px;">    
