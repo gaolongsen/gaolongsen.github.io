@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2024-07-24 08:53:00-0400
+date: 2024-08-07 06:00:00-0400
 inline: true
 related_posts: false
 ---
 
- Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
+Thanks [TechXplore](https://techxplore.com/) report our research work! We are so glad the our research was reported by a worldwide influential science and technology press! The detail can be found [here](https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html).
 
 
 

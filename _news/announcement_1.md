@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-10-28 11:30:00-0400
+date: 2025-1-5 11:00:00-0400
 inline: true
-related_posts: false
+related_posts: false 
 ---
 
-**Oral Presentation at [DARS 2024](https://dars2024.engineering.cornell.edu/)**  Delighted to present my paper [Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots](https://arxiv.org/abs/2407.08084) in the 17th International Symposium on Distributed Autonomous Robotic Systems Conference in Cornell Tech! Say hello to New York City! :statue_of_liberty:
+One of our **[RAL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)** paper is accepted!:confetti_ball: Thanks for all collaborators' pretty hard work! :muscle:See detail about our [paper](https://ieeexplore.ieee.org/document/10857382) and [video](https://www.youtube.com/watch?v=lhTVIWSjhvQ).
 
