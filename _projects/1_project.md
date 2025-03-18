@@ -2,7 +2,7 @@
 layout: page
 title: Space University Research Initiative
 description: UNM, CMU, TAMU, Northrop Grumman
-img: https://github.com/JackTony123/picx-images-hosting/raw/master/maxresdefault.6m3vz99eau.webp
+img: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
 importance: 1
 category: work
 related_publications: false
