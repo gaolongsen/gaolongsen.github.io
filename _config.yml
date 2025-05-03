@@ -58,22 +58,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Longsen"
+  name   : "Longsen Gao"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://longsengao.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Linkeddin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/longsen-g-5633b9101/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UClGfGOZuFI0itXSTFhFiGeA"
 
 footer:
   links:
