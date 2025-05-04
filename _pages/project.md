@@ -26,7 +26,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/9suqoh.5fkssgfgl2.gif
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/RAL_Final_V2_x264-(1).1sf94ygqf0.gif
     title: ""
     excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
 feature_row2:
