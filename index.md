@@ -236,7 +236,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/rocket.41y9nqlir6.webp" style="width: 100%;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -253,7 +253,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/icon_suri.9dd68fya9p.webp" 
+         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/rocket.41y9nqlir6.webp" 
        alt="Drone Icon" 
        style="width:30px; height:25px;vertical-align:baseline; margin-right:-4px;">
       <b>Space University Research Initiative (SURI)</b>
