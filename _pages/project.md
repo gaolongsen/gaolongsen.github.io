@@ -13,10 +13,10 @@ header:
   caption: "Photo credit: [**Longsen Gao**](https://www.linkedin.com/in/longsen-g-5633b9101/)"
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
-feature_row:
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
-    alt: "placeholder image 1"
-    title: "Space Univversity Research Initiative"
+feature_row1:
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
+    alt: "placeholder image 3"
+    title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
     btn_label: "Read More"
