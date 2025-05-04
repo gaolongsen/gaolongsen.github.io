@@ -32,7 +32,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🦾Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/11689331_robot_arm_robotics_mechanical_electronics_icon.7lk7dhezo7.webp" 
+       alt="Arm Icon" 
+       style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
+      <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Andrew Kwas, Rafael Fierro <br>
@@ -64,7 +67,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🛩️AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/drone_yellow.51ed0u36z2.webp" 
+       alt="Drone Icon" 
+       style="width:24px; height:24px;vertical-align:baseline; margin-right:-4px;">
+      <b>AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
     </span>
     <p>
       Jiawei Xu, <strong>Longsen Gao</strong>, Rafael Fierro, David Saldaña <br>
@@ -96,7 +102,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🦾Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/11689331_robot_arm_robotics_mechanical_electronics_icon.7lk7dhezo7.webp" 
+       alt="Arm Icon" 
+       style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
+      <b>Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Bennett Russell, and Rafael Fierro <br>
