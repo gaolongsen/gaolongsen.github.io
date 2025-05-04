@@ -2,7 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
+layout: home
+classes: wide
 author_profile: true
 ---
 
@@ -31,7 +32,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPCSafe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
+      <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Andrew Kwas, Rafael Fierro <br>
@@ -43,6 +44,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
+
 
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
@@ -59,16 +61,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       font-weight: bold;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      Under Review
+      RA-L 2025
     </span>
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPCSafe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
+      <b>AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
     </span>
     <p>
-      <strong>Longsen Gao</strong>, Claus Danielson, Andrew Kwas, Rafael Fierro <br>
-      <i>IEEE Transactions on Control Systems Technology (TCST)</i> <br>
+      Jiawei Xu, <strong>Longsen Gao</strong>, Rafael Fierro, David Saldaña <br>
+      <i>IEEE Robotics and Automation Letters (RA-L)</i> <br>
       <a href="http://tiny.cc/tcst2025unm/" title="Video">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://arxiv.org/abs/2503.16849" title="Paper">
