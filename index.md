@@ -162,7 +162,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🛩️Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots</b>
+          <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/drone_yellow.51ed0u36z2.webp" 
+       alt="Drone Icon" 
+       style="width:24px; height:24px;vertical-align:baseline; margin-right:-4px;">
+      <b>Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
