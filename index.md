@@ -158,7 +158,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/document/10886806" title="Paper">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
-      <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/document/10886806" title="Paper">
+      <span style="margin-left: 10px;"></span> <a href="https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html" title="Paper">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/news-report_7305498.3yenpvysct.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Media Report]</b> </a>
     </p>
   </div>
