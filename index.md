@@ -76,7 +76,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
-
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tobesubmit.9gws609ifb.webp" style="width: 100%;">
@@ -96,7 +95,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
+      <b>🦾Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Bennett Russell, and Rafael Fierro <br>
@@ -128,7 +127,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
+      <b>🛰️Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
@@ -142,6 +141,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp2.6pnaiy0eby.gif" style="width: 100%;">
