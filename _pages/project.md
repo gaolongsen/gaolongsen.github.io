@@ -16,8 +16,8 @@ excerpt: "Try my best to contribute this world via my passioned robotics."
 feature_row:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
     alt: "placeholder image 3"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Space Univversity Research Initiative (SURI)"
+    excerpt: 'The Space University Research Initiative (SURI) program is sponsored by the Air Force Office of Scientific Research (AFOSR) and the Air Force Research Laboratory (AFRL) Chief Technologist Office and encourages participation between academia, the Air Force Research Laboratory (AFRL) space focused technology directorates, and industry.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
