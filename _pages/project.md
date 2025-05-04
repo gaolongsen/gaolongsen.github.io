@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Longsen Gao**](https://www.linkedin.com/in/longsen-g-5633b9101/)"
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
-feature_row3:
+feature_row:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
@@ -32,7 +32,7 @@ feature_row2:
 feature_row3:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_robot.4jo38w5wkh.gif
     alt: "placeholder image 3"
-    title: "Placeholder Image Left Aligned"
+    title: "Bipedal Robot"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
     btn_label: "Read More"
