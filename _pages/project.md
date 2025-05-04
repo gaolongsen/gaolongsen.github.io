@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: https://github.com/JackTony123/picx-images-hosting/raw/master/new_v2.7snf91u0kl.webp
   actions:
     - label: "Download"
       url: "https://github.com/mmistakes/minimal-mistakes/"
