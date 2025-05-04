@@ -32,7 +32,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
+      <b>🦾Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Andrew Kwas, Rafael Fierro <br>
@@ -64,7 +64,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
+      <b>🛩️AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
     </span>
     <p>
       Jiawei Xu, <strong>Longsen Gao</strong>, Rafael Fierro, David Saldaña <br>
@@ -76,6 +76,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tobesubmit.9gws609ifb.webp" style="width: 100%;">
