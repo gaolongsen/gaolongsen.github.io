@@ -3,9 +3,8 @@ title: "Research & Industry Projects"
 layout: single
 classes: wide
 permalink: /suri/
-date: 2025-03-16T11:48:41-04:00
 author_profile: true
-last_modified_at: 2025-05-5
+last_modified_at: 2025-05-05
 ---
 
 The Space University Research Initiative (SURI) program is sponsored by the Air Force Office of Scientific Research (AFOSR) and the Air Force Research Laboratory (AFRL) Chief Technologist Office and encourages participation between academia, the Air Force Research Laboratory (AFRL) space focused technology directorates, and industry.
