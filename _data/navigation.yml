@@ -1,4 +1,8 @@
 main:
+  - title: "Home"
+    url: https://longsengao.com
+  - title: "Projects"
+    url: /project/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
