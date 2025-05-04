@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "Research & Industry Projects"
 layout: splash
 permalink: /project/
 date: 2016-03-23T11:48:41-04:00
