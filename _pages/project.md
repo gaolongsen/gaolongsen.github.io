@@ -32,7 +32,7 @@ feature_row:
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
     alt: "placeholder image 2"
-    title: "Automatic Leakage Dection using CV via Biomimetic Robot Fish"
+    title: "Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "#test-link"
     btn_label: "Read More"
@@ -40,7 +40,7 @@ feature_row2:
 feature_row3:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_robot.4jo38w5wkh.gif
     alt: "placeholder image 3"
-    title: "Bipedal Robot"
+    title: "Vision-Based Control for High-Speed Locomotion of a Bipedal Robot"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
     btn_label: "Read More"
