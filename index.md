@@ -253,18 +253,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/rocket.41y9nqlir6.webp" 
-       alt="Drone Icon" 
-       style="width:30px; height:25px;vertical-align:baseline; margin-right:-4px;">
-      <b>Space University Research Initiative (SURI)</b>
+      <b>🚀Space Univversity Research Initiative (SURI)</b>
     </span>
     <p>
-      <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
-      <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i> <br>
+      <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/cmu_2.1e8tdelicd.webp" alt="CMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tamu.5j4epid1rn.webp" alt="TAMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" alt="UNM Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.32i6aleprx.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;">
+      </span> <br> <i>Funded by: Air Force Research Laboratory (AFRL)</i>  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl.5fksrsxbd5.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;"> <br>
       <a href="https://youtu.be/Ysn8NsNsPG4" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
-      <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/abstract/document/10341875" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Video Icon" style="width: 25px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Detail]</b> </a>
     </p>
   </div>
 </div>
