@@ -21,13 +21,13 @@ feature_row:
     excerpt: "Space robot servicer and maintaining research project sponsored by AFRL. Collaboration with CMU, TAMU, Northrop Grumman Corporation."
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
     alt: "placeholder image 2"
-    # title: "Placeholder 2"
+    title: "              "
     excerpt: "Transportation mission using multi-arm robot system via dencentralized adaptive control."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/RAL_Final_V2_x264-(1).1sf94ygqf0.gif
-    title: ""
+    title: "        "
     excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
