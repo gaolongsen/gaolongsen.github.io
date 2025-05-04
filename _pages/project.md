@@ -19,7 +19,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Space Univversity Research Initiative (SURI)"
     excerpt: "Space robot servicer and maintaining research project sponsored by AFRL. Collaboration with CMU, TAMU, Northrop Grumman Corporation."
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/trans.7pi5i585u.gif
     alt: "placeholder image 2"
     # title: "              "
     excerpt: "Transportation mission using multi-arm robot system via dencentralized adaptive control."
@@ -30,7 +30,7 @@ feature_row:
     # title: "        "
     excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
 feature_row2:
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/trans.7pi5i585u.gif
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
     alt: "placeholder image 2"
     title: "Automatic Leakage Dection using CV via Biomimetic Robot Fish"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
