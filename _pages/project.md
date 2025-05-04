@@ -28,7 +28,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/9suqoh.5fkssgfgl2.gif
     title: ""
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
     alt: "placeholder image 2"
