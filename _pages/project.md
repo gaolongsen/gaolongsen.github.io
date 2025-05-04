@@ -20,6 +20,7 @@ feature_row:
     title: "Space Univversity Research Initiative (SURI)"
     excerpt: "Space robot servicer and maintaining research project sponsored by AFRL. Collaboration with CMU, TAMU, Northrop Grumman Corporation."
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/trans.7pi5i585u.gif
+    image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 2"
     # title: "              "
     excerpt: "Transportation mission using multi-arm robot system via dencentralized adaptive control."
@@ -27,10 +28,12 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/RAL_Final_V2_x264-(1).1sf94ygqf0.gif
+    image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     # title: "        "
     excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
+    image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 2"
     title: 'Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision'
     excerpt: 'This research presents a biomimetic robotic fish employing a vision-based system for the automated detection of underwater leaks. Inspired by biological fish structures often explored in robotics competitions, the platform is designed to identify leakage sources from submerged infrastructure, such as pipes or conduits, using computer vision techniques'
@@ -39,6 +42,7 @@ feature_row2:
     btn_class: "btn--primary"
 feature_row3:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_robot.4jo38w5wkh.gif
+    image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 3"
     title: "Vision-Based Control for High-Speed Locomotion of a Bipedal Robot"
     excerpt: 'Achieving robust high-speed locomotion in bipedal robots presents significant challenges, particularly when traversing variable ground surfaces encountered in dynamic environments such as competitions. This research details a vision-based control framework designed to address this challenge. The system utilizes real-time computer vision to identify the characteristics of the upcoming terrain or mat surface. '
