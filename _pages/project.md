@@ -18,7 +18,7 @@ feature_row:
     image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 1"
     title: "Space Univversity Research Initiative (SURI)"
-    excerpt: "Space robot servicer and maintaining research project sponsored by AFRL."
+    excerpt: "Space robot servicer and maintaining research project sponsored by AFRL. Collaboration with CMU, TAMU, Northrop Grumman Corporation."
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
     alt: "placeholder image 2"
     # title: "Placeholder 2"
