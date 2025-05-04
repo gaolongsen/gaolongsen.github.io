@@ -108,4 +108,37 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
+<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp1.3nrehpqrvy.gif" style="width: 100%;">
+    <span style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(13, 40, 216, 0.9);
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      CDC 2024
+    </span>
+  </div>
+  <div style="text-align: justify;">
+    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
+      <b>Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
+    </span>
+    <p>
+      <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
+      <i>IEEE Conference on Decision and Control (CDC)</i> <br>
+      <a href="https://youtu.be/GT9Tfc1BBlY?si=vVmIjXv3e55dsjyg" title="Video">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+      <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/document/10886806" title="Paper">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+      <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/document/10886806" title="Paper">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/news-report_7305498.3yenpvysct.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Media Report]</b> </a>
+    </p>
+  </div>
+</div>
 
