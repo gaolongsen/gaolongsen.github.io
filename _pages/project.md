@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Longsen Gao**](https://www.linkedin.com/in/longsen-g-5633b9101/)"
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
-feature_row:
+feature_row3:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/W020210716385213055625.9rj8li1cxo.webp
     alt: "placeholder image 3"
     title: "Space Univversity Research Initiative (SURI)"
