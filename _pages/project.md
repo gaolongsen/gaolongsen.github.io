@@ -14,13 +14,21 @@ header:
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
 feature_row:
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 1"
+    title: "Space Univversity Research Initiative (SURI)"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
     alt: "placeholder image 2"
