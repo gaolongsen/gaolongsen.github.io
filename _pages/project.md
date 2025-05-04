@@ -33,7 +33,7 @@ feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
     alt: "placeholder image 2"
     title: 'Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision'
-    execerpt: 'This research presents a biomimetic robotic fish employing a vision-based system for the automated detection of underwater leaks. Inspired by biological fish structures often explored in robotics competitions, the platform is designed to identify leakage sources from submerged infrastructure, such as pipes or conduits, using computer vision techniques'
+    excerpt: 'This research presents a biomimetic robotic fish employing a vision-based system for the automated detection of underwater leaks. Inspired by biological fish structures often explored in robotics competitions, the platform is designed to identify leakage sources from submerged infrastructure, such as pipes or conduits, using computer vision techniques'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
