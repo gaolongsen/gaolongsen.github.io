@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Longsen Gao**](https://www.linkedin.com/in/longsen-g-5633b9101/)"
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
-feature_row1:
+feature_row:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
     alt: "placeholder image 3"
     title: "Placeholder Image Left Aligned"
