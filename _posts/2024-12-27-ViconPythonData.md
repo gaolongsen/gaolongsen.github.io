@@ -1,12 +1,13 @@
 ---
-layout: post
-title: How to get object information from Vicon System through Python?
-date: 2024-12-27 18:00:00-0400
-description: This tutorial will help you to use python to get the data from the Vicon directly and no rely on ROS.
-tags: Vicon System, Python
-categories: sample-posts
-related_posts: false
-giscus_comments: false
+title: "How to get object information from Vicon System through Python?"
+date: 2024-12-27T18:00:00-04:00
+categories:
+  - blog
+tags:
+  - Motion Capture System
+  - Vicon
+  - Robot Hardware  
+  - Python
 ---
 
 # **How to get object information from Vicon System through Python?**
