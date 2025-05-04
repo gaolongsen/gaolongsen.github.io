@@ -11,7 +11,7 @@ I'm now a fourth-year PhD student at AgMan Lab, University of New Mexico under t
 
 My research interest focus on **High-DOF Robotics Manipulation**, **Control System** and **Deep Learning**. Currently, I'm focusing on space servicing and repairing project leveraging multi-robot arm system and learning-based control algorithm. Besides, I'm passionate about vision-based grasping work and am now working on a vision-based pre-capturing project for free-flying space objects.
 
-## Research Projects
+## Selected Research Projects
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
@@ -45,8 +45,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
-
-
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bend_demo.3nrtwnrugw.gif" style="width: 100%;">
@@ -71,10 +69,42 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     <p>
       Jiawei Xu, <strong>Longsen Gao</strong>, Rafael Fierro, David Saldaña <br>
       <i>IEEE Robotics and Automation Letters (RA-L)</i> <br>
-      <a href="http://tiny.cc/tcst2025unm/" title="Video">
+      <a href="https://youtu.be/lhTVIWSjhvQ?si=CL-mpnZaj192GuDO" title="Video">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
-      <span style="margin-left: 10px;"></span> <a href="https://arxiv.org/abs/2503.16849" title="Paper">
+      <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/abstract/document/10857382" title="Paper">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tobesubmit.9gws609ifb.webp" style="width: 100%;">
+    <span style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(13, 40, 216, 0.9);
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      To be submittted
+    </span>
+  </div>
+  <div style="text-align: justify;">
+    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
+      <b>Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
+    </span>
+    <p>
+      <strong>Longsen Gao</strong>, Claus Danielson, Bennett Russell, and Rafael Fierro <br>
+      <i>IEEE Robotics and Automation Letters (RA-L)</i> <br>
+      <a href="" title="Video">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[TBD]</b> </a>
+      <span style="margin-left: 10px;"></span> <a href="" title="Paper">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[TBD]</b> </a>
     </p>
   </div>
 </div>
