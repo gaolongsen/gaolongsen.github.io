@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Longsen Gao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Full-stack in Roboitcs ∪ Control ∩ Deep Learning"
+  bio    : "Roboitcs ∪ Control ∩ Deep Learning"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
