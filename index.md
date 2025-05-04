@@ -32,7 +32,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/11689331_robot_arm_robotics_mechanical_electronics_icon.7lk7dhezo7.webp" 
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.491hj488qv.webp" 
        alt="Arm Icon" 
        style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
       <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
@@ -102,7 +102,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/11689331_robot_arm_robotics_mechanical_electronics_icon.7lk7dhezo7.webp" 
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.491hj488qv.webp" 
        alt="Arm Icon" 
        style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
       <b>Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
@@ -137,7 +137,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🛰️Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/space-robot.45hvlel90n.webp" 
+       alt="Drone Icon" 
+       style="width:20px; height:20px;vertical-align:baseline; margin-right:-4px;">
+      <b>Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
@@ -206,7 +209,10 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>🛰️Autonomous Multi-Robot Servicing for Spacecraft Operation Extension</b>
+         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/space-robot.45hvlel90n.webp" 
+       alt="Drone Icon" 
+       style="width:20px; height:20px;vertical-align:baseline; margin-right:-4px;">
+      <b>Autonomous Multi-Robot Servicing for Spacecraft Operation Extension</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
