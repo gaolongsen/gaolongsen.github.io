@@ -26,8 +26,8 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/9suqoh.5fkssgfgl2.gif
+    title: ""
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif
