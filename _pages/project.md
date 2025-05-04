@@ -7,10 +7,10 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: https://github.com/JackTony123/picx-images-hosting/raw/master/new_v2.7snf91u0kl.webp
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#   actions:
+#     - label: ""
+#       url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Longsen Gao**](https://www.linkedin.com/in/longsen-g-5633b9101/)"
 excerpt: "Try my best to contribute this world via my passioned robotics."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
