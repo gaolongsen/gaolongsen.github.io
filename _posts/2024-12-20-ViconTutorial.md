@@ -1,12 +1,12 @@
 ---
-layout: post
-title: Tutorial for Vicon System Setup and Usage
-date: 2024-12-21 16:00:00-0400
-description: This would be like an instruction to help the newer to learn how to setup and use Vicon in just one day.
-tags: Vicon System
-categories: sample-posts
-related_posts: false
-giscus_comments: false
+title: "Tutorial for Vicon System Setup and Usage"
+date: 2024-12-21T16:00:00-04:00
+categories:
+  - blog
+tags:
+  - Motion Capture System
+  - Vicon
+  - Robot Hardware
 ---
 
 # **How to set up and use Vicon System within just one day?**
