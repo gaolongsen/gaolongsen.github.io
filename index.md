@@ -142,7 +142,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
-
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp2.6pnaiy0eby.gif" style="width: 100%;">
@@ -162,7 +161,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots</b>
+      <b>🛩️Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
@@ -194,7 +193,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>Autonomous Multi-Robot Servicing for Spacecraft Operation Extension</b>
+      <b>🛰️Autonomous Multi-Robot Servicing for Spacecraft Operation Extension</b>
     </span>
     <p>
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
