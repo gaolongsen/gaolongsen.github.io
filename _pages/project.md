@@ -14,7 +14,7 @@ header:
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
 feature_row:
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
+  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
     alt: "placeholder image 1"
     title: "Space Univversity Research Initiative"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
