@@ -15,13 +15,13 @@ excerpt: "Try my best to contribute this world via my passioned robotics."
 
 feature_row:
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 1"
     title: "Space Univversity Research Initiative (SURI)"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif
     alt: "placeholder image 2"
-    title: "Placeholder 2"
+    # title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
