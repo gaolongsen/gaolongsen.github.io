@@ -1,11 +1,13 @@
 ---
-layout: post
-title: UR5e Driver Problem in Ubuntu 20.04 with ROS Noetic
-date: 2025-02-27 09:00:00-0400
-description: This is a kind of weird C++ problem for the UR5e's driver installation in Ubuntu 20.04 ROS Noetic
-categories: sample-posts
-related_posts: false
-giscus_comments: false
+title: "UR5e Driver Problem in Ubuntu 20.04 with ROS Noetic"
+date: 2025-02-27T09:00:00-04:00
+categories:
+  - blog
+tags:
+  - UR5e
+  - C++
+  - Robot Hardware
+  - Ubuntu
 ---
 
 # **Compiler error with yaml-cpp - undefined reference to `YAML::detail::node_data::convert_to_map**
