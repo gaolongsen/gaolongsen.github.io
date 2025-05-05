@@ -248,7 +248,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       font-weight: bold;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      IROS 2023
     </span>
   </div>
   <div style="text-align: justify;">
