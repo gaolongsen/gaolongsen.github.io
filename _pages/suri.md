@@ -97,22 +97,7 @@ SURI is part of the bold high risk high reward transformational basic research e
   </div>  
   <div style="flex: 1; padding-left: 20px;">    
     <p>       
-      This work proposes a novel robust adaptive model
-predictive controller for on-orbit dislodging. We consider the
-scenario where a servicer, equipped with a robot arm, must
-dislodge a client, a time-varying system composed of an under-
-powered jammed solar panel with a hybrid hinge system on a
-space station. Our approach leverages online set-membership
-identification to reduce the uncertainty to provide robust safety
-guarantees during dislodging despite bounded disturbances
-while balancing exploration and exploitation effectively in
-the parameter space. The feasibility of our developed robust
-adaptive MPC method is also examined through dislodging
-simulations and hardware experiments in zero-gravity and
-gravity environments, respectively. In addition, the advantages
-of our method are shown through comparison experiments with
-several state-of-the-art control schemes for both accuracy of
-parameter estimation and control performance.     
+      This work introduces a novel robust adaptive Model Predictive Control (MPC) strategy for the on-orbit robotic dislodging of time-varying systems, specifically addressing a jammed solar panel with a hybrid hinge on a space station. The controller leverages online set-membership identification to reduce parametric uncertainty, ensuring robust safety guarantees amidst bounded disturbances while effectively balancing exploration and exploitation. Feasibility is demonstrated through simulations and hardware experiments under zero-gravity and terrestrial conditions. Comparative studies against state-of-the-art methods validate the proposed approach, showing superior parameter estimation accuracy and control performance.  
     </p>  
   </div>
 </div>
