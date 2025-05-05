@@ -30,13 +30,6 @@ This project is inspired by a national robotics competition, focusing on biomime
 
 <div class="row">
     <!-- Left Image -->
-    <div class="col-sm mt-3 mt-md-0">
-        <figure style="text-align: center;">
-            <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/stm32.syxno67e4.webp" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <figcaption>STM32F407ZET6 Embedded Board</figcaption>
-        </figure>
-    </div> 
-    <div class="col-sm mt-3 mt-md-0">
     <figure style="text-align: center;">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/sharing.5mnsju7vy2.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>How the binoic fish robot work under the water.</figcaption>
