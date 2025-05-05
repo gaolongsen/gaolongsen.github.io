@@ -106,7 +106,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       font-weight: bold;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      To be submittted
+      In procedding
     </span>
   </div>
   <div style="text-align: justify;">
@@ -118,7 +118,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Bennett Russell, and Rafael Fierro <br>
-      <i>IEEE Robotics and Automation Letters (RA-L)</i> <br>
+      <i>IEEE Transactions on Automation Science and Engineering (TASE)</i> <br>
       <a href="" title="Video">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[TBD]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="" title="Paper">
