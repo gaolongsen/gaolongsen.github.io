@@ -96,7 +96,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
   <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448" height="252" src="https://youtu.be/gSc0174IL_o" 
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/gSc0174IL_o" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
@@ -124,7 +124,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
   <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448" height="252" src="https://youtu.be/GT9Tfc1BBlY" 
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/GT9Tfc1BBlY" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
@@ -152,7 +152,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
   <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448" height="252" src="https://youtu.be/_Rv_Do5cg4g" 
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/_Rv_Do5cg4g" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
@@ -180,7 +180,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
   <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448" height="252" src="https://youtu.be/XYMIMlCrZO4" 
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/XYMIMlCrZO4" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
