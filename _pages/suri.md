@@ -44,7 +44,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 
 
-## Hand-in Experience with Robotics
+## Practical Experience in Robot Hardware
 
 <div style="display: flex; justify-content: space-between; align-items: center;">  
   <div style="flex: 1; padding-right: 70px;">    
@@ -65,7 +65,26 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 ```
 
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 70px;">    
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bh_hand.7p3tcova0a.webp" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p style="font-size: 18px;">
+      <strong>Name</strong>: Barrett Dextrous Hand<br>
+      <strong>Web</strong>: <a href="https://barrett.com/barretthand" target="_blank">Barreett Robots</a><br>
+      <strong>Skill</strong>: Python, C++<br>
+      <strong>Simulation Platform Used</strong>: MuJoCo, Gazebo <br>
+      <strong>Experience years</strong>: 4 yrs
+    </p>  
+  </div>
+</div>
 
+
+
+```none
+
+```
 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">  
