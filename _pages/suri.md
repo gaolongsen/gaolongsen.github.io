@@ -111,18 +111,24 @@ SURI is part of the bold high risk high reward transformational basic research e
 }
 ```
 
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
-
-<div style="display: flex; justify-content: space-between; align-items: center;">  
-  <div style="flex: 1; padding-right: 20px;">    
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp1.7w6lrjlcu0.gif" alt="Animated GIF" style="max-width: 100%;">  
-  </div>  
-  <div style="flex: 1; padding-left: 20px;">    
-    <p>       
-      This work presents an adaptive detumbling method for stabilizing non-rigid satellites with uncertain motion dynamics, modeled as a two-link serial chain with unknown stiffness and damping properties. Unlike previous approaches treating satellites as rigid bodies, the proposed method uses two space tugs to handle the satellite's complex dynamics during detumbling. The approach addresses the challenges of unknown mass, inertia, and stiffness, offering a solution for advanced manipulation of non-rigid satellites in space.     
-    </p>  
+  <!-- Left: YouTube video with fixed size -->
+  <div style="flex: 1; padding-right: 20px; min-width: 300px;">
+    <iframe width="448" height="252" src="https://youtu.be/GT9Tfc1BBlY" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
+
+  <!-- Right: Text description -->
+  <div style="flex: 1; padding-left: 20px; min-width: 300px;">
+    <p>
+      This work presents an adaptive detumbling method for stabilizing non-rigid satellites with uncertain motion dynamics, modeled as a two-link serial chain with unknown stiffness and damping properties. Unlike previous approaches treating satellites as rigid bodies, the proposed method uses two space tugs to handle the satellite's complex dynamics during detumbling. The approach addresses the challenges of unknown mass, inertia, and stiffness, offering a solution for advanced manipulation of non-rigid satellites in space.
+    </p>
+  </div>
+
 </div>
+
 
 ```latex
 @article{gao2024adaptive,
@@ -137,7 +143,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
   <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448" height="252" src="https://www.youtube.com/embed/gSc0174IL_o" 
+    <iframe width="448" height="252" src="https://youtu.be/_Rv_Do5cg4g" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
