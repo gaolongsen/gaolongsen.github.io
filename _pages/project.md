@@ -23,7 +23,7 @@ feature_row:
     alt: "placeholder image 2"
     # title: "              "
     excerpt: "Transportation mission using multi-arm robot system via dencentralized adaptive control."
-    url: "#test-link"
+    url: "https://longsengao.com/suri/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/RAL_Final_V2_x264-(1).1sf94ygqf0.gif
