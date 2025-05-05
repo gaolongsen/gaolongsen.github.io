@@ -26,7 +26,13 @@ This project is inspired by a national robotics competition, focusing on biomime
     </figure>
 </div>
 
-
+<div class="row">
+    <!-- Left Image -->
+    <figure style="text-align: center;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bio_fish_structure.wirq466yz.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <figcaption>Structure of the robot.</figcaption>
+    </figure>
+</div>
 
 <div class="row">
     <!-- Left Image -->
