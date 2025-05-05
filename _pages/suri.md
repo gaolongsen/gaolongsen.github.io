@@ -31,7 +31,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" width="150px" style="margin: 0 20px;"/>
 <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.32i6aleprx.webp" width="150px" style="margin: 0 20px;"/>
 
-<p><em> Space servicing and repairing task in Sapce.</em></p>
+<p><em> CMU， TAMU， UNM and Northrop Grumman develop robotics technology to service satellites, build structures in orbit.</em></p>
 
 </div>
 
