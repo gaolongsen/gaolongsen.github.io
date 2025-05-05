@@ -91,16 +91,25 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 ## Selected Works
 
-<div style="display: flex; justify-content: space-between; align-items: center;">  
-  <div style="flex: 1; padding-right: 20px;">    
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/mpc_personal_web.3nrtwn2rmz.gif" alt="Animated GIF" style="max-width: 100%;">  
-  </div>  
-  <div style="flex: 1; padding-left: 20px;">    
-    <p>       
-      This work introduces a novel robust adaptive Model Predictive Control (MPC) strategy for the on-orbit robotic dislodging of time-varying systems, specifically addressing a jammed solar panel with a hybrid hinge on a space station. The controller leverages online set-membership identification to reduce parametric uncertainty, ensuring robust safety guarantees amidst bounded disturbances while effectively balancing exploration and exploitation. Feasibility is demonstrated through simulations and hardware experiments under zero-gravity and terrestrial conditions. Comparative studies against state-of-the-art methods validate the proposed approach, showing superior parameter estimation accuracy and control performance.  
-    </p>  
+
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+  <!-- Left: YouTube video with fixed size -->
+  <div style="flex: 1; padding-right: 20px; min-width: 300px;">
+    <iframe width="448" height="252" src="https://youtu.be/gSc0174IL_o" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
+
+  <!-- Right: Text description -->
+  <div style="flex: 1; padding-left: 20px; min-width: 300px;">
+    <p>
+      This work introduces a novel robust adaptive Model Predictive Control (MPC) strategy for the on-orbit robotic dislodging of time-varying systems, specifically addressing a jammed solar panel with a hybrid hinge on a space station. The controller leverages online set-membership identification to reduce parametric uncertainty, ensuring robust safety guarantees amidst bounded disturbances while effectively balancing exploration and exploitation. Feasibility is demonstrated through simulations and hardware experiments under zero-gravity and terrestrial conditions. Comparative studies against state-of-the-art methods validate the proposed approach, showing superior parameter estimation accuracy and control performance. 
+    </p>
+  </div>
+
 </div>
+
 
 ```
 @article{gao2025robustadaptivempc,
