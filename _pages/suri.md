@@ -28,7 +28,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/cmu.1hsfb47577.webp" width="150px" style="margin: 0 20px;"/>
 <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tamu.5j4epid1rn.webp" width="150px" style="margin: 0 20px;"/>
-<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" width="150px" style="margin: 0 20px;"/>
+<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" width="170px" style="margin: 0 20px;"/>
 <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.7w717tiz5b.webp" width="150px" style="margin: 0 20px;"/>
 
 <p><em> CMU， TAMU， UNM and Northrop Grumman develop robotics technology to service satellites, build structures in orbit.</em></p>
