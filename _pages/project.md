@@ -42,7 +42,7 @@ feature_row3:
     alt: "placeholder image 3"
     title: "Vision-Based Control for High-Speed Locomotion of a Bipedal Robot"
     excerpt: 'Achieving robust high-speed locomotion in bipedal robots presents significant challenges, particularly when traversing variable ground surfaces encountered in dynamic environments such as competitions. This research details a vision-based control framework designed to address this challenge. The system utilizes real-time computer vision to identify the characteristics of the upcoming terrain or mat surface. '
-    url: "#test-link"
+    url: "https://longsengao.com/bipedal/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
