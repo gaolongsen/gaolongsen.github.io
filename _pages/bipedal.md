@@ -7,7 +7,7 @@ author_profile: true
 last_modified_at: 2025-05-01
 ---
 
-This project is based on an undergraduate national robot competition using biomimetic fish structure design for underwater robots. The aim is to use a robot to detect the leaking point of the tube underwater. We use STM32F407ZET6 embedded board and OpenCV camera module to incorporate the computer vision algorithm and PID controller for the robot fish to ensure it can swim under the water and detect all leaking pointspoints quickly.
+This project is inspired by a national robotics competition, focusing on biomimetic fish designs for underwater robotic applications. The primary objective is to develop an autonomous underwater robot capable of efficiently detecting leakage points along submerged pipelines. Leveraging advanced hardware integration, we utilize an STM32F407ZET6 embedded microcontroller coupled with an OpenCV-powered vision module to implement sophisticated computer vision algorithms. Furthermore, a finely-tuned PID control system is designed to ensure precise swimming maneuvers and stable navigation. The main contributions and novelty of this project lie in the integration of real-time visual leak detection with bio-inspired robotic swimming, demonstrating rapid and reliable performance under complex underwater conditions. This interdisciplinary approach showcases robust engineering skills in embedded systems, control theory, and machine vision, addressing practical challenges in underwater inspection tasks.
 
 
 
