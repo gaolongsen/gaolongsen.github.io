@@ -1,5 +1,5 @@
 ---
-permalink: /bipedal/
+permalink: /robofish/
 title: Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision
 classes: wide
 layout: single

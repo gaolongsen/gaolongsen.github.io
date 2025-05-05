@@ -34,7 +34,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: 'Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision'
     excerpt: 'This research presents a biomimetic robotic fish employing a vision-based system for the automated detection of underwater leaks. Inspired by biological fish structures often explored in robotics competitions, the platform is designed to identify leakage sources from submerged infrastructure, such as pipes or conduits, using computer vision techniques'
-    url: "https://longsengao.com/bipedal/"
+    url: "https://longsengao.com/robofish/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
