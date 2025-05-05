@@ -1,6 +1,6 @@
 ---
 permalink: /suri/
-title: Projects
+title: Space University Research Initiative Project
 classes: wide
 layout: single
 author_profile: true
