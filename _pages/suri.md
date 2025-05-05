@@ -135,10 +135,11 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
-  <!-- Left: YouTube video -->
+  <!-- Left: YouTube video with fixed size -->
   <div style="flex: 1; padding-right: 20px; min-width: 300px;">
-    <iframe width="448px" height="252px" src="https://youtu.be/_Rv_Do5cg4g" 
-            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/gSc0174IL_o" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
 
   <!-- Right: Text description -->
