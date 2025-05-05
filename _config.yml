@@ -79,13 +79,13 @@ footer:
   links:
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
-      url: "https://twitter.com/"
+      url: "https://x.com/GaoLongsen"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/gaolongsen"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UClGfGOZuFI0itXSTFhFiGeA"
 
 defaults:
   # _posts
