@@ -37,7 +37,7 @@ This project is inspired by a national robotics competition, focusing on biomime
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/sharing.5mnsju7vy2.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bio_fish_algorithem.3nrtyahs2j.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>How the binoic fish robot work under the water.</figcaption>
     </figure>
 </div>
