@@ -93,7 +93,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 <div style="display: flex; justify-content: space-between; align-items: center;">  
   <div style="flex: 1; padding-right: 20px;">    
-    <img src="https://longsengao.com/assets/img/publication_preview/MPC.gif" alt="Animated GIF" style="max-width: 100%;">  
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/mpc_personal_web.3nrtwn2rmz.gif" alt="Animated GIF" style="max-width: 100%;">  
   </div>  
   <div style="flex: 1; padding-left: 20px;">    
     <p>       
