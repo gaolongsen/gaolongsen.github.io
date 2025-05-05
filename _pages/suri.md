@@ -166,13 +166,21 @@ SURI is part of the bold high risk high reward transformational basic research e
 }
 ```
 
-<div style="display: flex; justify-content: space-between; align-items: center;">  
-  <div style="flex: 1; padding-right: 20px;">    
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif" alt="Animated GIF" style="max-width: 100%;">  
-  </div>  
-  <div style="flex: 1; padding-left: 20px;">    
-    <p>       
-      This work presents an experimental stuty of a novel decentralized adaptive control approach implemented on a multi-arm robot system to address the challenges of limited prior knowledge of the manipulated load.     
-    </p>  
+
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+  <!-- Left: YouTube video with fixed size -->
+  <div style="flex: 1; padding-right: 20px; min-width: 300px;">
+    <iframe width="448" height="252" src="https://youtu.be/XYMIMlCrZO4" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
+
+  <!-- Right: Text description -->
+  <div style="flex: 1; padding-left: 20px; min-width: 300px;">
+    <p>
+      This work presents an experimental stuty of a novel decentralized adaptive control approach implemented on a multi-arm robot system to address the challenges of limited prior knowledge of the manipulated load.
+    </p>
+  </div>
+
 </div>
