@@ -121,7 +121,7 @@ parameter estimation and control performance.
 @article{gao2025robustadaptivempc,
   title={Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC},
   author={Gao, Longsen and Danielson, Claus and Kwas, Andrew and Fierro, Rafael},
-  journal={Under review},
+  journal={IEEE Transactions on Control Systems Technology(Under review)},
   year={2025}
 }
 ```
