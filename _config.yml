@@ -85,7 +85,7 @@ footer:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UClGfGOZuFI0itXSTFhFiGeA"
     - label: "Email" # You can change this label if you prefer
-      icon: "fas fa-fw fa-envelope" # Using Font Awesome's solid envelope icon
+      icon: "fab fa-fw fa-envelope" # Using Font Awesome's solid envelope icon
       url: "mailto:lgao1@unm.edu" # <-- IMPORTANT: Replace this with your actual email address
 
 defaults:
