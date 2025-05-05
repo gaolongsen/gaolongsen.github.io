@@ -1,9 +1,9 @@
 ---
-permalink: /project/
+permalink: /suri/
 title: Projects
 classes: wide
 layout: single
-author_profile: true
+author_profile: false
 last_modified_at: 2024-05-24
 ---
 
