@@ -128,7 +128,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 @article{gao2024adaptive,
   title={Adaptive robot detumbling of a non-rigid satellite},
   author={Gao, Longsen and Danielson, Claus and Fierro, Rafael},
-  journal={arXiv preprint arXiv:2407.17617},
+  journal={2024 IEEE 63rd Conference on Decision and Control (CDC)},
   year={2024}
 }
 ```
