@@ -40,3 +40,130 @@ SURI is part of the bold high risk high reward transformational basic research e
   <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl_suri.7zqn5jfabt.webp" width="200px" alt="AFRL SURI Icon"/>
   <p><em>Figure: AFRL SURI Program Icon</em></p>
 </div>
+
+
+## Hand-in Experience with Robotics
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 70px;">    
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/20230425/WAM.71335sjffps0.webp" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p style="font-size: 18px;">
+      <strong>Name</strong>: WAM 7 DoF robot arm with Barrett BH 282 Hand<br>
+      <strong>Web</strong>: <a href="https://barrett.com/wam-arm" target="_blank">Barrett</a><br>
+      <strong>Skill</strong>: C++, Python<br>
+      <strong>Simulation Platform Used</strong>: MuJoCo, Simulink, Gazebo <br>
+      <strong>Experience years</strong>: 3 yrs
+    </p>  
+  </div>
+</div>
+
+```none
+
+```
+
+
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 70px;">    
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/20230425/UR5e.4t9woz4xhoc0.webp" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p style="font-size: 18px;">
+      <strong>Name</strong>: UR5e with Robotiq Gripper<br>
+      <strong>Web</strong>: <a href="https://www.universal-robots.com/products/ur5-robot/" target="_blank">Universal Robots</a><br>
+      <strong>Skill</strong>: Python, C++<br>
+      <strong>Simulation Platform Used</strong>: MuJoCo <br>
+      <strong>Experience years</strong>: 2 yrs
+    </p>  
+  </div>
+</div>
+
+
+
+```none
+
+```
+
+## Selected Works
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 20px;">    
+    <img src="https://longsengao.com/assets/img/publication_preview/MPC.gif" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p>       
+      This work proposes a novel robust adaptive model
+predictive controller for on-orbit dislodging. We consider the
+scenario where a servicer, equipped with a robot arm, must
+dislodge a client, a time-varying system composed of an under-
+powered jammed solar panel with a hybrid hinge system on a
+space station. Our approach leverages online set-membership
+identification to reduce the uncertainty to provide robust safety
+guarantees during dislodging despite bounded disturbances
+while balancing exploration and exploitation effectively in
+the parameter space. The feasibility of our developed robust
+adaptive MPC method is also examined through dislodging
+simulations and hardware experiments in zero-gravity and
+gravity environments, respectively. In addition, the advantages
+of our method are shown through comparison experiments with
+several state-of-the-art control schemes for both accuracy of
+parameter estimation and control performance.     
+    </p>  
+  </div>
+</div>
+
+```
+@article{gao2025robustadaptivempc,
+  title={Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC},
+  author={Gao, Longsen and Danielson, Claus and Kwas, Andrew and Fierro, Rafael},
+  journal={Under review},
+  year={2025}
+}
+```
+
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 20px;">    
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp1.7w6lrjlcu0.gif" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p>       
+      This work presents an adaptive detumbling method for stabilizing non-rigid satellites with uncertain motion dynamics, modeled as a two-link serial chain with unknown stiffness and damping properties. Unlike previous approaches treating satellites as rigid bodies, the proposed method uses two space tugs to handle the satellite's complex dynamics during detumbling. The approach addresses the challenges of unknown mass, inertia, and stiffness, offering a solution for advanced manipulation of non-rigid satellites in space.     
+    </p>  
+  </div>
+</div>
+
+```latex
+@article{gao2024adaptive,
+  title={Adaptive robot detumbling of a non-rigid satellite},
+  author={Gao, Longsen and Danielson, Claus and Fierro, Rafael},
+  journal={arXiv preprint arXiv:2407.17617},
+  year={2024}
+}
+```
+
+<div style="display: flex; justify-content: space-between; align-items: center;">   <div style="flex: 1; padding-right: 20px;">     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp2.6pnaiy0eby.gif" alt="Animated GIF" style="max-width: 100%;">   </div>   <div style="flex: 1; padding-left: 20px;">     <p>       This work presents a decentralized adaptive controller for aerospace robots, enabling them to cooperatively transport unknown objects in varying gravity environments. The controller is validated in both aerial and space scenarios, using hexarotors and space tugs to adaptively transport payloads along desired 3D trajectories, even in the presence of unexpected disturbances, such as the loss of robots.     </p>   </div> </div>
+
+```
+@article{gao2024decentralized,
+  title={Decentralized adaptive aerospace transportation of unknown loads using a team of robots},
+  author={Gao, Longsen and Aubert, Kevin and Saldana, David and Danielson, Claus and Fierro, Rafael},
+  journal={arXiv preprint arXiv:2407.08084},
+  year={2024}
+}
+```
+
+<div style="display: flex; justify-content: space-between; align-items: center;">  
+  <div style="flex: 1; padding-right: 20px;">    
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/20240124/RAL_Exp3.34uu6qy0k3k0.gif" alt="Animated GIF" style="max-width: 100%;">  
+  </div>  
+  <div style="flex: 1; padding-left: 20px;">    
+    <p>       
+      This work presents an experimental stuty of a novel decentralized adaptive control approach implemented on a multi-arm robot system to address the challenges of limited prior knowledge of the manipulated load.     
+    </p>  
+  </div>
+</div>
