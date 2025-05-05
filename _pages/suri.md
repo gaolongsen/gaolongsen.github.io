@@ -3,7 +3,7 @@ permalink: /suri/
 title: Projects
 classes: wide
 layout: single
-author_profile: false
+author_profile: true
 last_modified_at: 2024-05-24
 ---
 
