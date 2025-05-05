@@ -267,5 +267,9 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
-## Selected Competional Projects
+## Academic Services
+**Reviewer**
+
+- 2025: IEEE TCST, ACC
+- 2024: CDC, ACC, ICLR, RA-L, IEEE ACESS, ICRA, IROS
 
