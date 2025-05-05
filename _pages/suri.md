@@ -36,3 +36,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 </div>
 
 
+<div align="center">
+  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl_suri.7zqn5jfabt.webp" width="200px" alt="AFRL SURI Icon"/>
+  <p><em>Figure: AFRL SURI Program Icon</em></p>
+</div>
