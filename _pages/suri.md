@@ -52,8 +52,8 @@ SURI is part of the bold high risk high reward transformational basic research e
   </div>  
   <div style="flex: 1; padding-left: 20px;">    
     <p style="font-size: 18px;">
-      <strong>Name</strong>: WAM 7 DoF robot arm with Barrett BH 282 Hand<br>
-      <strong>Web</strong>: <a href="https://barrett.com/wam-arm" target="_blank">Barrett</a><br>
+      <strong>Name</strong>: WAM 7 DoF robot arm with Barrett Dextrous Hand<br>
+      <strong>Web</strong>: <a href="https://barrett.com/wam-arm" target="_blank">Barrett Robot</a><br>
       <strong>Skill</strong>: C++, Python<br>
       <strong>Simulation Platform Used</strong>: MuJoCo, Simulink, Gazebo <br>
       <strong>Experience years</strong>: 3 yrs
@@ -72,7 +72,7 @@ SURI is part of the bold high risk high reward transformational basic research e
   <div style="flex: 1; padding-left: 20px;">    
     <p style="font-size: 18px;">
       <strong>Name</strong>: Barrett Dextrous Hand<br>
-      <strong>Web</strong>: <a href="https://barrett.com/barretthand" target="_blank">Barreett Robots</a><br>
+      <strong>Web</strong>: <a href="https://barrett.com/barretthand" target="_blank">Barreett Robot</a><br>
       <strong>Skill</strong>: Python, C++<br>
       <strong>Simulation Platform Used</strong>: MuJoCo, Gazebo <br>
       <strong>Experience years</strong>: 4 yrs
