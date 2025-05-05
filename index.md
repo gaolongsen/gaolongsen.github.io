@@ -267,10 +267,14 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
-## Academic Services
+## Professional Services
 **Reviewer**
 
 - 2025: IEEE TCST, ACC
 - 2024: CDC, ACC, ICLR, RA-L, IEEE ACESS, ICRA, IROS
 - 2023: IROS, ICRA
 
+## Teaching Experience
+
+- 2025 Spring: ECE595, ST: Autonomous Mobile Robots
+- 2024 Spring: ECE595, ST: Autonomous Mobile Robots
