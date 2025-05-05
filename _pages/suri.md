@@ -11,6 +11,11 @@ The Space University Research Initiative (SURI) program is sponsored by the Air 
 
 One of AFOSR’s top priorities is to bolster Space Force basic research. The vision is to grow space-related research to meet U.S. Space Force’s mission, strategy, and architectural challenges. In that vein, we are creating new investment strategies and new approaches to make that happen. The SURI is one of many ways we’re achieving that goal.
 
+<div align="center">
+  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl_suri.7zqn5jfabt.webp" width="800px" alt="AFRL SURI Icon"/>
+  <p><em>Figure: AFRL SURI Program Icon</em></p>
+</div>
+
 SURI was initiated as a pilot to foster engagements between various DOD agencies and the academic community in a developing USSF University Consortium, with the goal of improving the transition of critical concepts from the academic sector into revolutionary new military technologies. The program is intended to support basic and applied research in Space-related science and engineering at U.S. institutions of higher education with potential transition to essential applications of DOD interest. SURI supports multidisciplinary research efforts, ideally creating synergies to speed DoD-relevant research and development.
 
 The three-way partnership envisioned in SURI is designed to play a major role in enhancing DoD-relevant capability in the Space domain, critical in the current environment of near-peer global competitors in the Space arena.
@@ -36,10 +41,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 </div>
 
 
-<div align="center">
-  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl_suri.7zqn5jfabt.webp" width="200px" alt="AFRL SURI Icon"/>
-  <p><em>Figure: AFRL SURI Program Icon</em></p>
-</div>
+
 
 
 ## Hand-in Experience with Robotics
