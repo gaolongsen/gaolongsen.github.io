@@ -133,7 +133,22 @@ SURI is part of the bold high risk high reward transformational basic research e
 }
 ```
 
-<div style="display: flex; justify-content: space-between; align-items: center;">   <div style="flex: 1; padding-right: 20px;">     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp2.6pnaiy0eby.gif" alt="Animated GIF" style="max-width: 100%;">   </div>   <div style="flex: 1; padding-left: 20px;">     <p>       This work presents a decentralized adaptive controller for aerospace robots, enabling them to cooperatively transport unknown objects in varying gravity environments. The controller is validated in both aerial and space scenarios, using hexarotors and space tugs to adaptively transport payloads along desired 3D trajectories, even in the presence of unexpected disturbances, such as the loss of robots.     </p>   </div> </div>
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+  <!-- Left: YouTube video -->
+  <div style="flex: 1; padding-right: 20px; min-width: 300px;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/gSc0174IL_o" 
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Right: Text description -->
+  <div style="flex: 1; padding-left: 20px; min-width: 300px;">
+    <p>
+      This work presents a decentralized adaptive controller for aerospace robots, enabling them to cooperatively transport unknown objects in varying gravity environments. The controller is validated in both aerial and space scenarios, using hexarotors and space tugs to adaptively transport payloads along desired 3D trajectories, even in the presence of unexpected disturbances, such as the loss of robots.
+    </p>
+  </div>
+
+</div>
 
 ```
 @article{gao2024decentralized,
