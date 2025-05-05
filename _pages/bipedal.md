@@ -29,7 +29,7 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bio_fish_structure.wirq466yz.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bi_pedal_structure.9dd69uaand.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>Structure of the robot.</figcaption>
     </figure>
 </div>
