@@ -73,32 +73,17 @@ SURI seeks innovative solutions, not incremental improvements over the current s
 Eligible applicants are Public and State controlled institutions of higher education and private institutions of higher education.
 SURI is part of the bold high risk high reward transformational basic research efforts enabling AFRL to continue to shape disruptive technologies the U.S. Air Force and U.S. Space Force can lead ahead of our adversaries.
 
-<div class="row">
-     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logo/cmu.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logo/tamu.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logo/unm.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logo/ng.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    CMU， TAMU， UNM and Northrop Grumman develop robotics technology to service satellites, build structures in orbit .
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/prj_1/afrl_suri.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The Air Force Research Laboratory, via its basic research office, the Air Force Office of Scientific Research, announced December 17, the winners of the newly established Space University Research Initiative (SURI) program – a first step in improving the transition of critical concepts from academia into revolutionary new military technologies for the U.S. Air Force and U.S. Space Force (USSF). <a href= 'https://afresearchlab.com/technology/space-university-research-initiative/' class='headernavlink'>
-Orignal link</a>
-</div>
+<div align="center">
 
+<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/cmu.1hsfb47577.webp" width="100px" style="margin: 0 20px;"/>
+<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tamu.5j4epid1rn.webp" width="100px" style="margin: 0 20px;"/>
+<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" width="100px" style="margin: 0 20px;"/>
+<img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.32i6aleprx.webp" width="100px" style="margin: 0 20px;"/>
+
+<p><strong>Satellite &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Spacecraft &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Rocket &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Robot Arm</strong></p>
+
+<p><em>Figure 1: Icons representing typical aerospace robotic components.</em></p>
+
+</div>
 
 
