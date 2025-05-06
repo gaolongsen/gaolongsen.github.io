@@ -30,7 +30,7 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
     <!-- Left Image -->
     <figure style="text-align: center;">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bi_pedal_structure.9dd69uaand.webp" title="Structure of bipedal robot." class="img-fluid rounded z-depth-1" style="width: 100%;">
-        <figcaption>Structure of the robot.</figcaption>
+        <figcaption>Structure of the bipedal robot.</figcaption>
     </figure>
 </div>
 
@@ -38,6 +38,6 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
     <!-- Left Image -->
     <figure style="text-align: center;">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_algrithem.2322yt4qn2.webp" title="How the bipedal robot walk along the match." class="img-fluid rounded z-depth-1" style="width: 100%;">
-        <figcaption>How the binoic fish robot work under the water.</figcaption>
+        <figcaption>How the bipedal robot walk along the match via CV.</figcaption>
     </figure>
 </div>
