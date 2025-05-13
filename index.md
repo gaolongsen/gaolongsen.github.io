@@ -292,13 +292,13 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
       <b><img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
     </span>
-    <p style="color: #374151; margin-top: 0; margin-bottom: 0;"> Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
+    <p style="color:rgb(251, 252, 255); margin-top: 0; margin-bottom: 0;"> Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
     <span style="display: inline-block; margin-right: 10px;">
     </span>
     <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
         <li style="margin-bottom: 2px;">Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
-        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color: #f3f4f6; color: #4b5563; padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core</li>
-        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color: #f3f4f6; color: #4b5563; padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs</li>
+        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color:rgba(255, 192, 203, 0.2); color: #4b5563; padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core</li>
+        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color:rgb(255, 192, 203, 0.2); color: #4b5563; padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs</li>
         <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning</li>  
     </ul>
       <a href="https://github.com/ros-industrial/universal_robot" title="Github" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
