@@ -276,7 +276,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       position: absolute;
       top: 100%;
       left: 0px;
-      width: 150px;
+      width: 100px;
       background: rgba(216, 209, 13, 0.9);
       color: #fff;
       padding: 2px 8px;
