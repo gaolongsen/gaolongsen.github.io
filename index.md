@@ -288,16 +288,26 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-      <b>ROS-Industrial Universal Robot Meta Package</b>
+      <b><img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
     </span>
     <p>
-      <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
-      </span> <br> <i>Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</i> <br>
+    Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
+      <span style="display: inline-block; margin-right: 10px;">
+      </span>  <ul>
+    <li>Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
+    <li>Optimized C++ <code>ur_kinematics</code> core</li>
+    <li>Resolved critical <code>ur_kinematics</code> bugs</li>
+    <li>Interfaced ROS kinematics with dynamic for advanced motion planning</li>  
+</ul>
       <a href="https://github.com/ros-industrial/universal_robot" title="Github">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/git_purple.9gwsjw7r3b.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Github]</b> </a>
     </p>
   </div>
 </div>
+
+## Selected Patents
+
+
 ## Professional Services
 
 **Reviewer**
