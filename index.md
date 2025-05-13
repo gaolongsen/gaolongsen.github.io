@@ -297,9 +297,9 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </span>
     <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
         <li style="margin-bottom: 2px;">Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
-        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core</li>
-        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs</li>
-        <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning</li>  
+        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core.</li>
+        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs.</li>
+        <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning.</li>  
     </ul>
       <a href="https://github.com/ros-industrial/universal_robot" title="Github" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/git_purple.9gwsjw7r3b.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
