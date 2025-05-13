@@ -293,7 +293,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     <p>
     Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
       <span style="display: inline-block; margin-right: 10px;">
-      </span>  <ul>
+      </span>  <ul class="list-disc list-inside space-y-1 text-gray-700 mt-2 mb-3 pl-1">
     <li>Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
     <li>Optimized C++ <code>ur_kinematics</code> core</li>
     <li>Resolved critical <code>ur_kinematics</code> bugs</li>
