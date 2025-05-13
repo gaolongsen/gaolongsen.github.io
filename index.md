@@ -309,9 +309,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
-## Selected Patents
-
-
 ## Professional Services
 
 **Reviewer**
