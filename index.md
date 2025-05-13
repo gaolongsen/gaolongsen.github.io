@@ -274,8 +274,9 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/project_ur_driver.4ub5j661nq.webp" style="width: 100%;">
     <span style="
       position: absolute;
-      top: 10px;
-      left: 10px;
+      top: 100%;
+      left: 0px;
+      width: 150px;
       background: rgba(216, 209, 13, 0.9);
       color: #fff;
       padding: 2px 8px;
