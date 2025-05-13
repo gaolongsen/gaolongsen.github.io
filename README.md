@@ -1,27 +1,20 @@
-# Minimal Mistakes remote theme starter
+# Hi! This is Longsen👋
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&duration=2000&pause=500&color=F72B1F&width=450&lines=I'm+a+robotics+%2B+control+guy%F0%9F%A4%96;I'm+thrilled+to+learn+any+new+techs%F0%9F%92%97;Coding%E2%8C%A8%EF%B8%8F+%2B+fitness%F0%9F%8F%8B%EF%B8%8F%E2%80%8D%E2%99%82%EF%B8%8F+everyday)](https://git.io/typing-svg)
 
-Contains basic configuration to get you a site with:
+#### <img src="C:\Users\longs\AppData\Roaming\Typora\typora-user-images\image-20250513144550269.png" alt="image-20250513144550269" style="zoom:3%;" /> About Me  
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+See detail through my website [LINK](https://longsengao.com/) 👈
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
----
 
-## Troubleshooting
+## 📧 Contact
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+1. longsengao at ieee dot org
+2. longsengao at gmail dot com
+3. lgao1 at unm dot edu (**preferred**)
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+
+
+Welcome any collaboration & talk in any relevant robotics research & project! 
+
