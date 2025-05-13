@@ -16,5 +16,5 @@ See detail through my website [LINK](https://longsengao.com/) 👈
 
 
 
-🤝Welcome any collaboration & talk in any relevant robotics research & project! Feel free to send email to me~ 
+🤝Welcome any collaborations & talks in any relevant robotics research & project! Feel free to send email to me~ 😃
 

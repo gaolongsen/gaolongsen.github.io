@@ -267,7 +267,42 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
+
+  ## Selected Industrial Projects
+<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/project_ur_driver.4ub5j661nq.webp" style="width: 100%;">
+    <span style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(216, 209, 13, 0.9);
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" style="width: 7%;"> GitHub Star 1k+
+    </span>
+  </div>
+  <div style="text-align: justify;">
+    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
+      <b>ROS-Industrial Universal Robot Meta Package</b>
+    </span>
+    <p>
+      <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+      </span> <br> <i>Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</i> <br>
+      <a href="https://github.com/ros-industrial/universal_robot" title="Github">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" alt="Github Icon" style="width: 25px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Github]</b> </a>
+    </p>
+  </div>
+</div>
+
+
+
 ## Professional Services
+
 **Reviewer**
 
 - 2025: IEEE TCST, ACC
