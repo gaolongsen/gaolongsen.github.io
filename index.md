@@ -298,8 +298,13 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </p>
   </div>
 </div>
+## Selected Patents
 
+-  ***Longsen Gao**, Yong Zhu, Dongxiang Ye*. "Intelligent collar and pet intelligent monitoring system and method" CN112273269A.
 
+-  ***Longsen Gao**, Yong Zhu, Dongxiang Ye*. "Intelligent pendant, infant monitoring method and system based on intelligent pendant" CN112365677A.
+
+  
 
 ## Professional Services
 
