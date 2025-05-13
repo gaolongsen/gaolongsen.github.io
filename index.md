@@ -269,7 +269,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 
 ## Selected Industrial Projects
-<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+<div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/project_ur_driver.4ub5j661nq.webp" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
     <span style="
