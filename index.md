@@ -295,7 +295,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
       </span> <br> <i>Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</i> <br>
       <a href="https://github.com/ros-industrial/universal_robot" title="Github">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" alt="Github Icon" style="width: 25px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Github]</b> </a>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/git_logo.9gwsjw53vl.webp" alt="Github Icon" style="width: 25px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Github]</b> </a>
     </p>
   </div>
 </div>
