@@ -262,7 +262,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.32i6aleprx.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;">
       </span> <br> <i>Funded by: Air Force Research Laboratory (AFRL)</i>  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl.5fksrsxbd5.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;"> <br>
       <a href="https://longsengao.com/suri/" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Video Icon" style="width: 25px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Detail]</b> </a>
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Video Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Detail]</b> </a>
     </p>
   </div>
 </div>
