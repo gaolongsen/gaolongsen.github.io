@@ -13,7 +13,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Recent News
 
-- 05-08-2025: My library tool [multi-panel_mujoco-pyviewer](https://pypi.org/project/multi-panel-mujoco-pyviewer/1.0.5/#description) has been listed in PyPI. Feel free to install it through `pip` directly!
+- 05-08-2025: My library tool [`multi-panel_mujoco-pyviewer`](https://pypi.org/project/multi-panel-mujoco-pyviewer/1.0.5/#description) has been listed in PyPI. Feel free to install it through `pip` directly!
 - 01-25-2025: One of our **[RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)** paper is accepted!:confetti_ball: Thanks for all collaborators' pretty hard work! :muscle:See detail about our [paper](https://ieeexplore.ieee.org/document/10857382) and [video](https://www.youtube.com/watch?v=lhTVIWSjhvQ).
 - 08-07-2024: Thanks [TechXplore](https://techxplore.com/) report our research work! We are so glad the our research was reported by a worldwide influential science and technology press! The detail can be found [here](https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html).
 -  07-24-2024: Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
