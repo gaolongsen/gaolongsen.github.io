@@ -286,7 +286,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       display: inline-flex; /* For aligning icon and text */
       align-items: center;">
-      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> GitHub Star 1k+, Forks 1k+
+      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> ⭐Star 1k+, <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/icons8-code-fork-24.39lejz8x80.webp" alt="Fork Icon" style="width: 14px; height: 14px; margin-right: 0px;">Forks 1k+
     </span>
   </div>
   <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
