@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Longsen Gao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Full-stack in Roboitcs &cap Control &cap Deep Learning"
+  bio    : "Full-stack in Robotics ∩ Control ∩ Deep Learning"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
