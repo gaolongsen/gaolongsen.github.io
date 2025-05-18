@@ -305,7 +305,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/git_purple.9gwsjw7r3b.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
         <b style="font-weight: 600;">[Github]</b>
       </a>
-    </p>
   </div>
 </div>
 
@@ -346,7 +345,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
         <b style="font-weight: 600;">[Detail]</b>
       </a>
-    </p>
   </div>
 </div>
 
