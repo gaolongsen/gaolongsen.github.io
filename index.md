@@ -309,6 +309,86 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
 </div>
 
+## Selected Competition Projects
+
+<div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <span style="
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      margin-top: 8px; /* Added a bit more space from the image */
+      background: rgba(240, 240, 10, 0.9); /* Brighter yellow */
+      color: #333; /* Darker text for better contrast */
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      display: inline-flex; /* For aligning icon and text */
+      align-items: center;">
+      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/silver-medal.6wqydlp3fv.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
+    </span>
+  </div>
+  <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
+      <b>Biomimetic Robotic Fish for Automated Leakage Detection via Computer Vision</b>
+    </span>
+    <span style="display: inline-block; margin-right: 10px;">
+    </span>
+    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
+        <li style="margin-bottom: 2px;">Autonomous biomimetic robotic fish with OpenCV-based leak detection.</li>
+        <li style="margin-bottom: 2px;">Embedded control using STM32F407ZET6 microcontroller.</li>
+        <li style="margin-bottom: 2px;">PID control for precise underwater swimming.</li>
+        <li style="margin-bottom: 2px;">Bio-inspired design combined with real-time visual inspection.</li>  
+    </ul>
+      <a href="https://longsengao.com/robofish/" title="robot fish detail" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <b style="font-weight: 600;">[Detail]</b>
+      </a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_robot.4jo38w5wkh.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <span style="
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      margin-top: 8px; /* Added a bit more space from the image */
+      background: rgba(240, 240, 10, 0.9); /* Brighter yellow */
+      color: #333; /* Darker text for better contrast */
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      display: inline-flex; /* For aligning icon and text */
+      align-items: center;">
+      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/silver-medal.6wqydlp3fv.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
+    </span>
+  </div>
+  <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
+      <b>Vision-Based Control for High-Speed Locomotion of a Bipedal Robot</b>
+    </span>
+    <span style="display: inline-block; margin-right: 10px;">
+    </span>
+    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
+        <li style="margin-bottom: 2px;">Developed vision-based control system for bipedal robot high-speed locomotion.</li>
+        <li style="margin-bottom: 2px;">Real-time terrain detection using computer vision for adaptive gait adjustment.</li>
+        <li style="margin-bottom: 2px;">Enhanced robustness on variable and dynamic ground surfaces.</li>
+        <li style="margin-bottom: 2px;">Applied in competitive dynamic environment scenarios.</li>  
+    </ul>
+      <a href="https://longsengao.com/bipedal/" title="bipedal robot detail" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <b style="font-weight: 600;">[Detail]</b>
+      </a>
+    </p>
+  </div>
+</div>
+
 ## Professional Services
 
 **Reviewer**
