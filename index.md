@@ -406,11 +406,23 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Mentored Students
 
-Jacob Jackson (Summer Scholar, 2023 - now MS in Aerospace Engineering at Virginia Tech
-
-Travis Ian Bouck (Summer Scholar, 2024) - now MS in Aerospace Engineering at California Polytechnic State University
-
-Giovanni Cordova (Undergraduate Research Assistant, 2022-2024) - now CEO & Co-Founder Aeralytic LLC
-
-Richard Pang (Intern scholar, 2025) - now undergraduate in Computer Science at University of Minnesota Twin Cities
-
+<div style="font-family: Arial, sans-serif; line-height: 1.6;">
+  <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 12px;">
+      <strong>Jacob Jackson</strong> <em>(Summer Scholar, 2023)</em><br>
+      Now M.S. in Aerospace Engineering at <span style="color: #555;">Virginia Tech</span>
+    </li>
+    <li style="margin-bottom: 12px;">
+      <strong>Travis Ian Bouck</strong> <em>(Summer Scholar, 2024)</em><br>
+      Now M.S. in Aerospace Engineering at <span style="color: #555;">California Polytechnic State University</span>
+    </li>
+    <li style="margin-bottom: 12px;">
+      <strong>Giovanni Cordova</strong> <em>(Undergraduate Research Assistant, 2022–2024)</em><br>
+      Now CEO & Co-Founder, <span style="color: #555;">Aeralytic LLC</span>
+    </li>
+    <li style="margin-bottom: 12px;">
+      <strong>Richard Pang</strong> <em>(Intern Scholar, 2025)</em><br>
+      Now Undergraduate in Computer Science at <span style="color: #555;">University of Minnesota Twin Cities</span>
+    </li>
+  </ul>
+</div>
