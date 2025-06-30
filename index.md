@@ -410,19 +410,19 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 12px;">
       <strong>Jacob Jackson</strong> <em>(Summer Scholar, 2023)</em><br>
-      Now M.S. in Aerospace Engineering at <span style="color: #555;">Virginia Tech</span>
+      Now M.S. in Aerospace Engineering at <span style="color: #ffffff;">Virginia Tech</span>
     </li>
     <li style="margin-bottom: 12px;">
       <strong>Travis Ian Bouck</strong> <em>(Summer Scholar, 2024)</em><br>
-      Now M.S. in Aerospace Engineering at <span style="color: #555;">California Polytechnic State University</span>
+      Now M.S. in Aerospace Engineering at <span style="color: #ffffff;">California Polytechnic State University</span>
     </li>
     <li style="margin-bottom: 12px;">
       <strong>Giovanni Cordova</strong> <em>(Undergraduate Research Assistant, 2022–2024)</em><br>
-      Now CEO & Co-Founder, <span style="color: #555;">Aeralytic LLC</span>
+      Now CEO & Co-Founder, <span style="color: #ffffff;">Aeralytic LLC</span>
     </li>
     <li style="margin-bottom: 12px;">
       <strong>Richard Pang</strong> <em>(Intern Scholar, 2025)</em><br>
-      Now Undergraduate in Computer Science at <span style="color: #555;">University of Minnesota Twin Cities</span>
+      Now Undergraduate in Computer Science at <span style="color: #ffffff;">University of Minnesota Twin Cities</span>
     </li>
   </ul>
 </div>
