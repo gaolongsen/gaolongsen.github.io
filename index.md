@@ -403,3 +403,13 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 - 2025 Spring: ECE595, ST: Autonomous Mobile Robots
 - 2024 Spring: ECE595, ST: Autonomous Mobile Robots
+
+## Mentored Students
+
+Jacob Jackson (Summer Scholar, 2023 - now MS in Aerospace Engineering at Virginia Tech University
+
+Travis Ian Bouck (Summer Scholar, 2024) - now MS in Aerospace Engineering at California Polytechnic State University
+
+Giovanni Cordova (Undergraduate Research Assistant, 2022-2024) - now CEO & Co-Founder Aeralytic LLC
+
+Richard Pang (Intern scholar, 2025) - now undergraduate at University of Minnesota Twin Cities
