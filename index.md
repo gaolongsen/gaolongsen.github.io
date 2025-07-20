@@ -113,7 +113,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
-      <i>IEEE Transactions on Automation Science and Engineering (TASE)</i> <br>
+      <i>ACC 2026</i> <br>
       <span style="margin-left: 10px;"></span>
     </p>
   </div>
