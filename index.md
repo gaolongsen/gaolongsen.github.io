@@ -25,6 +25,76 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/vlm_dual_arm-ezgif.com-video-to-gif-converter.232603o7z7.gif" style="width: 100%;">
+    <span style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(13, 40, 216, 0.9);
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      In Preparing
+    </span>
+  </div>
+  <div style="text-align: justify;">
+    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/meta_logo.1sfc6ycg2n.png" 
+       alt="Arm Icon" 
+       style="width:24px; height:14px;vertical-align:baseline; margin-right:-4px;">
+      <b>Information-Theoretic Graph Fusion with VLA for Policy Reasoning and Dual Robotic Control</b>
+    </span>
+    <p>
+      <strong>Longsen Gao</strong>, etc <br>
+      <i>Information Fusion</i> <br>
+      <span style="margin-left: 10px;"></span>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/three_arm_video_project-ezgif.com-video-to-gif-converter.2obtmcfmlr.gif" style="width: 100%;">
+    <span style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(13, 40, 216, 0.9);
+      color: #fff;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      In Preparing
+    </span>
+  </div>
+  <div style="text-align: justify;">
+    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
+        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.491hj488qv.webp" 
+       alt="Arm Icon" 
+       style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
+      <b>Safe Decentralized Adaptive Operations using Multi-Robot System</b>
+    </span>
+    <p>
+      <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
+      <i>IEEE Transactions on Automation Science and Engineering (TASE)</i> <br>
+      <span style="margin-left: 10px;"></span>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/mpc_personal_web.3nrtwn2rmz.gif" style="width: 100%;">
     <span style="
       position: absolute;
