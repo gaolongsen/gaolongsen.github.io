@@ -67,7 +67,7 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 <div style="display: flex; justify-content: space-between; align-items: center;">  
   <div style="flex: 1; padding-right: 70px;">    
-    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bh_hand.9rjq81e8c8.webphttps://github.com/gaolongsen/picx-images-hosting/raw/master/bh_hand.9rjq81e8c8.webp" alt="Animated GIF" style="max-width: 100%;">  
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bh_hand.9rjq81e8c8.webp" alt="Animated GIF" style="max-width: 100%;">  
   </div>  
   <div style="flex: 1; padding-left: 20px;">    
     <p style="font-size: 18px;">
