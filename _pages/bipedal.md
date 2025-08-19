@@ -15,13 +15,13 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
     <!-- Left Image -->
     <div class="col-sm mt-3 mt-md-0">
         <figure style="text-align: center;">
-            <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/stm32.syxno67e4.webp" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/stm32_v2.2vf2nvz3i4.webp" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%;">
             <figcaption>STM32F407ZET6 Embedded Board</figcaption>
         </figure>
     </div> 
     <div class="col-sm mt-3 mt-md-0">
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4382.8s3aiqtvpn.webp" title="another image" class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/opencv_module.1lc5hjidgs.webp" title="another image" class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>OpenCV Camera Module</figcaption>
     </figure>
 </div>
@@ -29,7 +29,7 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bi_pedal_structure.9dd69uaand.webp" title="Structure of bipedal robot." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bi_pedal_structure.3goqa6w52t.webp" title="Structure of bipedal robot." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>Structure of the bipedal robot.</figcaption>
     </figure>
 </div>
@@ -37,7 +37,7 @@ Achieving robust high-speed locomotion in bipedal robots presents significant ch
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_algrithem.2322yt4qn2.webp" title="How the bipedal robot walk along the match." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bipedal_algrithem.9kgicmz91o.webp" title="How the bipedal robot walk along the match." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>How the bipedal robot walk along the match via CV.</figcaption>
     </figure>
 </div>
