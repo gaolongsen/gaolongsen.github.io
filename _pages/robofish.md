@@ -15,13 +15,13 @@ This project is inspired by a national robotics competition, focusing on biomime
     <!-- Left Image -->
     <div class="col-sm mt-3 mt-md-0">
         <figure style="text-align: center;">
-            <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/stm32f4.8s3injhicl.webp" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/stm32f4.2ks8upimqg.jpg" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%;">
             <figcaption>STM32F407ZET6 Embedded Board</figcaption>
         </figure>
     </div> 
     <div class="col-sm mt-3 mt-md-0">
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4382.8s3aiqtvpn.webp" title="another image" class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/opencv_module.1lc5hjidgs.webp" title="another image" class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>OpenCV Camera Module</figcaption>
     </figure>
 </div>
@@ -29,7 +29,7 @@ This project is inspired by a national robotics competition, focusing on biomime
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bio_fish_structure.wirq466yz.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bio_fish_structure.9ddah6bs4o.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>Structure of the robot.</figcaption>
     </figure>
 </div>
@@ -37,7 +37,7 @@ This project is inspired by a national robotics competition, focusing on biomime
 <div class="row">
     <!-- Left Image -->
     <figure style="text-align: center;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bio_fish_algorithem.3nrtyahs2j.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bio_fish_algorithem.4ub9e76tn8.webp" title="How our robot work under the water." class="img-fluid rounded z-depth-1" style="width: 100%;">
         <figcaption>How the binoic fish robot work under the water.</figcaption>
     </figure>
 </div>
