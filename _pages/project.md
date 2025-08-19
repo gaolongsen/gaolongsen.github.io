@@ -19,16 +19,16 @@ feature_row:
     alt: "placeholder image 1"
     title: "Space University Research Initiative (SURI)"
     excerpt: "Space robot servicer and maintaining research project sponsored by AFRL. Collaboration with CMU, TAMU, Northrop Grumman Corporation."
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/trans.7pi5i585u.gif
+  - image_path: https://github.com/gaolongsen/picx-images-hosting/raw/master/exp1.26lt3f8dtl.gif
     alt: "placeholder image 2"
     # title: "              "
-    excerpt: "Transportation mission using multi-arm robot system via dencentralized adaptive control."
+    excerpt: "Detumble non-rigid satellite using multi-robot system via dencentralized detumbling algorithm."
     url: "https://longsengao.com/suri/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/RAL_Final_V2_x264-(1).1sf94ygqf0.gif
+  - image_path: https://github.com/gaolongsen/picx-images-hosting/raw/master/opt_dis_demo-ezgif.com-video-to-gif-converter.3goq9obz0d.gif
     # title: "        "
-    excerpt: "Dislodging jammed stiffness system using multi-arm robot system via decentralized adaptive control."
+    excerpt: "Dynamical optimal distribution manipulation using multi-robot system."
 feature_row2:
   - image_path: https://github.com/gaolongsen/picx-images-hosting/raw/master/fish_comp-(1).4n81j0b55p.gif
     alt: "placeholder image 2"
