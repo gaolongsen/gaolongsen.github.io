@@ -427,7 +427,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       display: inline-flex; /* For aligning icon and text */
       align-items: center;">
-      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/silver-medal.6wqydlp3fv.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
+      <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/silver-medal.icg6ioqwk.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
     </span>
   </div>
   <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
@@ -443,7 +443,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <li style="margin-bottom: 2px;">Bio-inspired design combined with real-time visual inspection.</li>  
     </ul>
       <a href="https://longsengao.com/robofish/" title="robot fish detail" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/detail.8adl64aevc.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
         <b style="font-weight: 600;">[Detail]</b>
       </a>
     </p>
