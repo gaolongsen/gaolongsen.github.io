@@ -370,7 +370,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 ## Selected Industrial Projects
 <div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/project_ur_driver.4ub5j661nq.webp" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/project_ur_driver.4ub9eflnq2.webp" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
     <span style="
       position: absolute;
       top: 100%;
@@ -385,11 +385,11 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       display: inline-flex; /* For aligning icon and text */
       align-items: center;">
-      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/github.2obqxemawa.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> ⭐Star 1k+ &nbsp; <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/icons8-code-fork-24.39lejz8x80.webp" alt="Fork Icon" style="width: 14px; height: 14px; margin-right: 0px;">Forks 1k+
+      <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/github.83adb3fg9y.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> ⭐Star 1k+ &nbsp; <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/icons8-code-fork-24.5mo4w69opn.webp" alt="Fork Icon" style="width: 14px; height: 14px; margin-right: 0px;">Forks 1k+
     </span>
   </div>
   <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
-      <b><img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ur_logo.39lejplrm4.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
+      <b><img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/ur_logo.3goqaej3ag.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
     </span>
     <p style="color:rgb(251, 252, 255); margin-top: 0; margin-bottom: 0;"> Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
     <span style="display: inline-block; margin-right: 10px;">
@@ -401,7 +401,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning.</li>  
     </ul>
       <a href="https://github.com/ros-industrial/universal_robot" title="Github" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/git_purple.9gwsjw7r3b.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/git_purple.4joflaff4q.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
         <b style="font-weight: 600;">[Github]</b>
       </a>
     </p>
@@ -412,7 +412,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 <div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/fish_demo_undergraduate.4ckvdgb8od.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/fish_comp-(1).4n81j0b55p.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
     <span style="
       position: absolute;
       top: 100%;
@@ -452,7 +452,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 <div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bipedal_robot.4jo38w5wkh.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bipedal.6wr22hxnhl.gif" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
     <span style="
       position: absolute;
       top: 100%;
@@ -467,7 +467,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       display: inline-flex; /* For aligning icon and text */
       align-items: center;">
-      <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/silver-medal.6wqydlp3fv.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
+      <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/silver-medal.icg6ioqwk.webp" alt="GitHub Icon" style="width: 18px; height: 14px; margin-right: 5px;"> National Second Prize
     </span>
   </div>
   <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
@@ -483,7 +483,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <li style="margin-bottom: 2px;">Applied in competitive dynamic environment scenarios.</li>  
     </ul>
       <a href="https://longsengao.com/bipedal/" title="bipedal robot detail" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/detail.8adl64aevc.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
         <b style="font-weight: 600;">[Detail]</b>
       </a>
     </p>
