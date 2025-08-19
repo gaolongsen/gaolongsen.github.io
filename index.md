@@ -159,7 +159,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/mpc_personal_web.3nrtwn2rmz.gif" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/RAMPC_sim_hardware.2rvgppsxp0.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -176,7 +176,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.491hj488qv.webp" 
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.3nry53zbee.webp" 
        alt="Arm Icon" 
        style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
       <b>Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC</b>
@@ -185,16 +185,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <strong>Longsen Gao</strong>, Claus Danielson, Andrew Kwas, Rafael Fierro <br>
       <i>IEEE Transactions on Control Systems Technology (TCST)</i> <br>
       <a href="http://tiny.cc/tcst2025unm/" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://arxiv.org/abs/2503.16849" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/bend_demo.3nrtwnrugw.gif" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/bend_demo.b98asr06a.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -211,7 +211,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/drone_yellow.51ed0u36z2.webp" 
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/drone_yellow.6t7g443blb.webp" 
        alt="Drone Icon" 
        style="width:24px; height:24px;vertical-align:baseline; margin-right:-4px;">
       <b>AirBender: Adaptive Transportation of Bendable Objects Using Dual UAVs</b>
@@ -220,51 +220,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       Jiawei Xu, <strong>Longsen Gao</strong>, Rafael Fierro, David Saldaña <br>
       <i>IEEE Robotics and Automation Letters (RA-L)</i> <br>
       <a href="https://youtu.be/lhTVIWSjhvQ?si=CL-mpnZaj192GuDO" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/abstract/document/10857382" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tobesubmit.9gws609ifb.webp" style="width: 100%;">
-    <span style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(13, 40, 216, 0.9);
-      color: #fff;
-      padding: 2px 8px;
-      font-size: 12px;
-      font-weight: bold;
-      border-radius: 4px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      In procedding
-    </span>
-  </div>
-  <div style="text-align: justify;">
-    <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/robot-arm-icon-isometric-style-vector.491hj488qv.webp" 
-       alt="Arm Icon" 
-       style="width:18px; height:18px;vertical-align:baseline; margin-right:-4px;">
-      <b>Safe Decentralized Adaptive Operation in Space via Multi-Robot System</b>
-    </span>
-    <p>
-      <strong>Longsen Gao</strong>, Claus Danielson, Bennett Russell, and Rafael Fierro <br>
-      <i>IEEE Transactions on Automation Science and Engineering (TASE)</i> <br>
-      <a href="" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[TBD]</b> </a>
-      <span style="margin-left: 10px;"></span> <a href="" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[TBD]</b> </a>
-    </p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
-  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp1.3nrehpqrvy.gif" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/exp1.26lt3f8dtl.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -281,7 +246,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/space-robot.45hvlel90n.webp" 
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/space-robot.9kgic6tste.webp" 
        alt="Drone Icon" 
        style="width:20px; height:20px;vertical-align:baseline; margin-right:-4px;">
       <b>Adaptive Robot Detumbling of A Non-Rigid Satellite</b>
@@ -290,18 +255,18 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
       <i>IEEE Conference on Decision and Control (CDC)</i> <br>
       <a href="https://youtu.be/GT9Tfc1BBlY?si=vVmIjXv3e55dsjyg" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/document/10886806" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/news-report_7305498.3yenpvysct.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Media Report]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/news-report_7305498.icg68mieb.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Media Report]</b> </a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/exp2.6pnaiy0eby.gif" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/exp2.4xuvbi03g0.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -318,7 +283,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-          <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/drone_yellow.51ed0u36z2.webp" 
+          <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/drone_yellow.6t7g443blb.webp" 
        alt="Drone Icon" 
        style="width:24px; height:24px;vertical-align:baseline; margin-right:-4px;">
       <b>Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots</b>
@@ -327,16 +292,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
       <i>International Symposium on Distributed Autonomous Robotic Systems (DARS)</i> <br>
       <a href="https://youtu.be/_Rv_Do5cg4g?si=po066-vDQ3Bi29_n" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://arxiv.org/abs/2407.08084" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/iros23_demo.4cl3grmezn.gif" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/iros23_demo.5j4ixswfjk.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -353,7 +318,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
   </div>
   <div style="text-align: justify;">
     <span style="color:#1772d0; display: block; margin-bottom: 10px;">
-         <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/space-robot.45hvlel90n.webp" 
+         <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/space-robot.9kgic6tste.webp" 
        alt="Drone Icon" 
        style="width:20px; height:20px;vertical-align:baseline; margin-right:-4px;">
       <b>Autonomous Multi-Robot Servicing for Spacecraft Operation Extension</b>
@@ -362,16 +327,16 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <strong>Longsen Gao</strong>, Kevin Aubert, David Saldana, Claus Danielson, Rafael Fierro <br>
       <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i> <br>
       <a href="https://youtu.be/Ysn8NsNsPG4" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).7w716h998u.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://ieeexplore.ieee.org/abstract/document/10341875" title="Paper">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.39le5sdpge.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp" style="width: 100%;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/ezgif.com-optimize.99toja5ejm.gif" style="width: 100%;">
     <span style="
       position: absolute;
       top: 10px;
@@ -390,13 +355,13 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <b>🚀Space Univversity Research Initiative (SURI)</b>
     </span>
     <p>
-      <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/cmu_2.1e8tdelicd.webp" alt="CMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/tamu.5j4epid1rn.webp" alt="TAMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/unm_logo.13lzk92kpp.webp" alt="UNM Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/ng.32i6aleprx.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;">
-      </span> <br> <i>Funded by: Air Force Research Laboratory (AFRL)</i>  <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/afrl.5fksrsxbd5.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;"> <br>
+      <span style="display: inline-block; margin-right: 10px;"> <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/cmu_2.2ks8ujchdc.webp" alt="CMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/tamu.7p3xjtdsnf.webp" alt="TAMU Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/unm_logo.8adl648ukr.webp" alt="UNM Logo" style="height: 25px; vertical-align: middle; margin-right: 5px;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/northrop_grumman_logo.6ikmb7pzwt.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;">
+      </span> <br> <i>Funded by: Air Force Research Laboratory (AFRL)</i>  <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/afrl.9rjq7ve0pn.webp" alt="Northrop Grumman Logo" style="height: 25px; vertical-align: middle;"> <br>
       <a href="https://longsengao.com/suri/" title="Video">
-        <img src="https://github.com/JackTony123/picx-images-hosting/raw/master/detail.icbxymz8w.webp" alt="Video Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Detail]</b> </a>
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/detail.8adl64aevc.webp" alt="Video Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;"> <b>[Detail]</b> </a>
     </p>
   </div>
 </div>
