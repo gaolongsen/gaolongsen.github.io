@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://github.com/JackTony123/picx-images-hosting/raw/master/new_v2.7snf91u0kl.webp
+  overlay_image: https://github.com/gaolongsen/picx-images-hosting/raw/master/new_v2.83adb3sl9f.png
 #   actions:
 #     - label: ""
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
@@ -14,7 +14,7 @@ header:
 excerpt: "Try my best to contribute this world via my passioned robotics."
 
 feature_row:
-  - image_path: https://github.com/JackTony123/picx-images-hosting/raw/master/suri.70ahwvrlmu.webp
+  - image_path: https://github.com/gaolongsen/picx-images-hosting/raw/master/ezgif.com-optimize.99toja5ejm.gif
     image_caption: "Image courtesy of [Longsen Gao](https://longsengao.com/)"
     alt: "placeholder image 1"
     title: "Space University Research Initiative (SURI)"
