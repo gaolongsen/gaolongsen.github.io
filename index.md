@@ -37,7 +37,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       font-weight: bold;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      In Preparing
+      Under Review
     </span>
   </div>
   <div style="text-align: justify;">
@@ -48,12 +48,18 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <b>Information-Theoretic Graph Fusion with VLA for Policy Reasoning and Dual Robotic Control</b>
     </span>
     <p>
-      <strong>Longsen Gao</strong>, etc <br>
+       Shunlei Li†, <strong>Longsen Gao</strong>†, Jin Wang, Chang Che,Xi Xiao, Jiuwen Cao, Yingbai Hu, Hamid Reza Karimi <br>
       <i>Information Fusion</i> <br>
+        <a href="https://youtu.be/ct0VTcxIHcM" title="Video">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span>
+        <a href="https://arxiv.org/abs/2508.05342" title="Paper">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+      <br><small>† Equal contribution (co-first authors)</small>
     </p>
   </div>
 </div>
+
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
