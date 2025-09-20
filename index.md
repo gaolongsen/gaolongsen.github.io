@@ -48,7 +48,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
       <b>Information-Theoretic Graph Fusion with VLA for Policy Reasoning and Dual Robotic Control</b>
     </span>
     <p>
-       Shunlei Li†, <strong>Longsen Gao</strong>†, Jin Wang, Chang Che,Xi Xiao, Jiuwen Cao, Yingbai Hu, Hamid Reza Karimi <br>
+       Shunlei Li†, <strong>Longsen Gao</strong>†, Jin Wang, Chang Che, Xi Xiao, Jiuwen Cao, Yingbai Hu, Hamid Reza Karimi <br>
       <i>Information Fusion</i> <br>
         <a href="https://youtu.be/ct0VTcxIHcM" title="Video">
         <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
@@ -162,7 +162,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 
 
-
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/RAMPC_sim_hardware.2rvgppsxp0.gif" style="width: 100%;">
@@ -194,9 +193,12 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
         <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/317714_video_youtube_icon-(1).5j4ixshkck.webp" alt="Video Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Video]</b> </a>
       <span style="margin-left: 10px;"></span> <a href="https://arxiv.org/abs/2503.16849" title="Paper">
         <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/4373076_adobe_file_logo_logos_pdf_icon.2a5f14v7hd.webp" alt="Paper Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Paper]</b> </a>
+        <span style="margin-left: 10px;"></span> <a href="http://tiny.cc/tcst2025unm" title="Paper">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/5956592.5fkyb663i9.webp" alt="Project Icon" style="width: 21px; height: 16px; vertical-align: middle; margin-right: 3px;"> <b>[Project Page]</b> </a>
     </p>
   </div>
 </div>
+
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
