@@ -13,6 +13,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Recent News
 
+- 10-24-2025: We win the ***Best Poster Award*** :trophy: on [IROS 2025](https://www.iros25.org/) for our recent work "**Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control**".:confetti_ball: See details in our [video](https://youtu.be/ct0VTcxIHcM) and [paper](https://www.arxiv.org/abs/2508.05342).
 - 05-08-2025: My Python library [`multi-panel_mujoco-pyviewer`](https://pypi.org/project/multi-panel-mujoco-pyviewer/1.0.5/#description) has been listed in PyPI. Feel free to install it through `pip` directly!
 - 01-25-2025: One of our **[RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)** paper is accepted!:confetti_ball: Thanks for all collaborators' pretty hard work! :muscle:See detail about our [paper](https://ieeexplore.ieee.org/document/10857382) and [video](https://www.youtube.com/watch?v=lhTVIWSjhvQ).
 - 08-07-2024: Thanks [TechXplore](https://techxplore.com/) report our research work! We are so glad the our research was reported by a worldwide influential science and technology press! The detail can be found [here](https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html).
