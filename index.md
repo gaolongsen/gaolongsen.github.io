@@ -19,7 +19,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 - 01-25-2025: One of our **[RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)** paper is accepted!:confetti_ball: Thanks for all collaborators' pretty hard work! :muscle:See detail about our [paper](https://ieeexplore.ieee.org/document/10857382) and [video](https://www.youtube.com/watch?v=lhTVIWSjhvQ).
 - 08-07-2024: Thanks [TechXplore](https://techxplore.com/) report our research work! We are so glad the our research was reported by a worldwide influential science and technology press! The detail can be found [here](https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html).
 - 07-24-2024: Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
-- 06-21-2024: **Oral Presentation at [DARS 2024](https://dars2024.engineering.cornell.edu/)**  Delighted to present my paper [Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots](https://arxiv.org/abs/2407.08084) in the 17th International Symposium on Distributed Autonomous Robotic Systems Conference in Cornell Tech! Say hello to New York City! :statue_of_liberty:
+- 06-21-2024: **Oral Presentation** at [DARS 2024](https://dars2024.engineering.cornell.edu/)  Delighted to present my paper [Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots](https://arxiv.org/abs/2407.08084) in the 17th International Symposium on Distributed Autonomous Robotic Systems Conference in Cornell Tech! Say hello to New York City! :statue_of_liberty:
 
 
 
