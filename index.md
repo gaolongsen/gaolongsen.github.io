@@ -13,11 +13,12 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Recent News
 
-- 10-24-2025: We win the ***Best Poster Award*** :trophy: on [IROS 2025](https://www.iros25.org/) for our recent work "**Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control**".:confetti_ball: See details in our [video](https://youtu.be/ct0VTcxIHcM) and [paper](https://www.arxiv.org/abs/2508.05342).
+- 10-24-2025: We win the ***Best Poster Award*** :trophy: on [IROS 2025](https://www.iros25.org/) for our recent work "[Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control](https://www.arxiv.org/abs/2508.05342)".:confetti_ball: See details in our [video](https://youtu.be/ct0VTcxIHcM)!
+- 10-19-2025:  **Oral Presentation** at [Southwest Robotics Symposium (SWRS) 2025](https://swrobotics.engineering.asu.edu/) for our accepted work "**Safe On-Orbit Servicing of Non-Rigid Satellites**" . See you in Phoenix, AZ! :cactus:
 - 05-08-2025: My Python library [`multi-panel_mujoco-pyviewer`](https://pypi.org/project/multi-panel-mujoco-pyviewer/1.0.5/#description) has been listed in PyPI. Feel free to install it through `pip` directly!
 - 01-25-2025: One of our **[RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)** paper is accepted!:confetti_ball: Thanks for all collaborators' pretty hard work! :muscle:See detail about our [paper](https://ieeexplore.ieee.org/document/10857382) and [video](https://www.youtube.com/watch?v=lhTVIWSjhvQ).
 - 08-07-2024: Thanks [TechXplore](https://techxplore.com/) report our research work! We are so glad the our research was reported by a worldwide influential science and technology press! The detail can be found [here](https://techxplore.com/news/2024-08-method-detumble-rigid-satellites-robots.html).
--  07-24-2024: Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
+- 07-24-2024: Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
 - 06-21-2024: **Oral Presentation at [DARS 2024](https://dars2024.engineering.cornell.edu/)**  Delighted to present my paper [Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots](https://arxiv.org/abs/2407.08084) in the 17th International Symposium on Distributed Autonomous Robotic Systems Conference in Cornell Tech! Say hello to New York City! :statue_of_liberty:
 
 
