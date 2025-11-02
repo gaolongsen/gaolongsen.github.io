@@ -13,7 +13,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Recent News
 
-- 10-31-2025: We win the ***Best Poster Award*** :trophy: on [SWRS 2025](https://swrobotics.engineering.asu.edu/)! Great honor to show my two working projects for space safe and optimal manipulations using Multi-robot systems. :confetti_ball:
+- 11-01-2025: We win the ***Best Poster Award*** :trophy: on [SWRS 2025](https://swrobotics.engineering.asu.edu/)! Great honor to show my two working projects for space safe and optimal manipulations using Multi-robot systems. :confetti_ball:
 - 10-24-2025: We win the ***Best Poster Award*** :trophy: on [IROS 2025](https://www.iros25.org/) for our recent work "[Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control](https://www.arxiv.org/abs/2508.05342)".:confetti_ball: See details in our [video](https://youtu.be/ct0VTcxIHcM)!
 - 10-19-2025:  **Oral Presentation** at [Southwest Robotics Symposium (SWRS) 2025](https://swrobotics.engineering.asu.edu/) for our accepted work "**Safe On-Orbit Servicing of Non-Rigid Satellites**" . See you in Phoenix, AZ! :cactus:
 - 05-08-2025: My Python library [`multi-panel_mujoco-pyviewer`](https://pypi.org/project/multi-panel-mujoco-pyviewer/1.0.5/#description) has been listed in PyPI. Feel free to install it through `pip` directly!
