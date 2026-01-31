@@ -13,6 +13,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Control Syst
 
 ## Recent News
 
+- 01-28-2026: One of my **[IEEE Transactions on Control Systems Technology (TCST)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87)** paper is accepted as a Full paper!:confetti_ball: Thanks to all collaborators for their hard work! :muscle:See detail about our [project page](http://tiny.cc/tcst2025unm) and [paper](http://tiny.cc/tcst2025unm). :milky_way::robot:
 - 11-01-2025: We win the ***Best Poster Award*** :trophy: on [SWRS 2025](https://swrobotics.engineering.asu.edu/)! Great honor to show my two working projects for space safe and optimal manipulations using Multi-robot systems. :confetti_ball:
 - 10-24-2025: We win the ***Best Poster Award*** :trophy: on [IROS 2025](https://www.iros25.org/) for our recent work "[Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control](https://www.arxiv.org/abs/2508.05342)".:confetti_ball: See details in our [video](https://youtu.be/ct0VTcxIHcM)!
 - 10-19-2025:  **Oral Presentation** at [Southwest Robotics Symposium (SWRS) 2025](https://swrobotics.engineering.asu.edu/) for our accepted work "**Safe On-Orbit Servicing of Non-Rigid Satellites**" . See you in Phoenix, AZ! :cactus:
