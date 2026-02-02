@@ -42,7 +42,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
       font-weight: bold;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
-      Under Review
+      Information Fusion
     </span>
   </div>
   <div style="text-align: justify;">
@@ -64,6 +64,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
     </p>
   </div>
 </div>
+
 
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
