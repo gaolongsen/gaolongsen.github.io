@@ -98,7 +98,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
     </p>
   </div>
 </div>
-
 <div style="display: flex; align-items: flex-start; margin-top: 20px; margin-bottom: 20px;">
   <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
     <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/DAC_RRT_space-ezgif.com-video-to-gif-converter.23275n31x1.gif" style="width: 100%;">
@@ -130,6 +129,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
     </p>
   </div>
 </div>
+
 
 
 
