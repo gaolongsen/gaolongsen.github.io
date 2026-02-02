@@ -125,7 +125,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
     </span>
     <p>
       <strong>Longsen Gao</strong>, Claus Danielson, Rafael Fierro <br>
-      <i>ACC 2026</i> <br>
+      <i>IROS 2026</i> <br>
       <span style="margin-left: 10px;"></span>
     </p>
   </div>
