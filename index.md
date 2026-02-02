@@ -9,7 +9,7 @@ author_profile: true
 
 I'm now a fourth-year PhD student at AgMan Lab, University of New Mexico under the supervision of [Prof. Rafael Fierro](https://scholar.google.com/citations?user=I7RhPnIAAAAJ&hl=en) and co-supervision of [Prof. Claus Danielson](https://www.unm.edu/~cdanielson/). Also, I'm collaboratively working with [Prof. Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/) affiliate in [CMU Robotics Institute](https://www.ri.cmu.edu/about/) and  [Prof. Manoranjan Majji](https://lasr.tamu.edu/team/) affiliate in TAMU LASER Lab in space autonomous robotics field.
 
-My research interest focus on **High-DOF Robotics Manipulation**, **Control System** and **Deep Learning**. Currently, I'm focusing on adaptive control in multi-robot arm systems and learning-based control in high-DoF robots in dexterous space manipulation missions. Besides, I'm passionate about the vision-based grasping framework for robot perception and LLM-based robot manipulation.  
+My research interest focus on **High-DOF Robotics Manipulation**, **Learning-based Control** and **VLM in Robotics**. Currently, I'm focusing on designing learning-based control algorithms for multi-arm robotics systems with high DoF for dexterous manipulation missions. Besides, I'm still working on VLM-based robot manipulation.  
 
 ## Recent News
 
