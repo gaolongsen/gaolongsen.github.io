@@ -5,6 +5,8 @@ date: 2024-10-10T07:00:00-04:00
 categories:
   - blog
 tags:
+  - Hardware
+  - ROS2
   - MuJoCo
   - Simulation
 ---
