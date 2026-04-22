@@ -224,3 +224,66 @@ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/wam/.mujoco/mujoco210/bin:/usr/lib/nvidia
 
 Please follow the official website here: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 
+**Step 8** **Set up UR Driver**
+
+```bash
+sudo apt-get install ros-humble-ur
+```
+
+```bash
+ros2 launch ur_calibration calibration_correction.launch.py \
+    robot_ip:=192.168.1.5 \
+    target_filename:="${HOME}/my_ur10e_calibration.yaml"
+```
+Note that when you connect with UR10e, be careful!!! In Ubuntu 22.04, if you use PyCharm, PyCharm will occupy port 50001! Here are the workflow between your PC and the robot arm.
+
+```
+Your PC (192.168.1.22)        UR10e Robot (192.168.1.5)
+  │                                    │
+  │  ROS driver startup                │
+  │  → Listen on port 50001 ───────────┤
+  │                                    │
+  │            Pannel Button ▶         │
+  │            Run External Control    │
+  │                                      │
+  │  ← ─ Robot reverse connection 50001 ─┤
+  │  （That's why we call "reverse"）     │
+```
+
+So, 50001 is a port on your PC, not on the robot. The notion of ‘changing 50001 on the robot controller’ is not really correct.
+
+In the External Control URCap, the only thing you can set is which port on your PC the robot should connect to, and that port must match the one the UR driver is listening on.
+
+The UR driver uses four ports in total:
+
+| Parameter             | Default Value | Function                                                     |
+| --------------------- | ------------- | ------------------------------------------------------------ |
+| `reverse_port`        | 50001         | Port used for the robot’s reverse connection back to the PC; this is the one most likely to conflict with PyCharm. |
+| `script_sender_port`  | 50002         | Port used to send URScript to the robot.                     |
+| `trajectory_port`     | 50003         | Port used to send trajectory data.                           |
+| `script_command_port` | 50004         | Port used to send control commands.                          |
+
+To avoid that, we need to reset up the port for UR and here is my example below:
+
+```bash
+ros2 launch ur_robot_driver ur_control.launch.py \
+    ur_type:=ur10e \
+    robot_ip:=192.168.1.5 \
+    kinematics_params_file:="${HOME}/my_ur10e_calibration.yaml" \
+    reverse_port:=50010 \
+    script_sender_port:=50020 \
+    trajectory_port:=50030 \
+    script_command_port:=50040 \
+    launch_rviz:=true
+```
+
+Then on your UR panel, you should set up as follows:
+
+![](https://github.com/gaolongsen/picx-images-hosting/raw/master/UR10e_setup_pannel.58hyv8t2xz.webp)
+
+Note that here the "Custom Port" should not be the same as the **script_sender_port** you set in your PC.
+
+
+
+
+
