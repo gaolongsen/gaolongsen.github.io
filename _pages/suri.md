@@ -40,7 +40,16 @@ SURI is part of the bold high risk high reward transformational basic research e
 
 </div>
 
+<iframe
+  src="/assets/demos/space_tug_demo_v5.html"
+  width="100%"
+  height="620"
+  style="border:1px solid #444; border-radius:6px;"
+  loading="lazy"
+  allowfullscreen>
+</iframe>
 
+<p><a href="/assets/demos/space_tug_demo_v5.html" target="_blank">⛶ Open demo in full screen</a></p>
 
 
 
