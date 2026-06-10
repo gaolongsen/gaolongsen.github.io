@@ -90,6 +90,8 @@
 
 <div class="hud panel" id="tlm">
   <h2>TELEMETRY</h2>
+  <div class="row"><span>MODE</span><span class="val" id="tm">MANUAL</span></div>
+  <div class="row"><span>ERR</span><span class="val" id="te">&mdash;</span></div>
   <div class="row"><span>VEL</span><span class="val" id="tv">0.00 m/s</span></div>
   <div class="row"><span>SPIN</span><span class="val" id="tw">0.0 °/s</span></div>
   <div class="row"><span>ROLL</span><span class="val" id="tr">0.0°</span></div>
@@ -101,6 +103,8 @@
 <div class="hud panel" id="ctl">
   <div class="lbl">REACTION CONTROL — HOLD TO FIRE (KEYS 1–6)</div>
   <div class="btnrow" id="thrbtns"></div>
+  <div class="lbl">REFERENCE TRAJECTORY — AUTOPILOT</div>
+  <div class="btnrow" id="trajbtns"></div>
   <div class="btnrow">
     <button class="util" id="bAuto">AUTO DEMO</button>
     <button class="util" id="bSpin">KILL SPIN</button>
@@ -113,7 +117,8 @@
 <div class="hud panel" id="hint">
   <b>DRAG</b> orbit &nbsp;·&nbsp; <b>RIGHT-DRAG / SHIFT-DRAG / 2-FINGER</b> pan<br>
   <b>SCROLL / PINCH</b> zoom &nbsp;·&nbsp; <b>DBL-CLICK</b> re-center on craft<br>
-  <b>1–6</b> fire thrusters &nbsp;·&nbsp; canted nozzles induce real torque
+  <b>1–6</b> fire thrusters &nbsp;·&nbsp; canted nozzles induce real torque<br>
+  <b>TRAJECTORY</b> buttons engage the autopilot &mdash; nozzles fire to chase the marker
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -137,7 +142,7 @@ renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
 renderer.outputEncoding = THREE.sRGBEncoding;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x060913);
-scene.fog = new THREE.FogExp2(0x060913, 0.0006);
+scene.fog = new THREE.FogExp2(0x060913, 0.00032);
 
 const camera = new THREE.PerspectiveCamera(46, 1, 0.5, 4000);
 
@@ -151,7 +156,7 @@ const fill = new THREE.DirectionalLight(0xffffff, 0.22); fill.position.set(-40,6
 {
   const N = 2200, p = new Float32Array(N*3), c = new Float32Array(N*3);
   for(let i=0;i<N;i++){
-    const r = 700 + Math.random()*900;
+    const r = 950 + Math.random()*1400;
     const t = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
     p[i*3]=r*Math.sin(ph)*Math.cos(t); p[i*3+1]=r*Math.cos(ph); p[i*3+2]=r*Math.sin(ph)*Math.sin(t);
     const b = .35+Math.random()*.65, tint = Math.random();
@@ -262,32 +267,158 @@ function stepParticles(dt){
   pPts.visible = any;
 }
 
-/* ---------- rigid body physics ---------- */
+/* ---------- reference trajectories + autopilot state ---------- */
+const TWO_PI = Math.PI*2;
+const ORIGIN = new THREE.Vector3();
+const TRAJS = [
+  {label:'\u221E FIG-8', T:37, f:(s,o)=>o.set(160*Math.sin(s), 36*Math.cos(2*s), 92*Math.sin(2*s))},
+  {label:'\u2299 ORBIT', T:28, f:(s,o)=>o.set(144*Math.cos(s), 52*Math.sin(s), 144*Math.sin(s))},
+  {label:'8 VERT-8', T:34, f:(s,o)=>o.set(76*Math.sin(2*s), 116*Math.sin(s), 40*Math.cos(s))},
+];
+let traj=null, trajS=0, trackErr=0;
+const pathGroup = new THREE.Group(); scene.add(pathGroup);
+TRAJS.forEach(t=>{
+  const N=360, pts=[], v=new THREE.Vector3();
+  for(let i=0;i<=N;i++){ t.f(i/N*TWO_PI, v); pts.push(v.clone()); }
+  const g = new THREE.BufferGeometry().setFromPoints(pts);
+  const line = new THREE.Line(g, new THREE.LineDashedMaterial({color:0xFFB454,
+    dashSize:2.6, gapSize:2.0, transparent:true, opacity:0.55}));
+  line.computeLineDistances(); line.visible=false;
+  pathGroup.add(line); t.line=line;
+});
+const marker = new THREE.Mesh(new THREE.SphereGeometry(2.3,12,12),
+  new THREE.MeshBasicMaterial({color:0xFFD9A0, transparent:true, opacity:0.95,
+    blending:THREE.AdditiveBlending, depthWrite:false}));
+const markerRing = new THREE.Mesh(new THREE.RingGeometry(3.6,4.4,32),
+  new THREE.MeshBasicMaterial({color:0xFFB454, transparent:true, opacity:0.7,
+    blending:THREE.AdditiveBlending, depthWrite:false, side:THREE.DoubleSide}));
+marker.add(markerRing); marker.visible=false; scene.add(marker);
+
+function startTraj(k){
+  stopAuto();
+  traj = TRAJS[k];
+  TRAJS.forEach((t,i)=>{ t.line.visible = i===k; t.btn.classList.toggle('active', i===k); });
+  // engage at the point of the path nearest the craft
+  let best=0, bd=1e9; const v=new THREE.Vector3();
+  for(let i=0;i<128;i++){ const s=i/128*TWO_PI; traj.f(s,v);
+    const d=v.distanceTo(tug.position); if(d<bd){bd=d;best=s;} }
+  trajS=best; marker.visible=true; cam.idle=0;
+  cam.distGoal = Math.max(cam.dist, 430);   // pull back to frame the path
+  refUp.set(0,1,0);  // re-seed the transported roll reference
+}
+function stopTraj(){
+  traj=null; marker.visible=false; trackErr=0;
+  TRAJS.forEach(t=>{ t.line.visible=false; t.btn.classList.remove('active'); });
+  throt.fill(0);
+}
+
+/* ---------- rigid body physics + thruster allocation ---------- */
 const body = {
   vel:new THREE.Vector3(), angVel:new THREE.Vector3(),
-  mass:1, inertia:300, thrust:14, recallK:0.18, recallD:0.6
+  mass:1, inertia:300, thrust:26, recallK:0.18
 };
 const firing = new Array(6).fill(false);
-const _F=new THREE.Vector3(), _r=new THREE.Vector3(), _tq=new THREE.Vector3();
+const throt = new Float32Array(6);   // per-nozzle throttle 0..1
+const C30 = 0.8660254;               // cos(30°): cant of the side nozzles
+const _F=new THREE.Vector3(), _r=new THREE.Vector3(), _tq=new THREE.Vector3(),
+      _p0=new THREE.Vector3(), _pa=new THREE.Vector3(), _pb=new THREE.Vector3(),
+      _vr=new THREE.Vector3(), _ad=new THREE.Vector3(), _e=new THREE.Vector3(),
+      _tan=new THREE.Vector3(), _rgt=new THREE.Vector3(), _up2=new THREE.Vector3(),
+      _aw=new THREE.Vector3(), _wff=new THREE.Vector3(),
+      _qi=new THREE.Quaternion(), _qt=new THREE.Quaternion(), _mt=new THREE.Matrix4();
+const refUp = new THREE.Vector3(0,1,0);   // parallel-transported roll reference
 
 function stepBody(dt){
   tug.getWorldQuaternion(_q);
-  for(let i=0;i<6;i++){
-    if(!firing[i]) continue;
-    const t = THR[i];
-    _F.fromArray(t.d).applyQuaternion(_q).multiplyScalar(-body.thrust); // thrust opposes exhaust
+  if(traj){
+    /* --- autopilot: PD + feedforward, force allocated to the 6 nozzles --- */
+    const sd = TWO_PI/traj.T, h = 0.02;
+    // rendezvous logic: the reference slows down while the craft closes in
+    trajS += sd*dt*Math.min(1, 36/Math.max(trackErr, 36));
+    traj.f(trajS,_p0); traj.f(trajS-h,_pa); traj.f(trajS+h,_pb);
+    _vr.subVectors(_pb,_pa).multiplyScalar(sd/(2*h));                       // ref velocity
+    _aw.copy(_pb).add(_pa).addScaledVector(_p0,-2).multiplyScalar(sd*sd/(h*h)); // feedforward accel
+    _e.subVectors(_p0, tug.position); trackErr = _e.length();
+    _ad.copy(_aw).addScaledVector(_e, 3.0).addScaledVector(_vr, 3.5).addScaledVector(body.vel, -3.5);
+    if(_ad.length()>34) _ad.setLength(34);
+    marker.position.copy(_p0);
+
+    /* allocation: desired force in BODY frame -> nozzle throttles.
+       T1/T2 give ±X (+½Y), T3/T4 give ±Z (+½Y), equal trim on all four canted
+       nozzles adds pure +Y, T5/T6 give −Y. */
+    _qi.copy(_q).invert();
+    _F.copy(_ad).multiplyScalar(body.mass).applyQuaternion(_qi);
+    const Tn = body.thrust;
+    throt.fill(0);
+    if(_F.x>0) throt[0]= _F.x/(C30*Tn); else throt[1]=-_F.x/(C30*Tn);
+    if(_F.z>0) throt[2]= _F.z/(C30*Tn); else throt[3]=-_F.z/(C30*Tn);
+    const yRem = _F.y - 0.5*Tn*(throt[0]+throt[1]+throt[2]+throt[3]);
+    if(yRem>0){ const d=yRem/(2*Tn); throt[0]+=d; throt[1]+=d; throt[2]+=d; throt[3]+=d; }
+    else { throt[4]=throt[5]= -yRem/(2*Tn); }
+    for(let i=0;i<6;i++) throt[i]=Math.min(1, Math.max(0, throt[i]));
+
+    /* net force actually produced by the (saturating) nozzles */
+    _F.set(C30*Tn*(throt[0]-throt[1]),
+           0.5*Tn*(throt[0]+throt[1]+throt[2]+throt[3]) - Tn*(throt[4]+throt[5]),
+           C30*Tn*(throt[2]-throt[3])).applyQuaternion(_q);
     body.vel.addScaledVector(_F, dt/body.mass);
-    _r.fromArray(t.p).applyQuaternion(_q);            // lever arm (world)
-    _tq.crossVectors(_r, _F);                          // torque = r x F
-    body.angVel.addScaledVector(_tq, dt/body.inertia);
-    spawnExhaust(i, 3);
+
+    /* attitude hold: the coneless (-Y) face is the nose and leads along the
+       path tangent, so velocity stays normal to the front face. The up
+       reference is parallel-transported frame-to-frame, which removes roll
+       singularities and keeps the airframe steady through climbs and dives. */
+    if(_vr.lengthSq()>1e-4){
+      _tan.copy(_vr).normalize();
+      _rgt.crossVectors(refUp, _tan);
+      if(_rgt.lengthSq()<1e-6) _rgt.set(_tan.y, _tan.z, _tan.x).cross(_tan); // degenerate fallback
+      _rgt.normalize();
+      _up2.crossVectors(_tan, _rgt).normalize();
+      refUp.copy(_up2);                                  // transport for next frame
+      _mt.makeBasis(_rgt, _e.copy(_tan).multiplyScalar(-1), _up2); // body +Y = -tangent => nose (-Y) = +tangent
+      _qt.setFromRotationMatrix(_mt);
+      _qi.copy(_q).invert().premultiply(_qt);            // error quat
+      if(_qi.w<0){ _qi.x*=-1; _qi.y*=-1; _qi.z*=-1; _qi.w*=-1; }
+      const ang = 2*Math.acos(Math.min(1,_qi.w));
+      if(ang>1e-4){
+        const sq = Math.sqrt(Math.max(1e-9, 1-_qi.w*_qi.w));
+        _tq.set(_qi.x/sq, _qi.y/sq, _qi.z/sq).multiplyScalar(ang*3.6);
+        body.angVel.addScaledVector(_tq, dt);
+      }
+      /* attitude-rate feedforward: the angular velocity the turning tangent
+         demands, ω_ff = t̂ × dt̂/dt — so the nose leads the corner instead of
+         lagging it. Damping pulls angVel toward ω_ff, not toward zero. */
+      const vlen = _vr.length();
+      _e.copy(_aw).addScaledVector(_tan, -_aw.dot(_tan)).divideScalar(Math.max(vlen, 1e-3));
+      _wff.crossVectors(_tan, _e);
+      body.angVel.lerp(_wff, Math.min(1, 4.0*dt));
+    } else {
+      body.angVel.multiplyScalar(Math.max(0, 1-3.2*dt));
+    }
+  } else {
+    /* --- manual RCS: full physics incl. parasitic torque r × F --- */
+    for(let i=0;i<6;i++) throt[i] = firing[i]?1:0;
+    for(let i=0;i<6;i++){
+      if(!throt[i]) continue;
+      const t = THR[i];
+      _F.fromArray(t.d).applyQuaternion(_q).multiplyScalar(-body.thrust);
+      body.vel.addScaledVector(_F, dt/body.mass);
+      _r.fromArray(t.p).applyQuaternion(_q);
+      _tq.crossVectors(_r, _F);
+      body.angVel.addScaledVector(_tq, dt/body.inertia);
+    }
+    // gentle station-keeping so it never drifts out of view
+    _F.copy(tug.position).multiplyScalar(-body.recallK)
+      .addScaledVector(body.vel, -0.02);
+    body.vel.addScaledVector(_F, dt);
+    body.vel.multiplyScalar(Math.pow(0.9, dt));
+    body.angVel.multiplyScalar(Math.pow(0.93, dt));
   }
-  // gentle station-keeping so it never drifts out of view
-  _F.copy(tug.position).multiplyScalar(-body.recallK)
-    .addScaledVector(body.vel, -0.02);
-  body.vel.addScaledVector(_F, dt);
-  body.vel.multiplyScalar(Math.pow(0.9, dt));         // faint damping
-  body.angVel.multiplyScalar(Math.pow(0.93, dt));
+  /* exhaust, scaled by throttle */
+  for(let i=0;i<6;i++){
+    const u = throt[i]; if(u<=0.04) continue;
+    const c = u*3, k = Math.floor(c) + (Math.random() < c-Math.floor(c) ? 1:0);
+    if(k>0) spawnExhaust(i,k);
+  }
   tug.position.addScaledVector(body.vel, dt);
   const w = body.angVel.length();
   if(w>1e-5){
@@ -297,12 +428,12 @@ function stepBody(dt){
 }
 
 /* ---------- orbit camera (rotate / pan / zoom / track, touch-friendly) ---------- */
-const cam = {theta:0.7, phi:1.12, dist:150, target:new THREE.Vector3(), idle:0};
+const cam = {theta:0.7, phi:1.12, dist:150, distGoal:null, target:new THREE.Vector3(), idle:0};
 let trackOn = true;
 const _right = new THREE.Vector3(), _up = new THREE.Vector3();
 function applyCam(){
   cam.phi = Math.max(0.06, Math.min(Math.PI-0.06, cam.phi));
-  cam.dist = Math.max(60, Math.min(600, cam.dist));
+  cam.dist = Math.max(60, Math.min(1400, cam.dist));
   const sp = Math.sin(cam.phi);
   camera.position.set(
     cam.target.x + cam.dist*sp*Math.cos(cam.theta),
@@ -353,7 +484,7 @@ canvas.addEventListener('pointermove', e=>{
     panBy(nmx-midX, nmy-midY);
     midX=nmx; midY=nmy;
     const d = Math.hypot(a.x-b.x, a.y-b.y);
-    if(pinchD>0) cam.dist *= pinchD/d;
+    if(pinchD>0){ cam.distGoal=null; cam.dist *= pinchD/d; }
     pinchD = d;
   } else if(ptrs.size===1){
     if(panMode) panBy(dx, dy);
@@ -362,7 +493,8 @@ canvas.addEventListener('pointermove', e=>{
   cam.idle = 0;
 });
 canvas.addEventListener('wheel', e=>{
-  e.preventDefault(); cam.dist *= 1 + Math.sign(e.deltaY)*0.08; cam.idle=0;
+  e.preventDefault(); cam.distGoal=null;
+  cam.dist *= 1 + Math.sign(e.deltaY)*0.08; cam.idle=0;
 }, {passive:false});
 canvas.addEventListener('dblclick', ()=>{ setTrack(true); });
 
@@ -391,8 +523,17 @@ THR.forEach((t,i)=>{
   tag.addEventListener('pointerleave', ()=> setFire(i,false));
   document.body.appendChild(tag); tags.push(tag); t.tag=tag;
 });
+const trajWrap = document.getElementById('trajbtns');
+TRAJS.forEach((t,k)=>{
+  const b = document.createElement('button');
+  b.className='util'; b.textContent=t.label;
+  b.setAttribute('aria-label','Track trajectory '+t.label);
+  b.addEventListener('click', ()=>{ traj===t ? stopTraj() : startTraj(k); });
+  trajWrap.appendChild(b); t.btn=b;
+});
 let showTags = true;
 function setFire(i,on){
+  if(on && traj) stopTraj();   // manual override disengages autopilot
   firing[i]=on;
   THR[i].btn.classList.toggle('firing',on);
   THR[i].led.classList.toggle('on',on);
@@ -413,6 +554,7 @@ function reset(){
   body.vel.set(0,0,0); body.angVel.set(0,0,0);
   tug.position.set(0,0,0); tug.quaternion.set(0,0,0,1);
   cam.target.set(0,0,0); setTrack(true);
+  stopTraj();
   autoOn=false; document.getElementById('bAuto').classList.remove('active');
   for(let i=0;i<6;i++) setFire(i,false);
 }
@@ -427,6 +569,11 @@ document.getElementById('bTags').addEventListener('click', e=>{
 
 /* auto demo: scripted RCS sequence */
 let autoOn=false, autoT=0, autoStep=-1;
+function stopAuto(){
+  if(!autoOn) return; autoOn=false;
+  document.getElementById('bAuto').classList.remove('active');
+  for(let i=0;i<6;i++) setFire(i,false);
+}
 const SEQ = [ // [thruster indices, duration s]
   [[4],1.0],[[],0.7],[[5],1.0],[[],0.7],
   [[2],0.9],[[],0.6],[[3],0.9],[[],0.6],
@@ -434,9 +581,10 @@ const SEQ = [ // [thruster indices, duration s]
   [[2,3],1.2],[[],0.8],[[0,1,2,3],1.5],[[],1.2],
 ];
 document.getElementById('bAuto').addEventListener('click', e=>{
-  autoOn=!autoOn; autoT=0; autoStep=-1;
-  e.currentTarget.classList.toggle('active', autoOn);
-  if(!autoOn) for(let i=0;i<6;i++) setFire(i,false);
+  if(autoOn){ stopAuto(); return; }
+  stopTraj();
+  autoOn=true; autoT=0; autoStep=-1;
+  e.currentTarget.classList.add('active');
 });
 function stepAuto(dt){
   if(!autoOn) return;
@@ -452,6 +600,8 @@ function stepAuto(dt){
 const E = id=>document.getElementById(id);
 const eul = new THREE.Euler();
 function updateTLM(){
+  E('tm').textContent = traj ? 'TRACK' : (autoOn ? 'AUTO' : 'MANUAL');
+  E('te').textContent = traj ? trackErr.toFixed(1)+' m' : '\u2014';
   E('tv').textContent = (body.vel.length()).toFixed(2)+' m/s';
   E('tw').textContent = (body.angVel.length()*57.2958).toFixed(1)+' °/s';
   eul.setFromQuaternion(tug.quaternion, 'XYZ');
@@ -493,18 +643,31 @@ function loop(now){
   stepBody(dt);
   stepParticles(dt);
 
-  // plume visuals
+  // plume visuals + console lights, driven by throttle
   plumeGroup.forEach((pl,i)=>{
-    const on = firing[i];
+    const u = throt[i], on = u>0.04;
     pl.grp.visible = on;
+    THR[i].btn.classList.toggle('firing', on);
+    THR[i].led.classList.toggle('on', on);
+    THR[i].tag.classList.toggle('firing', on);
     if(on){
-      const f = 0.86 + Math.random()*0.28;
-      pl.core.scale.set(f, 0.8+Math.random()*0.5, f);
-      pl.sheath.scale.set(1, 0.85+Math.random()*0.35, 1);
-      pl.light.intensity = 1.6 + Math.random()*0.9;
+      const w = 0.45+0.55*u, f = w*(0.86+Math.random()*0.28);
+      pl.core.scale.set(f, (0.45+0.55*u)*(0.8+Math.random()*0.5), f);
+      pl.sheath.scale.set(w, (0.5+0.5*u)*(0.85+Math.random()*0.35), w);
+      pl.light.intensity = u*(1.6+Math.random()*0.9);
     } else pl.light.intensity = 0;
   });
+  // target marker pulse, ring faces camera
+  if(marker.visible){
+    marker.scale.setScalar(1+0.15*Math.sin(now*0.006));
+    markerRing.lookAt(camera.position);
+  }
 
+  // smooth zoom toward goal (cancelled by manual zoom)
+  if(cam.distGoal!==null){
+    cam.dist += (cam.distGoal-cam.dist)*(1-Math.pow(0.05, dt));
+    if(Math.abs(cam.distGoal-cam.dist)<2) cam.distGoal=null;
+  }
   // camera follows craft when tracking
   if(trackOn) cam.target.lerp(tug.position, 1 - Math.pow(0.002, dt));
   // idle auto-orbit
