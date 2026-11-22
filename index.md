@@ -25,7 +25,46 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
 - 07-24-2024: Our paper "[Adaptive Robot Detumbling of a Non-Rigid Satellite](https://arxiv.org/abs/2407.17617)" was accepted by [CDC 2024](https://cdc2024.ieeecss.org/)! Congratulation!! :sparkles: :confetti_ball:
 - 06-21-2024: **Oral Presentation** at [DARS 2024](https://dars2024.engineering.cornell.edu/)  Delighted to present my paper [Decentralized Adaptive Aerospace Transportation of Unknown Loads Using A Team of Robots](https://arxiv.org/abs/2407.08084) in the 17th International Symposium on Distributed Autonomous Robotic Systems Conference in Cornell Tech! Say hello to New York City! :statue_of_liberty:
 
-
+## Selected Industrial Projects
+<div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
+  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
+    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/project_ur_driver.4ub9eflnq2.webp" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
+    <span style="
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      margin-top: 8px; /* Added a bit more space from the image */
+      background: rgba(240, 240, 10, 0.9); /* Brighter yellow */
+      color: #333; /* Darker text for better contrast */
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      display: inline-flex; /* For aligning icon and text */
+      align-items: center;">
+      <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/github.83adb3fg9y.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> ⭐Star 1k+ &nbsp; <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/icons8-code-fork-24.5mo4w69opn.webp" alt="Fork Icon" style="width: 14px; height: 14px; margin-right: 0px;">Forks 1k+
+    </span>
+  </div>
+  <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
+      <b><img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/ur_logo.3goqaej3ag.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
+    </span>
+    <p style="color:rgb(251, 252, 255); margin-top: 0; margin-bottom: 0;"> Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
+    <span style="display: inline-block; margin-right: 10px;">
+    </span>
+    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
+        <li style="margin-bottom: 2px;">Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
+        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core.</li>
+        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs.</li>
+        <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning.</li>  
+    </ul>
+      <a href="https://github.com/ros-industrial/universal_robot" title="Github" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
+        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/git_purple.4joflaff4q.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
+        <b style="font-weight: 600;">[Github]</b>
+      </a>
+    </p>
+  </div>
+</div>
 
 ## Selected Research Projects
 
@@ -382,47 +421,6 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
   </div>
 </div>
 
-
-## Selected Industrial Projects
-<div style="display: flex; align-items: center; margin-top: 20px; margin-bottom: 20px;">
-  <div style="position: relative; flex-shrink: 0; width: 300px; margin-right: 20px;">
-    <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/project_ur_driver.4ub9eflnq2.webp" alt="UR Robot Driver Project" style="width: 100%; border-radius: 4px;">
-    <span style="
-      position: absolute;
-      top: 100%;
-      left: 0px;
-      margin-top: 8px; /* Added a bit more space from the image */
-      background: rgba(240, 240, 10, 0.9); /* Brighter yellow */
-      color: #333; /* Darker text for better contrast */
-      padding: 3px 10px;
-      font-size: 12px;
-      font-weight: bold;
-      border-radius: 4px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-      display: inline-flex; /* For aligning icon and text */
-      align-items: center;">
-      <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/github.83adb3fg9y.svg" alt="GitHub Icon" style="width: 14px; height: 14px; margin-right: 5px;"> ⭐Star 1k+ &nbsp; <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/icons8-code-fork-24.5mo4w69opn.webp" alt="Fork Icon" style="width: 14px; height: 14px; margin-right: 0px;">Forks 1k+
-    </span>
-  </div>
-  <div style="text-align: left; flex-grow: 1;"> <span style="color:#1772d0; display: block; margin-bottom: 10px; font-size: 1.25rem;">
-      <b><img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/ur_logo.3goqaej3ag.webp" alt="UR Logo" style="height: 25px; vertical-align: middle; margin-right: 4px;">ROS-Industrial Universal Robot Meta Package</b>
-    </span>
-    <p style="color:rgb(251, 252, 255); margin-top: 0; margin-bottom: 0;"> Felix Messmer, Dave Coleman, Matthias Nösner,...,<strong>Longsen Gao</strong>,...
-    <span style="display: inline-block; margin-right: 10px;">
-    </span>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; margin-bottom: 10px;">
-        <li style="margin-bottom: 2px;">Contribute UR Robot Driver for ROS 1 Noetic using C++/Python.</li>
-        <li style="margin-bottom: 2px;">Optimized C++ <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> core.</li>
-        <li style="margin-bottom: 2px;">Resolved critical <code style="background-color:rgba(255, 192, 203, 0); color:rgb(255, 255, 255); padding: 0.1em 0.3em; border-radius: 3px; font-family: monospace; font-size: 0.9em;">ur_kinematics</code> bugs.</li>
-        <li style="margin-bottom: 2px;">Interfaced ROS kinematics with dynamic for advanced motion planning.</li>  
-    </ul>
-      <a href="https://github.com/ros-industrial/universal_robot" title="Github" style="display: inline-flex; align-items: center; color: #4f46e5; text-decoration: none;">
-        <img src="https://github.com/gaolongsen/picx-images-hosting/raw/master/git_purple.4joflaff4q.webp" alt="Github Icon" style="width: 22px; height: 20px; vertical-align: middle; margin-right: 3px;">
-        <b style="font-weight: 600;">[Github]</b>
-      </a>
-    </p>
-  </div>
-</div>
 
 ## Selected Competition Projects
 
