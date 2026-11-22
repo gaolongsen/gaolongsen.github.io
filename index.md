@@ -13,7 +13,7 @@ My research interest focus on **High-DOF Robotics Manipulation**, **Learning-bas
 
 ## Recent News
 
-- 08-04-2026: I joined **Foundation Robotics** as a **Member of Technical Staff**, focusing on **whole-body control**! :robot:
+- 08-04-2026: I joined **Foundation Robotics** as a **Member of Technical Staff**, focusing on **whole-body control**! :robot::walking:
 - 07-10-2026: I successfully defended my PhD dissertation and graduated from the **University of New Mexico**! :mortar_board: :confetti_ball: Many thanks to [Prof. Rafael Fierro](https://scholar.google.com/citations?user=I7RhPnIAAAAJ&hl=en), [Prof. Claus Danielson](https://www.unm.edu/~cdanielson/), [Prof. David Saldaña](https://swarmslab.com/people/david-saldana/), [Prof. Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/), [Prof. Manoranjan Majji](https://lasr.tamu.edu/team/), and all my collaborators for their support and guidance!
 - 01-28-2026: One of my **[IEEE Transactions on Control Systems Technology (TCST)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87)** paper is accepted as a Full paper!:confetti_ball: Thanks to all collaborators for their hard work! :muscle:See detail about our [project page](http://tiny.cc/tcst2025unm) and [paper](http://tiny.cc/tcst2025unm). :milky_way::robot:
 - 11-01-2025: We win the ***Best Poster Award*** :trophy: on [SWRS 2025](https://swrobotics.engineering.asu.edu/)! Great honor to show my two working projects for space safe and optimal manipulations using Multi-robot systems. :confetti_ball:
